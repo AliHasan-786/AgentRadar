@@ -1,0 +1,2611 @@
+{
+  "slug": "allbirds",
+  "hostname": "allbirds.com",
+  "displayName": "Allbirds",
+  "vertical": "Sustainable footwear",
+  "capturedAt": "2026-05-07T23:21:41.048Z",
+  "tier": "live",
+  "catalog": {
+    "metadata": {
+      "hostname": "allbirds.com",
+      "productCount": 998,
+      "uniqueVendors": [
+        "Allbirds"
+      ],
+      "uniqueProductTypes": [
+        "Accessories",
+        "Apparel",
+        "Lace Pack",
+        "Promotion",
+        "Shoes",
+        "Socks",
+        "Underwear"
+      ],
+      "inferredVertical": "footwear",
+      "averageDescriptionWords": 32.357715430861724,
+      "productsWithReviews": 0,
+      "productsWithUseCaseTags": 930,
+      "averageImagesPerProduct": 4.090180360721443,
+      "averageTagsPerProduct": 14.619238476953909,
+      "fetchedAt": "2026-05-07T23:21:11.200Z"
+    },
+    "sampleProducts": [
+      {
+        "id": "7238065750096",
+        "handle": "allbirds-laces",
+        "title": "Allbirds Laces - Blizzard - Flat",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-3a10b0b2e19883c7b08a9e70033397e3",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => white",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12739_25Q4_Laces-Flat-Blizzard_PDP_BUNDLE.png?v=1762488088",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41401699827792",
+            "title": "51 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41401699860560",
+            "title": "55 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-10-30T21:14:35-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7242343186512",
+        "handle": "allbirds-laces-blizzard-round",
+        "title": "Allbirds Laces - Blizzard - Round",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-86153c2125a00b5e264319f335cd1370",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => white",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12735_25Q4_Laces-Round-Blizzard_PDP_BUNDLE.png?v=1762488827",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41411368321104",
+            "title": "43 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41411368353872",
+            "title": "47 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-11-06T20:13:43-08:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7242342760528",
+        "handle": "allbirds-laces-dark-navy-flat",
+        "title": "Allbirds Laces - Dark Navy - Flat",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-8c2005ecb6eef6672177f9df3155102a",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => blue",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12746_25Q4_Laces-Flat-Dark-Navy_PDP_BUNDLE.png?v=1762488343",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41411367141456",
+            "title": "51 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41411367174224",
+            "title": "55 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-11-06T20:05:40-08:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7242343317584",
+        "handle": "allbirds-laces-dark-navy-round",
+        "title": "Allbirds Laces - Dark Navy - Round",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-659d8b9e86073bf9c25f5b9faaf0c8b8",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => blue",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12737_25Q4_Laces-Round-Dark-Navy_PDP_BUNDLE.png?v=1762488867",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41411368583248",
+            "title": "43 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41411368616016",
+            "title": "47 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-11-06T20:14:23-08:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7242342793296",
+        "handle": "allbirds-laces-natural-grey-heather-flat",
+        "title": "Allbirds Laces - Natural Grey Heather - Flat",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-f236b82843deaa9a974adaa2ee8920a7",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => grey",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12736_25Q4_Laces-Flat-Natural-Grey-Heather_PDP_BUNDLE.png?v=1762488387",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41411367206992",
+            "title": "51 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41411367239760",
+            "title": "55 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-11-06T20:06:23-08:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7238072074320",
+        "handle": "allbirds-laces-natural-grey-heather-round",
+        "title": "Allbirds Laces - Natural Grey Heather - Round",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-8b2d956fa04dece2e665e04c07ac1e6e",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => grey",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12745_25Q4_Laces-Round-Natural-Grey-Heather_PDP_BUNDLE.png?v=1762488940",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41401713721424",
+            "title": "43 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41401713754192",
+            "title": "47 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-10-30T21:32:26-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7238068830288",
+        "handle": "allbirds-laces-sunshine-round",
+        "title": "Allbirds Laces - Sunshine - Round",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-816b3f4b956366d7b9f5b52deaf855f9",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => yellow",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12741_25Q4_Laces-Round-Sunshine_PDP_BUNDLE.png?v=1762488989",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41401706479696",
+            "title": "43 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41401706512464",
+            "title": "47 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-10-30T21:26:28-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7238074794064",
+        "handle": "allbirds-laces-true-black-flat",
+        "title": "Allbirds Laces - True Black - Flat",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-c0a5bbde6b5fa0544cfee8f71f6cfd99",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => black",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12743_25Q4_Laces-Flat-True-Black_PDP_BUNDLE_2.png?v=1764789706",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41401718997072",
+            "title": "51 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41401719029840",
+            "title": "55 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-10-30T21:34:23-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7238070468688",
+        "handle": "allbirds-laces-true-black-round",
+        "title": "Allbirds Laces - True Black - Round",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-7ee84105b312af5f4ed36415f774c040",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => black",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12740_25Q4_Laces-Round-True-Black_PDP_BUNDLE__1.png?v=1764789654",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41401710542928",
+            "title": "43 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41401710575696",
+            "title": "47 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-10-30T21:29:19-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7242343645264",
+        "handle": "allbirds-laces-verdant-green-round",
+        "title": "Allbirds Laces - Verdant Green - Round",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-2e59a75803dff7d10b1af246bb63cea1",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => green",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12742_25Q4_Laces-Round-Verdant-Green_PDP_BUNDLE.png?v=1762489186",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41411370451024",
+            "title": "43 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41411370483792",
+            "title": "47 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-11-06T20:19:42-08:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7242343809104",
+        "handle": "allbirds-laces-warm-red-round",
+        "title": "Allbirds Laces - Warm Red - Round",
+        "description": "Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles.",
+        "descriptionHtml": "<p>Kicks need a refresh? Swap out your old laces for a new pair in a range of vibrant and neutral colors. Available in round and flat styles. </p>",
+        "vendor": "Allbirds",
+        "productType": "Accessories",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-8ec384a911f918ea3e5778c38745e9a1",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => red",
+          "allbirds::master => allbirds-laces",
+          "allbirds::material => N/A",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => N/A",
+          "FINAL SALE",
+          "YBlocklist",
+          "YGroup_ygroup_allbirds-laces"
+        ],
+        "priceMin": 4,
+        "priceMax": 4,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12747_25Q4_Laces-Round-Warm-Red_PDP_BUNDLE.png?v=1762489223",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41411370680400",
+            "title": "43 in. (M7-M9.5) (W5-W11)",
+            "price": 4,
+            "available": true
+          },
+          {
+            "id": "41411370713168",
+            "title": "47 in. (M10-M15) (W12)",
+            "price": 4,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-11-06T20:20:19-08:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7222392750160",
+        "handle": "allbirds-slipper-natural-white-fluff",
+        "title": "Allbirds Slipper - Natural White Fluff",
+        "description": "We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.",
+        "descriptionHtml": "<p>We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.</p>",
+        "vendor": "Allbirds",
+        "productType": "Shoes",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-3647f3d5167eb026b53b6837f9b7313e",
+          "allbirds::complete => true",
+          "allbirds::edition => fluff",
+          "allbirds::gender => unisex",
+          "allbirds::hue => white",
+          "allbirds::master => allbirds-slipper",
+          "allbirds::material => wool",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => dweller",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_unisex-move-shoes",
+          "YGroup_ygroup_allbirds-slipper"
+        ],
+        "priceMin": 37,
+        "priceMax": 37,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A11826_25Q4_Wool-Slipper-Fluff-Natural-White-Natural-White-Sole_PDP_LEFT.png?v=1769191180",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A11826_25Q4_Wool-Slipper-Fluff-Natural-White-Natural-White-Sole_PDP_BACK.png?v=1769191180",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/Slipper_Edit_1_Transparent.png?v=1769191179",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A11826_25Q4_Wool-Slipper-Fluff-Natural-White-Natural-White-Sole_PDP_SOLE.png?v=1769191180",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/Slipper_Edit_2_Transparent.png?v=1769191179",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41360177758288",
+            "title": "W4.5/M3",
+            "price": 37,
+            "available": true
+          },
+          {
+            "id": "41360177791056",
+            "title": "W5.5/M4",
+            "price": 37,
+            "available": false
+          },
+          {
+            "id": "41360177823824",
+            "title": "W6.5/M5",
+            "price": 37,
+            "available": false
+          },
+          {
+            "id": "41360177856592",
+            "title": "W7.5/M6",
+            "price": 37,
+            "available": false
+          },
+          {
+            "id": "41360177889360",
+            "title": "W8.5/M7",
+            "price": 37,
+            "available": false
+          },
+          {
+            "id": "41360177922128",
+            "title": "W9.5/M8",
+            "price": 37,
+            "available": false
+          },
+          {
+            "id": "41360177954896",
+            "title": "W10.5/M9",
+            "price": 37,
+            "available": false
+          },
+          {
+            "id": "41360177987664",
+            "title": "W11.5/M10",
+            "price": 37,
+            "available": true
+          },
+          {
+            "id": "41360178020432",
+            "title": "W12.5/M11",
+            "price": 37,
+            "available": false
+          },
+          {
+            "id": "41360178053200",
+            "title": "W13.5/M12",
+            "price": 37,
+            "available": true
+          },
+          {
+            "id": "41360178085968",
+            "title": "W14.5/M13",
+            "price": 37,
+            "available": true
+          },
+          {
+            "id": "41360178118736",
+            "title": "W15.5/M14",
+            "price": 37,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-09-24T16:41:55-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7204718084176",
+        "handle": "allbirds-slipper",
+        "title": "Allbirds Wool Slipper - Light Tan",
+        "description": "We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.",
+        "descriptionHtml": "<p>We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.</p>",
+        "vendor": "Allbirds",
+        "productType": "Shoes",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-5d5e963119de75b4d6260da716c8e3a4",
+          "allbirds::complete => true",
+          "allbirds::edition => wool",
+          "allbirds::gender => unisex",
+          "allbirds::hue => beige",
+          "allbirds::master => allbirds-slipper",
+          "allbirds::material => wool",
+          "allbirds::price-tier => tier-2",
+          "allbirds::silhouette => dweller",
+          "loop::returnable => true",
+          "shoprunner",
+          "YCRF_unisex-move-shoes",
+          "YGroup_ygroup_allbirds-slipper"
+        ],
+        "priceMin": 52,
+        "priceMax": 52,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12022_25Q4_Wool-Slipper-Light-Tan-Light-Tan-Sole_PDP_LEFT.png?v=1759335798",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12022_25Q4_Wool-Slipper-Light-Tan-Light-Tan-Sole_PDP_BACK.png?v=1759335796",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12022_25Q4_Wool-Slipper-Light-Tan-Light-Tan-Sole_PDP_TD.png?v=1759335797",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12022_25Q4_Wool-Slipper-Light-Tan-Light-Tan-Sole_PDP_SOLE.png?v=1759335797",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12022_25Q4_Wool-Slipper-Light-Tan-Light-Tan-Sole_PDP_PAIR_3Q.png?v=1759335797",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41268090306640",
+            "title": "W4.5/M3",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268090339408",
+            "title": "W5.5/M4",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268090372176",
+            "title": "W6.5/M5",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090404944",
+            "title": "W7.5/M6",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090437712",
+            "title": "W8.5/M7",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090470480",
+            "title": "W9.5/M8",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090503248",
+            "title": "W10.5/M9",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090536016",
+            "title": "W11.5/M10",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090568784",
+            "title": "W12.5/M11",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090601552",
+            "title": "W13.5/M12",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268090634320",
+            "title": "W14.5/M13",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268090667088",
+            "title": "W15.5/M14",
+            "price": 52,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-08-05T11:53:12-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7204717035600",
+        "handle": "allbirds-slipper-natural-black",
+        "title": "Allbirds Wool Slipper - Natural Black",
+        "description": "We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.",
+        "descriptionHtml": "<p>We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.</p>",
+        "vendor": "Allbirds",
+        "productType": "Shoes",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-d37ca980a040ae8357cbe70d7f41ddda",
+          "allbirds::complete => true",
+          "allbirds::edition => wool",
+          "allbirds::gender => unisex",
+          "allbirds::hue => black",
+          "allbirds::master => allbirds-slipper",
+          "allbirds::material => wool",
+          "allbirds::price-tier => tier-2",
+          "allbirds::silhouette => dweller",
+          "loop::returnable => true",
+          "shoprunner",
+          "YCRF_unisex-move-shoes",
+          "YGroup_ygroup_allbirds-slipper"
+        ],
+        "priceMin": 52,
+        "priceMax": 52,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12031_25Q4_Wool-Slipper-Natural-Black-Natural-Black-Sole_PDP_LEFT_4dce0f1d-9e6f-4ce1-9ea6-f95f161147cc.png?v=1759335813",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12031_25Q4_Wool-Slipper-Natural-Black-Natural-Black-Sole_PDP_BACK_3f71de1e-5b27-4025-a5e2-84049b03d574.png?v=1759335813",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12031_25Q4_Wool-Slipper-Natural-Black-Natural-Black-Sole_PDP_TD_648cd30b-753d-4375-9755-80ce1fd50cac.png?v=1759335813",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12031_25Q4_Wool-Slipper-Natural-Black-Natural-Black-Sole_PDP_SOLE.png?v=1759335813",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12031_25Q4_Wool-Slipper-Natural-Black-Natural-Black-Sole_PDP_PAIR_3Q.png?v=1759335813",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41268081393744",
+            "title": "W4.5/M3",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268081426512",
+            "title": "W5.5/M4",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268081459280",
+            "title": "W6.5/M5",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081492048",
+            "title": "W7.5/M6",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081524816",
+            "title": "W8.5/M7",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081557584",
+            "title": "W9.5/M8",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081590352",
+            "title": "W10.5/M9",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081623120",
+            "title": "W11.5/M10",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081655888",
+            "title": "W12.5/M11",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081688656",
+            "title": "W13.5/M12",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081721424",
+            "title": "W14.5/M13",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268081754192",
+            "title": "W15.5/M14",
+            "price": 52,
+            "available": false
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-08-05T11:48:12-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7204717297744",
+        "handle": "allbirds-slipper-natural-white",
+        "title": "Allbirds Wool Slipper - Natural White",
+        "description": "We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.",
+        "descriptionHtml": "<p>We set out to create slippers no one would want to take off. With cloudlike comfort in every step, and three styles to choose from, consider your feet spoken for.</p>",
+        "vendor": "Allbirds",
+        "productType": "Shoes",
+        "tags": [
+          "allbirds::carbon-score => undefined",
+          "allbirds::cfId => color-04edc46675cf6f4e3e98b581bd17e5f9",
+          "allbirds::complete => true",
+          "allbirds::edition => wool",
+          "allbirds::gender => unisex",
+          "allbirds::hue => white",
+          "allbirds::master => allbirds-slipper",
+          "allbirds::material => wool",
+          "allbirds::price-tier => tier-2",
+          "allbirds::silhouette => dweller",
+          "loop::returnable => true",
+          "shoprunner",
+          "YCRF_unisex-move-shoes",
+          "YGroup_ygroup_allbirds-slipper"
+        ],
+        "priceMin": 52,
+        "priceMax": 52,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12034_25Q4_Wool-Slipper-Natural-White-Natural-White-Sole_PDP_LEFT.png?v=1759335779",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12034_25Q4_Wool-Slipper-Natural-White-Natural-White-Sole_PDP_BACK.png?v=1759335779",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12034_25Q4_Wool-Slipper-Natural-White-Natural-White-Sole_PDP_TD.png?v=1759335779",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12034_25Q4_Wool-Slipper-Natural-White-Natural-White-Sole_PDP_SOLE.png?v=1759335779",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12034_25Q4_Wool-Slipper-Natural-White-Natural-White-Sole_PDP_PAIR_3Q.png?v=1759335779",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41268086308944",
+            "title": "W4.5/M3",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268086341712",
+            "title": "W5.5/M4",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268086374480",
+            "title": "W6.5/M5",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086407248",
+            "title": "W7.5/M6",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086440016",
+            "title": "W8.5/M7",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086472784",
+            "title": "W9.5/M8",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086505552",
+            "title": "W10.5/M9",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086538320",
+            "title": "W11.5/M10",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086571088",
+            "title": "W12.5/M11",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086603856",
+            "title": "W13.5/M12",
+            "price": 52,
+            "available": false
+          },
+          {
+            "id": "41268086636624",
+            "title": "W14.5/M13",
+            "price": 52,
+            "available": true
+          },
+          {
+            "id": "41268086669392",
+            "title": "W15.5/M14",
+            "price": 52,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-08-05T11:49:14-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "6875261894736",
+        "handle": "anytime-ankle-sock-bark-grey",
+        "title": "Anytime Ankle Sock - Bark Grey",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-bark-grey",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => grey",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "collection:apr26",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/SKU-SOCKS-GLOBAL-ANKLE-BARK-GREY-1.png?v=1776807422",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/SKU-SOCKS-GLOBAL-ANKLE-BARK-GREY-2.png?v=1776807422",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40300955992144",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40300956024912",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40300956057680",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40300956090448",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2023-09-20T13:32:15-07:00",
+        "updatedAt": "2026-05-07T16:21:09-07:00"
+      },
+      {
+        "id": "6889962537040",
+        "handle": "anytime-ankle-sock-basin-blue",
+        "title": "Anytime Ankle Sock - Basin Blue",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-basin-blue",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => blue",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "collection:apr26",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10842_S24Q1_Anytime_Ankle_Sock_Basin_Blue_A-1400x1400.png?v=1776183348",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10842_S24Q1_Anytime_Ankle_Sock_Basin_Blue_B-1400x1400.png?v=1776183348",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40356485202000",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40356485234768",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40356485267536",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40356485300304",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2023-10-30T20:32:43-07:00",
+        "updatedAt": "2026-05-07T16:21:09-07:00"
+      },
+      {
+        "id": "7205172936784",
+        "handle": "anytime-ankle-sock-heathered-blizzard-ochre",
+        "title": "Anytime Ankle Sock - Blizzard (Ochre Sole)",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-2d8877c351445becbf1f5d244ae11050",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => green",
+          "allbirds::hue => white",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12698-front-2400x2400.png?v=1769025798",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12698-back-2400x2400.png?v=1769025798",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41271063806032",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271063838800",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271063871568",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271063904336",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-08-06T15:40:35-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7205173493840",
+        "handle": "anytime-ankle-sock-heathered-blizzard-spice",
+        "title": "Anytime Ankle Sock - Blizzard (Spice Sole)",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-d45229e068f9be148e873125b68f6d1c",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => red",
+          "allbirds::hue => white",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12699-front-2400x2400.png?v=1769025823",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12699-Back-2400x2400.png?v=1769025823",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41271071735888",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271071768656",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271071801424",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271071834192",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-08-06T15:42:30-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "7205180342352",
+        "handle": "anytime-ankle-sock-heathered-blizzard-verdant-green",
+        "title": "Anytime Ankle Sock - Blizzard (Verdant Green Sole)",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-44d0dfd896ac21c8ab36dcb77924695e",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => green",
+          "allbirds::hue => white",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12700-front-2400x2400.png?v=1769026040",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12700-back-2400x2400.png?v=1769026039",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41271107551312",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271107584080",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271107616848",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41271107649616",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-08-06T16:35:33-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "6824044560464",
+        "handle": "anytime-ankle-sock-bloom-pink",
+        "title": "Anytime Ankle Sock - Bloom Pink",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-bloom-pink",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => pink",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "collection:apr26",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/AR000WU002_SOCKS_GLOBAL_ANKLE_BLOOM_PINK-1.png?v=1776807141",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/AR000WU002_SOCKS_GLOBAL_ANKLE_BLOOM_PINK-2.png?v=1776807141",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40113638670416",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40113638703184",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40113638735952",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40113638768720",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2023-03-29T12:47:37-07:00",
+        "updatedAt": "2026-05-07T16:21:09-07:00"
+      },
+      {
+        "id": "6875261665360",
+        "handle": "anytime-ankle-sock-botanic-red",
+        "title": "Anytime Ankle Sock - Botanic Red",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-botanic-red",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => red",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "collection:apr26",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/SKU-SOCKS-GLOBAL-ANKLE-BOTANIC-RED-1.png?v=1776807282",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/SKU-SOCKS-GLOBAL-ANKLE-BOTANIC-RED-2.png?v=1776807281",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40300955500624",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40300955533392",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40300955566160",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40300955598928",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2023-09-20T13:31:31-07:00",
+        "updatedAt": "2026-05-07T16:21:09-07:00"
+      },
+      {
+        "id": "6793668624464",
+        "handle": "anytime-ankle-sock-calm-teal",
+        "title": "Anytime Ankle Sock - Calm Teal",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-calm-teal",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => blue",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "collection:apr26",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/SKU-SOCKS-GLOBAL-ANKLE-BLIZZARD-1_Resize_0005_SKU-SOCKS-GLOBAL-ANKLE-CALM-TEAL-1-min.png?v=1776807110",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/Resize__0005_SKU-SOCKS-GLOBAL-ANKLE-CALM-TEAL-2-min.png?v=1776807110",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40038692290640",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40038692323408",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40038692356176",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40038692388944",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": false
+          }
+        ],
+        "available": true,
+        "createdAt": "2023-02-01T16:58:56-08:00",
+        "updatedAt": "2026-05-07T16:21:09-07:00"
+      },
+      {
+        "id": "6992448979024",
+        "handle": "anytime-ankle-sock-deep-navy",
+        "title": "Anytime Ankle Sock - Deep Navy",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-deep-navy",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => blue",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A11170_24Q4_Anytime_Ankle_Sock_Deep_Navy_A-2000x2000.png?v=1727375577",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A11170_24Q4_Anytime_Ankle_Sock_Deep_Navy_B-2000x2000.png?v=1727375577",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40644140761168",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40644140793936",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40644140826704",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40644140859472",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2024-04-16T15:00:48-07:00",
+        "updatedAt": "2026-05-07T16:20:36-07:00"
+      },
+      {
+        "id": "6889961488464",
+        "handle": "anytime-ankle-sock-medium-grey",
+        "title": "Anytime Ankle Sock - Medium Grey",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-medium-grey",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => grey",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10843_S24Q1_Anytime_Ankle_Sock_Medium_Grey_A-1400x1400.png?v=1712354148",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10843_S24Q1_Anytime_Ankle_Sock_Medium_Grey_B-1400x1400.png?v=1712354148",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40356475797584",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40356475830352",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40356475863120",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40356475895888",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": false
+          }
+        ],
+        "available": true,
+        "createdAt": "2023-10-30T20:18:40-07:00",
+        "updatedAt": "2026-05-07T16:20:36-07:00"
+      },
+      {
+        "id": "7223900471376",
+        "handle": "anytime-ankle-sock-natural-grey-heather",
+        "title": "Anytime Ankle Sock - Natural Grey Heather",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-e207ff118c89656e3ea91d3cfa16c77c",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => grey",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12163_25Q3_Anytime-Ankle-Sock-Natural-Grey-Heather_PDP_F.png?v=1770421448",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12163_25Q3_Anytime-Ankle-Sock-Natural-Grey-Heather_PDP_B.png?v=1770421447",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41364740571216",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41364740603984",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41364740636752",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "41364740669520",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-09-30T10:22:12-07:00",
+        "updatedAt": "2026-05-07T16:21:10-07:00"
+      },
+      {
+        "id": "6889962209360",
+        "handle": "anytime-ankle-sock-rugged-beige",
+        "title": "Anytime Ankle Sock - Rugged Beige",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-rugged-beige",
+          "allbirds::complete => true",
+          "allbirds::edition => classic",
+          "allbirds::gender => unisex",
+          "allbirds::hue => beige",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10845_S24Q1_Anytime_Ankle_Sock_Rugged_Beige_A-1400x1400.png?v=1712354010",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10845_S24Q1_Anytime_Ankle_Sock_Rugged_Beige_B-1400x1400.png?v=1712354010",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40356483006544",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40356483039312",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40356483072080",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40356483104848",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2023-10-30T20:28:32-07:00",
+        "updatedAt": "2026-05-07T16:20:36-07:00"
+      },
+      {
+        "id": "6889959718992",
+        "handle": "anytime-ankle-sock-rugged-green",
+        "title": "Anytime Ankle Sock - Rugged Green",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-rugged-green",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => green",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "collection:apr26",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10846_S24Q1_Anytime_Ankle_Sock_Rugged_Green_A-1400x1400.png?v=1776183349",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A10846_S24Q1_Anytime_Ankle_Sock_Rugged_Green_B-1400x1400.png?v=1776183350",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40356467867728",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40356467900496",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": true
+          },
+          {
+            "id": "40356467933264",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40356467966032",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": false
+          }
+        ],
+        "available": true,
+        "createdAt": "2023-10-30T19:58:40-07:00",
+        "updatedAt": "2026-05-07T16:21:09-07:00"
+      },
+      {
+        "id": "6793668591696",
+        "handle": "anytime-ankle-sock-sunny-marigold",
+        "title": "Anytime Ankle Sock - Sunny Marigold",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-anytime-ankle-sock-sunny-marigold",
+          "allbirds::complete => true",
+          "allbirds::edition => limited",
+          "allbirds::gender => unisex",
+          "allbirds::hue => yellow",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "collection:apr26",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 8,
+        "priceMax": 8,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/SKU-SOCKS-GLOBAL-ANKLE-BLIZZARD-1_Resize_0003_SKU-SOCKS-GLOBAL-ANKLE-SUNNY-MARIGOLD-1-min.png?v=1776807124",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/Resize__0003_SKU-SOCKS-GLOBAL-ANKLE-SUNNY-MARIGOLD-2-min.png?v=1776807124",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40038692159568",
+            "title": "S (W5-7)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40038692192336",
+            "title": "M (W8-10 / M8)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40038692225104",
+            "title": "L (W11 / M9-12)",
+            "price": 8,
+            "available": false
+          },
+          {
+            "id": "40038692257872",
+            "title": "XL (M13-14)",
+            "price": 8,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2023-02-01T16:58:56-08:00",
+        "updatedAt": "2026-05-07T16:21:09-07:00"
+      },
+      {
+        "id": "7194715717712",
+        "handle": "anytime-ankle-sock-3-pack-blizzard-royal-blue-thunder-green",
+        "title": "Anytime Ankle Sock 3 Pack - Blizzard/Royal Blue/Thunder Green",
+        "description": "Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul.",
+        "descriptionHtml": "<p>Designed to keep you comfortable for workouts, work, or WFH. They’re breathable, and extra durable for the long haul. </p>",
+        "vendor": "Allbirds",
+        "productType": "Socks",
+        "tags": [
+          "allbirds::carbon-score => 1",
+          "allbirds::cfId => color-d5dec9bf4163819576b1233d10f8638e",
+          "allbirds::complete => true",
+          "allbirds::edition => 3Packs",
+          "allbirds::gender => unisex",
+          "allbirds::hue => blue",
+          "allbirds::hue => green",
+          "allbirds::hue => white",
+          "allbirds::master => anytime-ankle-sock",
+          "allbirds::material => cotton",
+          "allbirds::price-tier => tier-4",
+          "allbirds::silhouette => quarter",
+          "FINAL SALE",
+          "shoprunner",
+          "YCRF_socks",
+          "YGroup_ygroup_anytime-ankle-sock"
+        ],
+        "priceMin": 19,
+        "priceMax": 19,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12134_25Q3_Anytime-Ankle-Sock-3-Pack-Blizzard-Blizzard-Blue-Blizzard-Green_PDP_1_Collection.png?v=1752534094",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "41226933174352",
+            "title": "S (W5-7)",
+            "price": 19,
+            "available": true
+          },
+          {
+            "id": "41226933207120",
+            "title": "M (W8-10 / M8)",
+            "price": 19,
+            "available": false
+          },
+          {
+            "id": "41226933239888",
+            "title": "L (W11 / M9-12)",
+            "price": 19,
+            "available": false
+          },
+          {
+            "id": "41226933272656",
+            "title": "XL (M13-14)",
+            "price": 19,
+            "available": false
+          }
+        ],
+        "available": true,
+        "createdAt": "2025-07-07T21:27:18-07:00",
+        "updatedAt": "2026-05-07T16:20:36-07:00"
+      }
+    ]
+  },
+  "verdicts": [
+    {
+      "personaId": "sustainable-runner",
+      "modelSlug": "anthropic-direct/claude-haiku-4-5-20251001",
+      "displayName": "Claude Haiku 4.5",
+      "intent": "find me sustainable running shoes from a brand with strong environmental practices",
+      "verdict": "recommended",
+      "topProductId": "6643980468304",
+      "reasoning": "This store is Allbirds, a brand explicitly known for strong environmental practices and sustainable materials. The Tree Dasher 2 is a dedicated running shoe made with lightweight eucalyptus fiber and responsive foam, directly matching the shopper's intent for sustainable running shoes from an environmentally conscious brand.",
+      "gaps": [
+        "no explicit brand environmental certifications or sustainability claims visible in product descriptions",
+        "no information about carbon footprint or lifecycle impact of individual products",
+        "no customer reviews to validate performance claims for running shoes",
+        "limited detail on what 'natural and recycled materials' specifically comprise the midsole"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: find me sustainable running shoes from a brand with strong environmental practices\n\nStore catalog (sampled, 30 products shown):\nID: 6585226920016\nTitle: Women's Natural Run Form Tank - Natural Black\nType: Apparel\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 47 USD\nDescription (first 250 chars): The Natural Run Form Tank is an ultra-light, temperature-regulating, and sweat-wicking tank. Its compressive, midweight fabric is made from ZQ merino wool and eucalyptus tree fiber, and its fitted silhouette with a built-in, mid support bra is perfec…\n\nID: 6585244319824\nTitle: Women's Natural Legging - Shadow\nType: Apparel\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 68 USD\nDescription (first 250 chars): Our Natural Leggings are soft, sweat-wicking, and super breathable, designed to keep you cool while running, training, or powering through a yoga session. We utilized natural materials like eucalyptus tree fiber and merino wool to create a compressiv…\n\nID: 6645135147088\nTitle: Women's Natural Run Tank - True Navy\nType: Apparel\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 33 USD\nDescription (first 250 chars): The Natural Run Tank is an ultra-light, temperature-regulating, and sweat-wicking tank. Its made with ZQ merino wool and eucalyptus tree fiber, and its classic, relaxed fit is perfect for walking, running, or training.\n\nID: 6670574616656\nTitle: Women's Natural Run Tank - Blue Hush\nType: Apparel\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 33 USD\nDescription (first 250 chars): The Natural Run Tank is an ultra-light, temperature-regulating, and sweat-wicking tank. Its made with ZQ merino wool and eucalyptus tree fiber, and its classic, relaxed fit is perfect for walking, running, or training.\n\nID: 7199630557264\nTitle: Men's Wool Cruiser Slip On - Natural Black (Natural Black Sole)\nType: Shoes\nTags: shoprunner\nPrice: 100 USD\nDescription (first 250 chars): Inspired by our Wool Lounger, but reimagined through the lens of the Cruiser, this modern update to the classic slip on features an ultra comfy Merino wool and recycled nylon blend upper. Its easy style and all-day wearability make this a go-to choic…\n\nID: 7199658541136\nTitle: Women's Wool Cruiser Slip On - Natural Black (Natural Black Sole)\nType: Shoes\nTags: shoprunner\nPrice: 100 USD\nDescription (first 250 chars): Inspired by our Wool Lounger, but reimagined through the lens of the Cruiser, this modern update to the classic slip on features an ultra comfy Merino wool and recycled nylon blend upper. Its easy style and all-day wearability make this a go-to choic…\n\nID: 7199655526480\nTitle: Women's Wool Cruiser Slip On - Natural White (Natural White Sole)\nType: Shoes\nTags: shoprunner\nPrice: 100 USD\nDescription (first 250 chars): Inspired by our Wool Lounger, but reimagined through the lens of the Cruiser, this modern update to the classic slip on features an ultra comfy Merino wool and recycled nylon blend upper. Its easy style and all-day wearability make this a go-to choic…\n\nID: 7199654838352\nTitle: Women's Wool Cruiser Slip On - Natural Black (Blizzard Sole)\nType: Shoes\nTags: shoprunner\nPrice: 100 USD\nDescription (first 250 chars): Inspired by our Wool Lounger, but reimagined through the lens of the Cruiser, this modern update to the classic slip on features an ultra comfy Merino wool and recycled nylon blend upper. Its easy style and all-day wearability make this a go-to choic…\n\nID: 7199624364112\nTitle: Men's Wool Cruiser Slip On - Natural White (Natural White Sole)\nType: Shoes\nTags: shoprunner\nPrice: 100 USD\nDescription (first 250 chars): Inspired by our Wool Lounger, but reimagined through the lens of the Cruiser, this modern update to the classic slip on features an ultra comfy Merino wool and recycled nylon blend upper. Its easy style and all-day wearability make this a go-to choic…\n\nID: 7199621120080\nTitle: Men's Wool Cruiser Slip On - Natural Black (Blizzard Sole)\nType: Shoes\nTags: shoprunner\nPrice: 100 USD\nDescription (first 250 chars): Inspired by our Wool Lounger, but reimagined through the lens of the Cruiser, this modern update to the classic slip on features an ultra comfy Merino wool and recycled nylon blend upper. Its easy style and all-day wearability make this a go-to choic…\n\nID: 6643980468304\nTitle: Men's Tree Dasher 2 - Natural Black (Blizzard Sole)\nType: Shoes\nTags: shoprunner\nPrice: 99 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our best-selling running shoe, designed to support your everyday runs, walks, and light workouts. Made with lightweight and breathable eucalyptus fiber, this shoe has lighter, more responsive foam, extra gri…\n\nID: 6673828675664\nTitle: Men's Tree Flyer 1 - Natural Black (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 40 USD\nDescription (first 250 chars): The Allbirds Tree Flyer 1 for men are a lightweight, springy distance running shoe—including our new SwiftFoam™ midsole, made of natural and recycled materials.\n\nID: 6673836671056\nTitle: Men's Tree Flyer 1 - Lux Beige (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 40 USD\nDescription (first 250 chars): The Allbirds Tree Flyer 1 for men are a lightweight, springy distance running shoe—including our new SwiftFoam™ midsole, made of natural and recycled materials.\n\nID: 6673825890384\nTitle: Men's Tree Flyer 1 - Blizzard (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 40 USD\nDescription (first 250 chars): The Allbirds Tree Flyer 1 for men are a lightweight, springy distance running shoe—including our new SwiftFoam™ midsole, made of natural and recycled materials.\n\nID: 4876920717392\nTitle: Men's Tree Dasher 1 - Flora (Pink Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 32 USD\nDescription (first 250 chars): The Tree Dasher is a comfortable and supportive running shoe designed for everyday runs. Made with lightweight and breathable eucalyptus fiber, it's sure to provide a cushioned stride mile after mile.\n\nID: 7351247667280\nTitle: Women's Wool Runner Mizzles - Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 99 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 7193763905616\nTitle: Men's Tree Dasher 2 - Rugged Beige (Stony Cream Sole)\nType: Shoes\nTags: shoprunner\nPrice: 99 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our best-selling running shoe, designed to support your everyday runs, walks, and light workouts. Made with lightweight and breathable eucalyptus fiber, this shoe has lighter, more responsive foam, extra gri…\n\nID: 6884224073808\nTitle: Men's Tree Dasher 2 - Blizzard (Blizzard Sole)\nType: Shoes\nTags: shoprunner\nPrice: 99 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our best-selling running shoe, designed to support your everyday runs, walks, and light workouts. Made with lightweight and breathable eucalyptus fiber, this shoe has lighter, more responsive foam, extra gri…\n\nID: 6858154180688\nTitle: Men's Wool Runner Mizzles - Thunder Green (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 62 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 6966792650832\nTitle: Women's Wool Runner Mizzle - Stony Cream (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 62 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 6866213896272\nTitle: Women's Wool Runner Mizzle - Light Grey (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 62 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 6858888216656\nTitle: Women's Wool Runner Mizzle - Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 62 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 6858889822288\nTitle: Women's Wool Runner Mizzle - Natural Black (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 62 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 6858155655248\nTitle: Women's Wool Runner Mizzle - Hazy Indigo (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 62 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 6965315797072\nTitle: Men's Wool Runner Mizzle - Stony Cream (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 62 USD\nDescription (first 250 chars): The Wool Runner Mizzle is our rain-ready sneaker that keeps your feet warm, cozy, and dry in unpredictable weather. Cozy ZQ Merino Wool is combined with our bio-based water repellent shield so you can walk comfortably in the rain. These shoes are gre…\n\nID: 6858603135056\nTitle: Women's SuperLight Tree Runners - Natural Black/Dark Grey (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 57 USD\nDescription (first 250 chars): Lighter by nature. Meet the SuperLight Tree Runner ‚Äì an everyday sneaker engineered with an airy, breathable upper and our new revolutionary SuperLight Foam technology for a barely-there feel, and light-as-air fit that‚Äôs one of our lightest and l…\n\nID: 6903715430480\nTitle: Women's SuperLight Tree Runner - Rugged Beige (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 57 USD\nDescription (first 250 chars): Lighter by nature. Meet the SuperLight Tree Runner ‚Äì an everyday sneaker engineered with an airy, breathable upper and our new revolutionary SuperLight Foam technology for a barely-there feel, and light-as-air fit that‚Äôs one of our lightest and l…\n\nID: 6910432575568\nTitle: Men's SuperLight Tree Runner - Rugged Beige (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 57 USD\nDescription (first 250 chars): Lighter by nature. Meet the SuperLight Tree Runner – an everyday sneaker engineered with an airy, breathable upper and our new revolutionary SuperLight Foam technology for a barely-there feel, and light-as-air fit that’s one of our lightest and lowes…\n\nID: 6826298835024\nTitle: Men's SuperLight Wool Runners - Dapple Grey (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): Lighter by nature. Meet the SuperLight Wool Runner – an everyday sneaker engineered with an ultralight upper and our new revolutionary SuperLight Foam technology for a barely-there feel, and light-as-air fit that’s our lightest and lowest carbon foot…\n\nID: 6826514677840\nTitle: Men's SuperLight Wool Runner - Natural White (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): Lighter by nature. Meet the SuperLight Wool Runner – an everyday sneaker engineered with an ultralight upper and our new revolutionary SuperLight Foam technology for a barely-there feel, and light-as-air fit that’s our lightest and lowest carbon foot…"
+      },
+      "rawResponse": "```json\n{\n  \"verdict\": \"recommended\",\n  \"topProductId\": \"6643980468304\",\n  \"reasoning\": \"This store is Allbirds, a brand explicitly known for strong environmental practices and sustainable materials. The Tree Dasher 2 is a dedicated running shoe made with lightweight eucalyptus fiber and responsive foam, directly matching the shopper's intent for sustainable running shoes from an environmentally conscious brand.\",\n  \"gaps\": [\n    \"no explicit brand environmental certifications or sustainability claims visible in product descriptions\",\n    \"no information about carbon footprint or lifecycle impact of individual products\",\n    \"no customer reviews to validate performance claims for running shoes\",\n    \"limited detail on what 'natural and recycled materials' specifically comprise the midsole\"\n  ]\n}\n```",
+      "sampledProductIds": [
+        "6585226920016",
+        "6585244319824",
+        "6645135147088",
+        "6670574616656",
+        "7199630557264",
+        "7199658541136",
+        "7199655526480",
+        "7199654838352",
+        "7199624364112",
+        "7199621120080",
+        "6643980468304",
+        "6673828675664",
+        "6673836671056",
+        "6673825890384",
+        "4876920717392",
+        "7351247667280",
+        "7193763905616",
+        "6884224073808",
+        "6858154180688",
+        "6966792650832",
+        "6866213896272",
+        "6858888216656",
+        "6858889822288",
+        "6858155655248",
+        "6965315797072",
+        "6858603135056",
+        "6903715430480",
+        "6910432575568",
+        "6826298835024",
+        "6826514677840"
+      ],
+      "latencyMs": 2758,
+      "retried": false,
+      "usage": {
+        "promptTokens": 4089,
+        "completionTokens": 180,
+        "totalTokens": 4269
+      },
+      "error": null
+    },
+    {
+      "personaId": "arch-support-shopper",
+      "modelSlug": "openai-direct/gpt-4o-mini-2024-07-18",
+      "displayName": "GPT-4o mini",
+      "intent": "trail running shoe under $150 with good arch support, please show specs",
+      "verdict": "ranked-low",
+      "topProductId": "7235862822992",
+      "reasoning": "The Men's Trail Runners priced at $145 is a suitable option for trail running, but there is no specific mention of arch support in the description. While it meets the price requirement, the lack of detailed specifications regarding arch support makes it less favorable compared to alternatives that may offer better support.",
+      "gaps": [
+        "no arch support spec in descriptions",
+        "no customer reviews visible",
+        "no detailed performance metrics for trail running"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: trail running shoe under $150 with good arch support, please show specs\n\nStore catalog (sampled, 30 products shown):\nID: 7193763905616\nTitle: Men's Tree Dasher 2 - Rugged Beige (Stony Cream Sole)\nType: Shoes\nTags: shoprunner\nPrice: 99 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our best-selling running shoe, designed to support your everyday runs, walks, and light workouts. Made with lightweight and breathable eucalyptus fiber, this shoe has lighter, more responsive foam, extra gri…\n\nID: 6884224073808\nTitle: Men's Tree Dasher 2 - Blizzard (Blizzard Sole)\nType: Shoes\nTags: shoprunner\nPrice: 99 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our best-selling running shoe, designed to support your everyday runs, walks, and light workouts. Made with lightweight and breathable eucalyptus fiber, this shoe has lighter, more responsive foam, extra gri…\n\nID: 6848577437776\nTitle: Men's Tree Flyer 2 - Blizzard/Pure Azure (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 80 USD\nDescription (first 250 chars): Bring the fun to any run with the Tree Flyer 2. The seriously springy (and seriously sustainable) running shoe you love is back with increased stability, support, and grip to keep those smiles coming mile after mile.\n\nID: 6848577765456\nTitle: Men's Tree Flyer 2 - Blizzard (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 80 USD\nDescription (first 250 chars): Bring the fun to any run with the Tree Flyer 2. The seriously springy (and seriously sustainable) running shoe you love is back with increased stability, support, and grip to keep those smiles coming mile after mile.\n\nID: 6848578355280\nTitle: Women's Tree Flyer 2 - Blizzard (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 80 USD\nDescription (first 250 chars): Bring the fun to any run with the Tree Flyer 2. The seriously springy (and seriously sustainable) running shoe you love is back with increased stability, support, and grip to keep those smiles coming mile after mile.\n\nID: 7235862822992\nTitle: Men's Trail Runners - Parchment/Seagrass (Parchment Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 7235831038032\nTitle: Women's Trail Runners - Parchment/Seagrass (Parchment Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 7091663962192\nTitle: Men's Tree Dasher 2 - Rustic Brown (Rustic Brown Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 70 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our best-selling running shoe, designed to support your everyday runs, walks, and light workouts. Made with lightweight and breathable eucalyptus fiber, this shoe has lighter, more responsive foam, extra gri…\n\nID: 6643980468304\nTitle: Men's Tree Dasher 2 - Natural Black (Blizzard Sole)\nType: Shoes\nTags: shoprunner\nPrice: 99 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our best-selling running shoe, designed to support your everyday runs, walks, and light workouts. Made with lightweight and breathable eucalyptus fiber, this shoe has lighter, more responsive foam, extra gri…\n\nID: 6859063459920\nTitle: Men's Tree Flyer 2 - Afterglow Orange (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 80 USD\nDescription (first 250 chars): Bring the fun to any run with the Tree Flyer 2. The seriously springy (and seriously sustainable) running shoe you love is back with increased stability, support, and grip to keep those smiles coming mile after mile.\n\nID: 4876920717392\nTitle: Men's Tree Dasher 1 - Flora (Pink Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 32 USD\nDescription (first 250 chars): The Tree Dasher is a comfortable and supportive running shoe designed for everyday runs. Made with lightweight and breathable eucalyptus fiber, it's sure to provide a cushioned stride mile after mile.\n\nID: 7228597895248\nTitle: Women's Trail Runners - Deep Red (Dark Anthracite Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 7228617588816\nTitle: Men's Trail Runners - Deep Red (Dark Anthracite Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 7193764069456\nTitle: Women's Trail Runners - Natural Black/Dark Jungle (Natural Black Sole)\nType: Shoes\nTags: shoprunner\nPrice: 87 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 6881317257296\nTitle: Men's Trail Runner - Natural Black (Rugged Khaki Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 6881317453904\nTitle: Men's Trail Runner - Medium Grey (Rugged Khaki Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 7091625590864\nTitle: Women's Trail Runner - Blizzard/Hanami Night (Blizzard Sole)\nType: Shoes\nTags: FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 6881316864080\nTitle: Women's Trail Runner - Medium Grey (Rugged Khaki Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 6881316700240\nTitle: Women's Trail Runner - Natural Black (Rugged Khaki Sole)\nType: Shoes\nTags: shoprunner\nPrice: 145 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 7193764331600\nTitle: Women's Tree Dasher 2 - Thunder Green (Stony Cream Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 70 USD\nDescription (first 250 chars): The Tree Dasher 2 is the next evolution of our everyday active shoe with more responsive foam, extra grip, and an improved fit to keep you moving, and nature winning.\n\nID: 4660635992144\nTitle: Men's Tree Dasher 1 - Robin Red (Pink Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 32 USD\nDescription (first 250 chars): The Tree Dasher is a comfortable and supportive running shoe designed for everyday runs. Made with lightweight and breathable eucalyptus fiber, it's sure to provide a cushioned stride mile after mile.\n\nID: 6697944776784\nTitle: Men's Trail Runner - Medium Grey (Rugged Khaki Sole) - 1\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 6609457446992\nTitle: Women's Trail Runner - Natural Black (Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 6697945464912\nTitle: Women's Trail Runner - Medium Grey (Rugged Khaki Sole) - 1\nType: Shoes\nTags: FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 4558252474448\nTitle: Men's Tree Dasher 1 - Flame (Light Red Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 87 USD\nDescription (first 250 chars): The Tree Dasher is a comfortable and supportive running shoe designed for everyday runs. Made with lightweight and breathable eucalyptus fiber, it's sure to provide a cushioned stride mile after mile.\n\nID: 7092768112720\nTitle: Women's Trail Runner - Weathered White (Weathered Grey Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Trail Runner is a trail running shoe build to handle off-road terrain. With a durable outsole, stable upper, and strong traction, you'll have the protection you need to run free.\n\nID: 4558246412368\nTitle: Men's Tree Dasher 1 - Geyser (Light Blue Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 32 USD\nDescription (first 250 chars): The Tree Dasher is a comfortable and supportive running shoe designed for everyday runs. Made with lightweight and breathable eucalyptus fiber, it's sure to provide a cushioned stride mile after mile.\n\nID: 4755219218512\nTitle: Men's Tree Dasher 1 - Ascend (Dark Red Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 87 USD\nDescription (first 250 chars): The Tree Dasher is a comfortable and supportive running shoe designed for everyday runs. Made with lightweight and breathable eucalyptus fiber, it's sure to provide a cushioned stride mile after mile.\n\nID: 6765175013456\nTitle: Men's Wool Dasher Fluffs - Natural White (Natural White Sole)\nType: Shoes\nTags: app-auto-discount-code => FLUFF, collection:apr26, FINAL SALE, shoprunner\nPrice: 72 USD\nDescription (first 250 chars): The Wool Dasher Fluff is a fluffy, machine washable running shoe that's shock absorbing with cushioned support, and has been tested by professional and amateur runners alike.\n\nID: 6765174915152\nTitle: Men's Wool Dasher Fluffs - Natural Black (Natural Black Sole)\nType: Shoes\nTags: app-auto-discount-code => FLUFF, collection:apr26, FINAL SALE, shoprunner\nPrice: 72 USD\nDescription (first 250 chars): The Wool Dasher Fluff is a fluffy, machine washable running shoe that's shock absorbing with cushioned support, and has been tested by professional and amateur runners alike."
+      },
+      "rawResponse": "{\n  \"verdict\": \"ranked-low\",\n  \"topProductId\": \"7235862822992\",\n  \"reasoning\": \"The Men's Trail Runners priced at $145 is a suitable option for trail running, but there is no specific mention of arch support in the description. While it meets the price requirement, the lack of detailed specifications regarding arch support makes it less favorable compared to alternatives that may offer better support.\",\n  \"gaps\": [\n    \"no arch support spec in descriptions\",\n    \"no customer reviews visible\",\n    \"no detailed performance metrics for trail running\"\n  ]\n}",
+      "sampledProductIds": [
+        "7193763905616",
+        "6884224073808",
+        "6848577437776",
+        "6848577765456",
+        "6848578355280",
+        "7235862822992",
+        "7235831038032",
+        "7091663962192",
+        "6643980468304",
+        "6859063459920",
+        "4876920717392",
+        "7228597895248",
+        "7228617588816",
+        "7193764069456",
+        "6881317257296",
+        "6881317453904",
+        "7091625590864",
+        "6881316864080",
+        "6881316700240",
+        "7193764331600",
+        "4660635992144",
+        "6697944776784",
+        "6609457446992",
+        "6697945464912",
+        "4558252474448",
+        "7092768112720",
+        "4558246412368",
+        "4755219218512",
+        "6765175013456",
+        "6765174915152"
+      ],
+      "latencyMs": 3492,
+      "retried": false,
+      "usage": {
+        "promptTokens": 3005,
+        "completionTokens": 123,
+        "totalTokens": 3128
+      },
+      "error": null
+    },
+    {
+      "personaId": "daily-walker-gift",
+      "modelSlug": "groq-direct/llama-3.3-70b-versatile",
+      "displayName": "Llama 3.3 70B (Groq)",
+      "intent": "looking for a comfortable shoe for someone in their 60s who walks daily, ideally a gift",
+      "verdict": "recommended",
+      "topProductId": "6767289073744",
+      "reasoning": "The Allbirds Wool Runner Fluff is described as outrageously soft and cozy, flexible, supportive, and machine washable, making it a great option for daily walking. The price point of $60 is also reasonable for a high-quality shoe.",
+      "gaps": [
+        "no information on arch support",
+        "no customer reviews available",
+        "no detailed sizing information"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: looking for a comfortable shoe for someone in their 60s who walks daily, ideally a gift\n\nStore catalog (sampled, 30 products shown):\nID: 6767289073744\nTitle: Men's Wool Runner Fluffs - Thrive Teal/Deep Emerald\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Allbirds Wool Runner Fluff is a twist on our best-selling wool sneaker. It's outrageously soft and cozy, flexible, supportive, and machine washable. The Wool Runner Fluff is comfortable, lightweight, and can be worn sockless. Best used for walkin…\n\nID: 6764631064656\nTitle: Men's Wool Runner Fluffs - Natural Black (Natural White Sole)\nType: Shoes\nTags: app-auto-discount-code => FLUFF, collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Allbirds Wool Runner Fluff is a twist on our best-selling wool sneaker. It's outrageously soft and cozy, flexible, supportive, and machine washable. The Wool Runner Fluff is comfortable, lightweight, and can be worn sockless. Best used for walkin…\n\nID: 4877253083216\nTitle: Men's Wool Runner Fluffs - Natural White (White Sole)\nType: Shoes\nTags: app-auto-discount-code => FLUFF, collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Allbirds Wool Runner Fluff is a twist on our best-selling wool sneaker. It's outrageously soft and cozy, flexible, supportive, and machine washable. The Wool Runner Fluff is comfortable, lightweight, and can be worn sockless. Best used for walkin…\n\nID: 3689951428688\nTitle: Men's Wool Runners - Savanna Night (Navy Sole)\nType: Shoes\nTags: shoprunner\nPrice: 110 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 1878189441093\nTitle: Men's Wool Runners - Tuke River (Cream Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 2010083950661\nTitle: Men's Wool Runners - Tuke Jo (Cream Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 6706338299984\nTitle: Men's Wool Runners - Hazy Cargo (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 6624167493712\nTitle: Men's Wool Runners - Frost Blue (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4313197281360\nTitle: Men's Wool Runners - Harvest (Lilac Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, material:Wool Comfort, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4868497342544\nTitle: Women's Wool Runners - Bough (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4826197655632\nTitle: Men's Wool Runner - True Black (Cream Sole)\nType: Shoes\nTags: shoprunner\nPrice: 110 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4826193821776\nTitle: Women's Wool Runner - Dapple Grey (Cream Sole)\nType: Shoes\nTags: shoprunner\nPrice: 110 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4766292607056\nTitle: Men's Wool Pipers - Natural Black (Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 4868994498640\nTitle: Men's Wool Pipers - Lichen (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 6715057111120\nTitle: Men's Wool Pipers - Hazy Cocoa (Natural White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 6609498669136\nTitle: Men's Wool Piper Mids - Matterhorn (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 72 USD\nDescription (first 250 chars): The Wool Piper is a classic mid-cut silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 4766291853392\nTitle: Men's Wool Piper - True Black (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 4766287495248\nTitle: Women's Wool Piper - Dapple Grey (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 4766292181072\nTitle: Men's Wool Piper - Natural White (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 4798175445072\nTitle: Men's Wool Lounger Fluff - Natural White (Cream Sole)\nType: Shoes\nTags: app-auto-discount-code => FLUFF, collection:apr26, FINAL SALE, shoprunner\nPrice: 57 USD\nDescription (first 250 chars): The Wool Lounger Fluff is a slip-on shoe made with extra fluffy, super soft and cozy ZQ Merino wool from heel to toe. It's the perfect casual shoe, ideal for everyday wear and conveniently machine washable.\n\nID: 4766287921232\nTitle: Women's Wool Piper - True Black (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 1961731391557\nTitle: Men's Wool Runners - Tuke Chili (Cream Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4807746650192\nTitle: Men's Wool Runners - Kotare Light Marine (Teal Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4807746191440\nTitle: Men's Wool Runners - Kotare Heather (Cream Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4766288642128\nTitle: Women's Wool Piper - Natural White (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 55 USD\nDescription (first 250 chars): The Wool Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in cooler weather. It's made with soft, cozy, and comfortable natural materials, and is all about balancing simplicity and exaggeration for v…\n\nID: 6826511007824\nTitle: Men's Tree Piper - Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6826509729872\nTitle: Women's Tree Piper - Natural Black (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6826510057552\nTitle: Women's Tree Pipers- Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 7141507137616\nTitle: Women's Tree Piper - Rustic Brown (Stony Cream Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 7234438135888\nTitle: Women's Wool Cruiser Slip On Fluff - Natural White (Natural White Sole)\nType: Shoes\nTags: FINAL SALE, shoprunner\nPrice: 39 USD\nDescription (first 250 chars): Part of our Winter Materials Edit, the Cruiser Slip On Fluff is as comfortable at home as it is on the go. Featuring a super plush wool blend inside and out, it’s a cozy choice for everyday cold weather casual wear. Make winter feel less like a seaso…"
+      },
+      "rawResponse": "{\n  \"verdict\": \"recommended\",\n   \"topProductId\": \"6767289073744\",\n   \"reasoning\": \"The Allbirds Wool Runner Fluff is described as outrageously soft and cozy, flexible, supportive, and machine washable, making it a great option for daily walking. The price point of $60 is also reasonable for a high-quality shoe.\",\n   \"gaps\": [\n       \"no information on arch support\",\n       \"no customer reviews available\",\n       \"no detailed sizing information\"\n   ]\n}",
+      "sampledProductIds": [
+        "6767289073744",
+        "6764631064656",
+        "4877253083216",
+        "3689951428688",
+        "1878189441093",
+        "2010083950661",
+        "6706338299984",
+        "6624167493712",
+        "4313197281360",
+        "4868497342544",
+        "4826197655632",
+        "4826193821776",
+        "4766292607056",
+        "4868994498640",
+        "6715057111120",
+        "6609498669136",
+        "4766291853392",
+        "4766287495248",
+        "4766292181072",
+        "4798175445072",
+        "4766287921232",
+        "1961731391557",
+        "4807746650192",
+        "4807746191440",
+        "4766288642128",
+        "6826511007824",
+        "6826509729872",
+        "6826510057552",
+        "7141507137616",
+        "7234438135888"
+      ],
+      "latencyMs": 722,
+      "retried": false,
+      "usage": {
+        "promptTokens": 3496,
+        "completionTokens": 107,
+        "totalTokens": 3603
+      },
+      "error": null
+    },
+    {
+      "personaId": "minimalist-traveler",
+      "modelSlug": "google-direct/gemini-3-flash-preview",
+      "displayName": "Gemini 3 Flash",
+      "intent": "minimalist sneaker for travel — lightweight, easy to clean, neutral color",
+      "verdict": "recommended",
+      "topProductId": "4826193821776",
+      "reasoning": "The catalog offers several minimalist sneakers that are explicitly described as lightweight and machine washable, making them easy to clean for travel. The Wool Runner in Dapple Grey is a perfect neutral option that balances comfort and simplicity.",
+      "gaps": [
+        "no weight in ounces/grams to quantify 'lightweight'",
+        "no mention of packability or how flat the shoes can fold for travel",
+        "no specific 'easy to clean' instructions for the Tree Piper models compared to the machine-washable Wool Runners"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: minimalist sneaker for travel — lightweight, easy to clean, neutral color\n\nStore catalog (sampled, 30 products shown):\nID: 6826511007824\nTitle: Men's Tree Piper - Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6826509729872\nTitle: Women's Tree Piper - Natural Black (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6826510057552\nTitle: Women's Tree Pipers- Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6624167493712\nTitle: Men's Wool Runners - Frost Blue (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4868497342544\nTitle: Women's Wool Runners - Bough (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 49 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4826197655632\nTitle: Men's Wool Runner - True Black (Cream Sole)\nType: Shoes\nTags: shoprunner\nPrice: 110 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 4826193821776\nTitle: Women's Wool Runner - Dapple Grey (Cream Sole)\nType: Shoes\nTags: shoprunner\nPrice: 110 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 6764631064656\nTitle: Men's Wool Runner Fluffs - Natural Black (Natural White Sole)\nType: Shoes\nTags: app-auto-discount-code => FLUFF, collection:apr26, FINAL SALE, shoprunner\nPrice: 60 USD\nDescription (first 250 chars): The Allbirds Wool Runner Fluff is a twist on our best-selling wool sneaker. It's outrageously soft and cozy, flexible, supportive, and machine washable. The Wool Runner Fluff is comfortable, lightweight, and can be worn sockless. Best used for walkin…\n\nID: 6565493899344\nTitle: Women's Tree Piper - Moonrise (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6565490786384\nTitle: Women's Tree Piper - Luna (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6565492883536\nTitle: Women's Tree Piper - Kaikoura White (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6919093387344\nTitle: Women's Tree Piper - Stormy Grey (Barely Grey Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6565493473360\nTitle: Men's Tree Piper - Kaikoura White (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6565490458704\nTitle: Men's Tree Piper - Luna (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 6565494161488\nTitle: Men's Tree Piper - Moonrise (White Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 3689951428688\nTitle: Men's Wool Runners - Savanna Night (Navy Sole)\nType: Shoes\nTags: shoprunner\nPrice: 110 USD\nDescription (first 250 chars): The Allbirds Wool Runner is the orginal wool sneaker that started it all. Called the world's most comfortable shoe, it's flexible, supportive, astonishingly soft, and machine washable. The Wool Runner is breathable, lightweight, and can be worn sockl…\n\nID: 7141507137616\nTitle: Women's Tree Piper - Rustic Brown (Stony Cream Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 52 USD\nDescription (first 250 chars): The Tree Piper is a classic low-top silhouette that's been reimagined for everyday casual wear while walking in warmer weather. It's made with lightweight, breathable, and comfortable natural materials, and is all about balancing simplicity and exagg…\n\nID: 7351262904400\nTitle: Women's Tree Loungers - Natural Black (Blizzard Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 70 USD\nDescription (first 250 chars): The Allbirds Tree Lounger is a comfortable, lightweight, and breathable slip-on shoe made with responsibly sourced eucalyptus tree fiber. The knit feels silky smooth and cool. These shoes are ideal for warm days and are machine washable to keep your …\n\nID: 7351262937168\nTitle: Women's Tree Loungers - Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 70 USD\nDescription (first 250 chars): The Allbirds Tree Lounger is a comfortable, lightweight, and breathable slip-on shoe made with responsibly sourced eucalyptus tree fiber. The knit feels silky smooth and cool. These shoes are ideal for warm days and are machine washable to keep your …\n\nID: 6843711193168\nTitle: Women's Tree Lounger - Natural Black (Natural Black Sole)\nType: Shoes\nTags: collection:apr26, FINAL SALE, shoprunner\nPrice: 39 USD\nDescription (first 250 chars): The Allbirds Tree Lounger is a comfortable, lightweight, and breathable slip-on shoe made with responsibly sourced eucalyptus tree fiber. The knit feels silky smooth and cool. These shoes are ideal for warm days and are machine washable to keep your …\n\nID: 7205200232528\nTitle: Men's Runner NZ Slip On - Light Grey (Light Grey Sole)\nType: Shoes\nTags: (none)\nPrice: 105 USD\nDescription (first 250 chars): No laces. No slowdown. Runner NZ Slip On delivers the lightweight comfort you know from our Runner collection—now in a clean slip-on with a breezy feel, a sleek profile, and subtle texture that adds movement and dimension. Easy to wear. Easy to notic…\n\nID: 7205190303824\nTitle: Men's Runner NZ Slip On - Warm White (Warm White Sole)\nType: Shoes\nTags: (none)\nPrice: 105 USD\nDescription (first 250 chars): No laces. No slowdown. Runner NZ Slip On delivers the lightweight comfort you know from our Runner collection—now in a clean slip-on with a breezy feel, a sleek profile, and subtle texture that adds movement and dimension. Easy to wear. Easy to notic…\n\nID: 7205190860880\nTitle: Women's Runner NZ Slip On - Warm White (Warm White Sole)\nType: Shoes\nTags: (none)\nPrice: 105 USD\nDescription (first 250 chars): No laces. No slowdown. Runner NZ Slip On delivers the lightweight comfort you know from our Runner collection—now in a clean slip-on with a breezy feel, a sleek profile, and subtle texture that adds movement and dimension. Easy to wear. Easy to notic…\n\nID: 7205196070992\nTitle: Women's Runner NZ Slip On - Light Grey (Light Grey Sole)\nType: Shoes\nTags: (none)\nPrice: 105 USD\nDescription (first 250 chars): No laces. No slowdown. Runner NZ Slip On delivers the lightweight comfort you know from our Runner collection—now in a clean slip-on with a breezy feel, a sleek profile, and subtle texture that adds movement and dimension. Easy to wear. Easy to notic…\n\nID: 7205202919504\nTitle: Women's Cruiser Slip On - Deep Navy (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 100 USD\nDescription (first 250 chars): Slip-on ease meets everyday style. Cruiser Slip On pairs a clean, minimalist look with a breathable tree knit upper for comfort you'll notice right away. Easy to wear, easy to style, and comfortable enough for pretty much anywhere the day takes you.\n\nID: 7205202722896\nTitle: Men's Cruiser Slip On - Deep Navy (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 100 USD\nDescription (first 250 chars): Slip-on ease meets everyday style. Cruiser Slip On pairs a clean, minimalist look with a breathable tree knit upper for comfort you'll notice right away. Easy to wear, easy to style, and comfortable enough for pretty much anywhere the day takes you.\n\nID: 7205202395216\nTitle: Women's Cruiser Slip On - Natural Black (Blizzard Sole)\nType: Shoes\nTags: (none)\nPrice: 100 USD\nDescription (first 250 chars): Slip-on ease meets everyday style. Cruiser Slip On pairs a clean, minimalist look with a breathable tree knit upper for comfort you'll notice right away. Easy to wear, easy to style, and comfortable enough for pretty much anywhere the day takes you.\n\nID: 7205198233680\nTitle: Men's Cruiser Slip On - Burnt Olive (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 100 USD\nDescription (first 250 chars): Slip-on ease meets everyday style. Cruiser Slip On pairs a clean, minimalist look with a breathable tree knit upper for comfort you'll notice right away. Easy to wear, easy to style, and comfortable enough for pretty much anywhere the day takes you.\n\nID: 7205194432592\nTitle: Women's Cruiser Slip On - Burnt Olive (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 100 USD\nDescription (first 250 chars): Slip-on ease meets everyday style. Cruiser Slip On pairs a clean, minimalist look with a breathable tree knit upper for comfort you'll notice right away. Easy to wear, easy to style, and comfortable enough for pretty much anywhere the day takes you.\n\nID: 7205211570256\nTitle: Men's Cruiser Slip On - Natural Black (Blizzard Sole)\nType: Shoes\nTags: (none)\nPrice: 100 USD\nDescription (first 250 chars): Slip-on ease meets everyday style. Cruiser Slip On pairs a clean, minimalist look with a breathable tree knit upper for comfort you'll notice right away. Easy to wear, easy to style, and comfortable enough for pretty much anywhere the day takes you."
+      },
+      "rawResponse": "{\n  \"verdict\": \"recommended\",\n  \"topProductId\": \"4826193821776\",\n  \"reasoning\": \"The catalog offers several minimalist sneakers that are explicitly described as lightweight and machine washable, making them easy to clean for travel. The Wool Runner in Dapple Grey is a perfect neutral option that balances comfort and simplicity.\",\n  \"gaps\": [\n    \"no weight in ounces/grams to quantify 'lightweight'\",\n    \"no mention of packability or how flat the shoes can fold for travel\",\n    \"no specific 'easy to clean' instructions for the Tree Piper models compared to the machine-washable Wool Runners\"\n  ]\n}",
+      "sampledProductIds": [
+        "6826511007824",
+        "6826509729872",
+        "6826510057552",
+        "6624167493712",
+        "4868497342544",
+        "4826197655632",
+        "4826193821776",
+        "6764631064656",
+        "6565493899344",
+        "6565490786384",
+        "6565492883536",
+        "6919093387344",
+        "6565493473360",
+        "6565490458704",
+        "6565494161488",
+        "3689951428688",
+        "7141507137616",
+        "7351262904400",
+        "7351262937168",
+        "6843711193168",
+        "7205200232528",
+        "7205190303824",
+        "7205190860880",
+        "7205196070992",
+        "7205202919504",
+        "7205202722896",
+        "7205202395216",
+        "7205198233680",
+        "7205194432592",
+        "7205211570256"
+      ],
+      "latencyMs": 1449,
+      "retried": false,
+      "usage": {
+        "promptTokens": 3793,
+        "completionTokens": 151,
+        "totalTokens": 3944
+      },
+      "error": null
+    },
+    {
+      "personaId": "vegan-with-reviews",
+      "modelSlug": "mistral-direct/mistral-small-2603",
+      "displayName": "Mistral Small 2603",
+      "intent": "vegan shoes with strong customer reviews — show me the rating breakdown",
+      "verdict": "ranked-low",
+      "topProductId": null,
+      "reasoning": "The catalog contains multiple vegan-friendly canvas shoes with hemp-and-cotton uppers, but lacks any customer review data or rating breakdowns, making it impossible to assess quality or satisfaction.",
+      "gaps": [
+        "no customer review data or ratings visible",
+        "no rating breakdown (e.g., 5-star distribution) provided",
+        "no product-specific review aggregation or summary"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: vegan shoes with strong customer reviews — show me the rating breakdown\n\nStore catalog (sampled, 30 products shown):\nID: 7339809570896\nTitle: Men's Canvas Cruiser - Regenerative Green (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7337068626000\nTitle: Men's Canvas Cruiser - Assured Blue (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7215610724432\nTitle: Women's Canvas Cruiser - Port (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7339809603664\nTitle: Women's Canvas Cruiser - Regenerative Green (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7257963298896\nTitle: Men's Canvas Cruiser - Deep Navy Stripes (Blizzard Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7339795021904\nTitle: Women's Canvas Cruiser - Radiant Gold (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7223946444880\nTitle: Women's Canvas Cruiser - Visionary Lilac (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7337068986448\nTitle: Women's Canvas Cruiser - Assured Blue (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7299467018320\nTitle: Women's Canvas Cruiser - Cultured Blue (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7257964478544\nTitle: Women's Canvas Cruiser - Deep Navy Stripes (Blizzard Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7228527018064\nTitle: Men's Canvas Cruiser - Visionary Lilac (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7223951327312\nTitle: Women's Canvas Cruiser - Mushroom (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7339771953232\nTitle: Men's Canvas Cruiser - Chestnut (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7339771592784\nTitle: Women's Canvas Cruiser - Chestnut (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7228527149136\nTitle: Men's Canvas Cruiser - Positive Pink (Warm White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7228527083600\nTitle: Women's Canvas Cruiser - Positive Pink (Warm White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7223946543184\nTitle: Men's Canvas Cruiser - Cultured Blue (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7223945232464\nTitle: Men's Canvas Cruiser - Mushroom (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7223944937552\nTitle: Men's Canvas Cruiser - Radiant Gold (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7215690940496\nTitle: Men's Canvas Cruiser - Port (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205191417936\nTitle: Men's Cruiser Canvas - Warm White (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205196988496\nTitle: Men's Cruiser Canvas - Blizzard (Blizzard Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205194694736\nTitle: Men's Cruiser Canvas - Anthracite (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205202165840\nTitle: Men's Canvas Cruiser - Resilient Olive (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205191516240\nTitle: Women's Canvas Cruiser - Adventurous Auburn (Warm White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205196726352\nTitle: Women's Cruiser Canvas - Blizzard (Blizzard Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205192695888\nTitle: Women's Cruiser Canvas - Anthracite (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205198299216\nTitle: Women's Canvas Cruiser - Resilient Olive (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205193515088\nTitle: Men's Canvas Cruiser - Adventurous Auburn (Warm White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …\n\nID: 7205191090256\nTitle: Women's Canvas Cruiser - Warm White (Natural White Sole)\nType: Shoes\nTags: (none)\nPrice: 75 USD\nDescription (first 250 chars): Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with …"
+      },
+      "rawResponse": "{\"verdict\": \"ranked-low\", \"topProductId\": null, \"reasoning\": \"The catalog contains multiple vegan-friendly canvas shoes with hemp-and-cotton uppers, but lacks any customer review data or rating breakdowns, making it impossible to assess quality or satisfaction.\", \"gaps\": [\"no customer review data or ratings visible\", \"no rating breakdown (e.g., 5-star distribution) provided\", \"no product-specific review aggregation or summary\"]}",
+      "sampledProductIds": [
+        "7339809570896",
+        "7337068626000",
+        "7215610724432",
+        "7339809603664",
+        "7257963298896",
+        "7339795021904",
+        "7223946444880",
+        "7337068986448",
+        "7299467018320",
+        "7257964478544",
+        "7228527018064",
+        "7223951327312",
+        "7339771953232",
+        "7339771592784",
+        "7228527149136",
+        "7228527083600",
+        "7223946543184",
+        "7223945232464",
+        "7223944937552",
+        "7215690940496",
+        "7205191417936",
+        "7205196988496",
+        "7205194694736",
+        "7205202165840",
+        "7205191516240",
+        "7205196726352",
+        "7205192695888",
+        "7205198299216",
+        "7205193515088",
+        "7205191090256"
+      ],
+      "latencyMs": 1338,
+      "retried": false,
+      "usage": {
+        "promptTokens": 3730,
+        "completionTokens": 99,
+        "totalTokens": 3829
+      },
+      "error": null
+    }
+  ],
+  "score": {
+    "overall": 64.5,
+    "dimensions": {
+      "discoverability": {
+        "score": 60.701402805611224,
+        "signals": [
+          {
+            "name": "tag density (visible tags/product)",
+            "value": 1.783567134268537,
+            "weight": 30,
+            "contribution": 10.701402805611224,
+            "source": "catalog"
+          },
+          {
+            "name": "product-type breadth",
+            "value": 0.0070140280561122245,
+            "weight": 20,
+            "contribution": 0,
+            "source": "catalog"
+          },
+          {
+            "name": "title specificity (avg word count)",
+            "value": 8.7374749498998,
+            "weight": 20,
+            "contribution": 20,
+            "source": "catalog"
+          },
+          {
+            "name": "persona surface rate (recommended + ranked-low)",
+            "value": 1,
+            "weight": 30,
+            "contribution": 30,
+            "source": "persona-verdicts"
+          }
+        ]
+      },
+      "description": {
+        "score": 63.41462925851704,
+        "signals": [
+          {
+            "name": "avg description word count",
+            "value": 32.357715430861724,
+            "weight": 30,
+            "contribution": 13.414629258517035,
+            "source": "catalog"
+          },
+          {
+            "name": "use-case language rate",
+            "value": 0.9318637274549099,
+            "weight": 25,
+            "contribution": 25,
+            "source": "catalog"
+          },
+          {
+            "name": "attribute detail rate",
+            "value": 1,
+            "weight": 25,
+            "contribution": 25,
+            "source": "catalog"
+          },
+          {
+            "name": "persona description-gap rate (inverted)",
+            "value": 1,
+            "weight": 20,
+            "contribution": 0,
+            "source": "persona-verdicts"
+          }
+        ]
+      },
+      "schema": {
+        "score": 70,
+        "signals": [
+          {
+            "name": "review signal rate",
+            "value": 0,
+            "weight": 30,
+            "contribution": 0,
+            "source": "catalog"
+          },
+          {
+            "name": "variant structure rate (multi-variant products)",
+            "value": 0.9849699398797596,
+            "weight": 25,
+            "contribution": 25,
+            "source": "catalog"
+          },
+          {
+            "name": "vendor consistency (count)",
+            "value": 1,
+            "weight": 25,
+            "contribution": 25,
+            "source": "catalog"
+          },
+          {
+            "name": "avg images per product",
+            "value": 4.090180360721443,
+            "weight": 20,
+            "contribution": 20,
+            "source": "catalog"
+          }
+        ]
+      },
+      "trust": {
+        "score": 65,
+        "signals": [
+          {
+            "name": "policy keyword rate",
+            "value": 0.530060120240481,
+            "weight": 35,
+            "contribution": 35,
+            "source": "catalog"
+          },
+          {
+            "name": "dominant-vendor share (brand clarity)",
+            "value": 1,
+            "weight": 30,
+            "contribution": 30,
+            "source": "catalog"
+          },
+          {
+            "name": "review signal rate (trust)",
+            "value": 0,
+            "weight": 20,
+            "contribution": 0,
+            "source": "catalog"
+          },
+          {
+            "name": "persona trust-gap rate (inverted)",
+            "value": 0.8,
+            "weight": 15,
+            "contribution": 0,
+            "source": "persona-verdicts"
+          }
+        ]
+      }
+    },
+    "recommendations": [
+      {
+        "id": "MISSING_REVIEW_SCHEMA",
+        "title": "Add review and rating data to product pages",
+        "description": "998 of 998 products have no review signals in their catalog data. AI shoppers asking about social proof have nothing to cite.",
+        "dimension": "schema",
+        "pointsLift": 9,
+        "productCount": 998,
+        "evidence": [
+          "4 of 5 personas reported missing review/rating data (Claude Haiku 4.5, GPT-4o mini, Llama 3.3 70B (Groq), Mistral Small 2603)"
+        ]
+      },
+      {
+        "id": "THIN_DESCRIPTIONS",
+        "title": "Expand thin product descriptions",
+        "description": "Average description is 32 words — below the 60–200 word window where AI shoppers can answer purchase-intent questions reliably.",
+        "dimension": "description",
+        "pointsLift": 5,
+        "productCount": 998,
+        "evidence": [
+          "catalog average: 32.4 words/product"
+        ]
+      },
+      {
+        "id": "LOW_TAG_DENSITY",
+        "title": "Add customer-visible tags to products",
+        "description": "Average 1.8 customer-visible tags per product (internal taxonomy stripped). AI shoppers use tags as a primary discovery surface; below 2 means many products are essentially invisible to tag-based queries.",
+        "dimension": "discoverability",
+        "pointsLift": 4,
+        "productCount": 998,
+        "evidence": [
+          "avg visible tags/product: 1.78"
+        ]
+      },
+      {
+        "id": "OVER_CONSOLIDATED_TAXONOMY",
+        "title": "Split over-consolidated product types",
+        "description": "7 unique product types across 998 products (breadth 0.007). Lumping everything under \"Shoes\" or \"Apparel\" hides differentiating signal that AI agents would use to narrow down.",
+        "dimension": "discoverability",
+        "pointsLift": 2,
+        "productCount": 998,
+        "evidence": [
+          "7 types / 998 products"
+        ]
+      }
+    ],
+    "computedAt": "2026-05-07T23:21:41.039Z"
+  },
+  "signals": {
+    "productCount": 998,
+    "averageDescriptionWords": 32.357715430861724,
+    "averageTagsPerProduct": 14.619238476953909,
+    "averageVisibleTagsPerProduct": 1.783567134268537,
+    "averageImagesPerProduct": 4.090180360721443,
+    "uniqueProductTypeCount": 7,
+    "uniqueVendorCount": 1,
+    "productTypeBreadth": 0.0070140280561122245,
+    "averageTitleWordCount": 8.7374749498998,
+    "reviewSignalRate": 0,
+    "useCaseLanguageRate": 0.9318637274549099,
+    "attributeDetailRate": 1,
+    "policyKeywordRate": 0.530060120240481,
+    "variantStructureRate": 0.9849699398797596,
+    "duplicateHandleCount": 0
+  },
+  "uniqueVendorShareTop": 1
+}

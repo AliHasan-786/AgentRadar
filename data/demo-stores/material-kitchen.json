@@ -1,0 +1,2341 @@
+{
+  "slug": "material-kitchen",
+  "hostname": "materialkitchen.com",
+  "displayName": "Material Kitchen",
+  "vertical": "Home / kitchen",
+  "capturedAt": "2026-05-07T23:28:23.218Z",
+  "tier": "live",
+  "catalog": {
+    "metadata": {
+      "hostname": "materialkitchen.com",
+      "productCount": 102,
+      "uniqueVendors": [
+        "Farmhouse Pottery",
+        "Material",
+        "Rise.ai",
+        "Tortuga Forma"
+      ],
+      "uniqueProductTypes": [
+        "Cooking Sets",
+        "Cookware",
+        "Dinnerware",
+        "Dishware",
+        "Flatware",
+        "Gift Card",
+        "Kitchen",
+        "Knives",
+        "Prepware",
+        "Sets",
+        "Storage + Care",
+        "Stylux Personalization",
+        "Table Linens",
+        "Tabletop",
+        "Textiles & Linens",
+        "Tools"
+      ],
+      "inferredVertical": "home",
+      "averageDescriptionWords": 66.58823529411765,
+      "productsWithReviews": 1,
+      "productsWithUseCaseTags": 47,
+      "averageImagesPerProduct": 5.117647058823529,
+      "averageTagsPerProduct": 4.803921568627451,
+      "fetchedAt": "2026-05-07T23:22:30.408Z"
+    },
+    "sampleProducts": [
+      {
+        "id": "7008021446718",
+        "handle": "the-picnic-tote",
+        "title": "Aplat x Material Picnic Tote",
+        "description": "A limited-edition collaboration with Aplat , one of our favorite fellow AAPI- and woman-founded businesses. Idyllic picnics await with this tote perfectly sized for transporting The reBowl®, The reBoard® of your choice (mini or full size), and The Almost 4\" Knife, with a special knife pocket for preparing food on the go. Price as marked. This item is not eligible for additional discounts.",
+        "descriptionHtml": "<p><strong>A limited-edition collaboration with <a data-mce-fragment=\"1\" href=\"https://aplat.com/\" data-mce-href=\"https://aplat.com/\">Aplat</a></strong><span data-mce-fragment=\"1\" style=\"font-weight: 400;\" data-mce-style=\"font-weight: 400;\">, one of our favorite fellow AAPI- and woman-founded businesses. Idyllic picnics await with this tote perfectly sized for transporting The reBowl®, The reBoard® of your choice (mini or full size), and The Almost 4\" Knife, with a special knife pocket for preparing food on the go.</span></p><br><br>Price as marked. This item is not eligible for additional discounts.",
+        "vendor": "Material",
+        "productType": "",
+        "tags": [
+          "badge-42% off",
+          "badge-last chance",
+          "logicbroker"
+        ],
+        "priceMin": 40,
+        "priceMax": 40,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/AplatTote.png?v=1762451557",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/2022_06_23_Material_Kitchen_FS_Picknicking_0343-SELECT_RET.jpg?v=1657120790",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/20220705-_F5A9000.jpg?v=1657120790",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/20220705-_F5A8983.jpg?v=1657120790",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/20220705-_F5A8950-copy.jpg?v=1657120790",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "39796585594942",
+            "title": "Default Title",
+            "price": 40,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2022-06-30T07:29:41-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8052219084862",
+        "handle": "artisan-felt-pom-pom-trivet",
+        "title": "Artisan Felt Pom Pom Trivet",
+        "description": "Fantastic in feel, this multi-toned Felted Pom Pom Trivet offers a fresh touch of soft style for your space when serving. Practical and stylish for any kitchen, protecting your table and countertops with ease. Fair Trade Certified. Handcrafted in Nepal. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><span>Fantastic in feel, this multi-toned Felted Pom Pom Trivet offers a fresh touch of soft style for your space when serving. Practical and stylish for any kitchen, protecting your table and countertops with ease.  <br></span><strong></strong></p>\n<p><img alt=\"Fair Trade Certified\" src=\"https://cdn.shopify.com/s/files/1/0796/3039/files/fair-trade_23278713-6173-4865-901e-6a4d3186d08a_100x100.jpg?v=1667595548\"></p>\n<p><br></p>\n<p>Fair Trade Certified. <br><span>Handcrafted in Nepal.</span></p>\n<p><span>MK Finds items are not eligible for discounts. </span></p>",
+        "vendor": "Farmhouse Pottery",
+        "productType": "Kitchen",
+        "tags": [
+          "badge-Farmhouse Pottery",
+          "badge-MK Finds",
+          "Farmhouse Pottery",
+          "Shopify Collective"
+        ],
+        "priceMin": 22,
+        "priceMax": 22,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/FarmhousePotteryArtisanFeltPomPomTrivet.png?v=1775683886",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/ACC564_Artisan_Felt_Pom_Pom_Trivet_Lifestyle_1_69bdb176-f136-4f57-95ef-e52bfcfac99a.jpg?v=1775683886",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/artisan-felt-pom-pom-trivet-2.jpg?v=1775683886",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Artisan-felt-pom-pom-trivet.jpg?v=1775683886",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42632943730750",
+            "title": "Default Title",
+            "price": 22,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-25T11:10:51-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8052218921022",
+        "handle": "artisan-felt-pom-pom-trivet-natural-moss",
+        "title": "Artisan Felt Pom Pom Trivet - Natural & Moss",
+        "description": "Bring a touch of whimsy and warmth to your table with this handcrafted felted trivet. Made from soft, durable wool, it’s as functional as it is charming—protecting surfaces while adding a pop of texture. A thoughtful gift or a cheerful accent, it’s a little piece of cozy craft you’ll reach for again and again. Fair Trade Certified. Handcrafted in Nepal. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p data-start=\"76\" data-end=\"564\">Bring a touch of whimsy and warmth to your table with this handcrafted felted trivet. Made from soft, durable wool, it’s as functional as it is charming—protecting surfaces while adding a pop of texture. A thoughtful gift or a cheerful accent, it’s a little piece of cozy craft you’ll reach for again and again.<strong></strong></p>\n<p><br><br></p>\n<p><img src=\"https://cdn.shopify.com/s/files/1/0796/3039/files/fair-trade_23278713-6173-4865-901e-6a4d3186d08a_100x100.jpg?v=1667595548\" alt=\"Fair Trade Certified\"></p>\n<p><br></p>\n<p>Fair Trade Certified. <br><span>Handcrafted in Nepal.</span></p>\n<p><span>MK Finds items are not eligible for discounts. </span></p>",
+        "vendor": "Farmhouse Pottery",
+        "productType": "Kitchen",
+        "tags": [
+          "badge-Farmhouse Pottery",
+          "badge-MK Finds",
+          "Farmhouse Pottery",
+          "Shopify Collective"
+        ],
+        "priceMin": 22,
+        "priceMax": 22,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/FeltTrivetFarmhousePotteryTransparentPNG.png?v=1776284013",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/ACC666_ALT-1_1.jpg?v=1776284013",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/FHP_Felt_trivet_1_1_1.jpg?v=1776284013",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/ACC666_1.jpg?v=1776284013",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42632943304766",
+            "title": "Default Title",
+            "price": 22,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-25T11:10:45-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039265992766",
+        "handle": "bread-plate-set-of-4",
+        "title": "Bread Plate Set of 4",
+        "description": "The Tortugaware bread plate is the smallest member but completes the set. Its subtle rolling edge and weighted clay body feel substantial in the hand while stacking beautifully with the dinner and salad plates. Dishwasher, microwave, and oven safe, this modern bread plate offers everyday utility with an artisan touch—ideal for bread, dessert, or small bites. At 6.5\"D, the small plate was meant to be held in the hand Made in Mexico.. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">The Tortugaware bread plate is the smallest member but completes the set. Its subtle rolling edge and weighted clay body feel substantial in the hand while stacking beautifully with the dinner and salad plates. Dishwasher, microwave, and oven safe, this modern bread plate offers everyday utility with an artisan touch—ideal for bread, dessert, or small bites. At 6.5\"D, the small plate was meant to be held in the hand </span></p>\n<p><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 0.875rem;\">Made in Mexico..</span></p>\n<br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Sets",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 151,
+        "priceMax": 151,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-SOOT-4.png?v=1774386796",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-Lichen-Soot-Fig.jpg?v=1774386796",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW_Glaze_Detail.jpg?v=1774386796",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-BONE-4.png?v=1774386796",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-LICH-4.png?v=1774386796",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-TIER-4.png?v=1774383753",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-Bread-Back_217e20c8-a4f2-4982-b738-78f88e1ea2f5.png?v=1774383753",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571211210814",
+            "title": "Bone",
+            "price": 151,
+            "available": true
+          },
+          {
+            "id": "42571211243582",
+            "title": "Lichen",
+            "price": 151,
+            "available": true
+          },
+          {
+            "id": "42571211276350",
+            "title": "Soot",
+            "price": 151,
+            "available": true
+          },
+          {
+            "id": "42571211309118",
+            "title": "Tierra",
+            "price": 151,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:18:58-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039265927230",
+        "handle": "bread-plate-single",
+        "title": "Bread Plate Single",
+        "description": "The sculptural bread plate from Tortugaware features a sculpted edge and modern organic form. Built to stack beautifully and feel balanced in the hand, it adds elegance to the dining table and fits perfectly in the hand for standing bites. Microwave, dishwasher, and oven safe up to 300°F—it’s the perfect modern small plate for any setting. Made in Mexico. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p>The sculptural bread plate from Tortugaware features a sculpted edge and modern organic form. Built to stack beautifully and feel balanced in the hand, it adds elegance to the dining table and fits perfectly in the hand for standing bites. Microwave, dishwasher, and oven safe up to 300°F—it’s the perfect modern small plate for any setting.</p>\n<br><br>\n<p>Made in Mexico.</p>\n<br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Dishware",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 42,
+        "priceMax": 42,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-BONE.png?v=1774383974",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-LICH.png?v=1774383974",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-SOOT.png?v=1774383974",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-BRD-TIER.png?v=1774383974",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW_Set_2.png?v=1774383974",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571210948670",
+            "title": "Bone",
+            "price": 42,
+            "available": true
+          },
+          {
+            "id": "42571210981438",
+            "title": "Lichen",
+            "price": 42,
+            "available": true
+          },
+          {
+            "id": "42571211014206",
+            "title": "Soot",
+            "price": 42,
+            "available": true
+          },
+          {
+            "id": "42571211046974",
+            "title": "Tierra",
+            "price": 42,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:18:58-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266254910",
+        "handle": "dinner-napkins-double-sided-checker-high-season",
+        "title": "Dinner Napkins Double Sided Checker - High Season",
+        "description": "A contemporary twist on the timeless Checker, the Tortuga Forma version of this pattern introduces a soft curve into the geometry. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the colors vibrate in surprising combinations on each side. The dinner napkins are printed on 100% cotton shantung with a light woven texture and a luxurious touch. Dinner napkins are sold as a set of 4. Made in Japan. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><span>A contemporary twist on the timeless Checker, the Tortuga Forma version of this pattern introduces a soft curve into the geometry. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the colors vibrate in surprising combinations on each side. The dinner napkins are printed on 100% cotton shantung with a light woven texture and a luxurious touch.</span></p>\n<br><br>\n<p><meta charset=\"utf-8\"><span>Dinner napkins are sold as a set of 4. Made in Japan.<em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 88,
+        "priceMax": 88,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8412.png?v=1774384395",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_Forma_reversible_cloth_napkins_checker_sky.png?v=1774384395",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_Forma_reversible_cloth_napkins_checker_sunrise.png?v=1774384395",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8452.png?v=1774384189",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8457.png?v=1774384188",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212619838",
+            "title": "Checker Sky",
+            "price": 88,
+            "available": true
+          },
+          {
+            "id": "42571212652606",
+            "title": "Checker Sunrise",
+            "price": 88,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266320446",
+        "handle": "dinner-napkins-double-sided-checker-quiet-season",
+        "title": "Dinner Napkins Double Sided Checker - Quiet Season",
+        "description": "The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A counterpart to Tortuga Forma's bolder styles, this rendition of our Checker pattern appears in refined colors — slate, soil, apricot, and petal. Designed to pair effortlessly with existing table linens, the Quite Season brings sophistication to everyday settings. Each napkin is part of our double-sided collection, featuring a distinct design on the reverse side with a subtle shift in scale and color for a layered, versatile presentation. Printed on 100% cotton shantung, the fabric has a lightly textured hand and a soft, luxurious drape. Dinner napkins are sold as a set of 4. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"UTF-8\"><meta charset=\"utf-8\"><span>The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments.  <meta charset=\"utf-8\">A counterpart to Tortuga Forma's bolder styles, this rendition of our Checker pattern appears in refined colors — slate, soil, apricot, and petal. <meta charset=\"utf-8\">Designed to pair effortlessly with existing table linens, the Quite Season brings sophistication to everyday settings. Each napkin is part of our double-sided collection, featuring a distinct design on the reverse side with a subtle shift in scale and color for a layered, versatile presentation. Printed on 100% cotton shantung, the fabric has a lightly textured hand and a soft, luxurious drape.</span></p>\n<br><br>\n<p><meta charset=\"utf-8\"><span>Dinner napkins are sold as a set of 4. <em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 88,
+        "priceMax": 88,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11357.png?v=1774453589",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/137-web.jpg?v=1774453589",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Cloth_Napkin_in_reversible_checker.jpg?v=1774453589",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11364.png?v=1774384463",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11407.png?v=1774384464",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212554302",
+            "title": "Strata",
+            "price": 88,
+            "available": true
+          },
+          {
+            "id": "42571212587070",
+            "title": "Rosewood",
+            "price": 88,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266353214",
+        "handle": "dinner-napkins-double-sided-comb-high-season",
+        "title": "Dinner Napkins Double Sided Comb - High Season",
+        "description": "We call this pattern the Comb to describe its mesmerizing undulations. In rich, jewel-toned emerald with accents of garnet and peridot, this sophisticated design adds visual flair to the tabletop. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the colors vibrate in surprising combinations on each side. The dinner napkins are printed on 100% cotton shantung with a light woven texture and a luxurious touch. Dinner napkins are sold as a set of 4. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><span>We call this pattern the Comb to describe its mesmerizing undulations. In rich, jewel-toned emerald with accents of garnet and peridot, this sophisticated design adds visual flair to the tabletop. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the colors vibrate in surprising combinations on each side. The dinner napkins are printed on 100% cotton shantung with a light woven texture and a luxurious touch. </span></p>\n<br><br>\n<p><meta charset=\"utf-8\"><span>Dinner napkins are sold as a set of 4. <em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 88,
+        "priceMax": 88,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_Forma_reversible_cloth_napkins_comb_emerald.png?v=1774384664",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_Forma_reversible_comb_dinner_napkins_in_garnet.png?v=1774384664",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8470.png?v=1774384666",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8473.png?v=1774384664",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212685374",
+            "title": "Comb Peridot",
+            "price": 88,
+            "available": true
+          },
+          {
+            "id": "42571212718142",
+            "title": "Comb Garnet",
+            "price": 88,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266025534",
+        "handle": "dinner-napkins-double-sided-drift-quiet-season",
+        "title": "Dinner Napkins Double Sided Drift - Quiet Season",
+        "description": "The Quiet Season Collection introduces a grounded palette rooted in nature’s more contemplative tones. The new Drift pattern reimagines classic weaving motifs in a softened spectrum—gold, bayleaf, soil, apricot, and dusty blue—bringing a sense of quiet rhythm to the table. Each cloth napkin in the double-sided collection reveals a coordinated design on the reverse, with shifts in pattern scale and tone that add subtle dimension. Printed on 100% cotton shantung, the fabric’s gentle texture and fluid drape bring tactile richness to the table. Dinner napkins are sold as a set of 4. Made in Japan. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"UTF-8\"><meta charset=\"utf-8\">The Quiet Season Collection introduces a grounded palette rooted in nature’s more contemplative tones. The new <em data-start=\"358\" data-end=\"365\">Drift</em> pattern reimagines classic weaving motifs in a softened spectrum—gold, bayleaf, soil, apricot, and dusty blue—bringing a sense of quiet rhythm to the table. Each cloth napkin in the double-sided collection reveals a coordinated design on the reverse, with shifts in pattern scale and tone that add subtle dimension. Printed on 100% cotton shantung, the fabric’s gentle texture and fluid drape bring tactile richness to the table.</p>\n<br><br>\n<p><meta charset=\"utf-8\"><span>Dinner napkins are sold as a set of 4. Made in Japan.<em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Sets",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 88,
+        "priceMax": 88,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11388.png?v=1774461797",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/84-1-web.jpg?v=1774461797",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Drift-Bayleaf.jpg?v=1774461797",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11388.jpg?v=1774461797",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11374.png?v=1774461797",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11380.png?v=1774461797",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571211341886",
+            "title": "Mesa",
+            "price": 88,
+            "available": true
+          },
+          {
+            "id": "42571211374654",
+            "title": "Bayleaf",
+            "price": 88,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:18:58-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266385982",
+        "handle": "dinner-napkins-double-sided-grid-high-season",
+        "title": "Dinner Napkins Double Sided Grid - High Season",
+        "description": "Tortuga Forma's version of the Grid pattern is marvelously wonky with free-form lines intersecting with orthagonal ones. It's a classic without being predictable. Available in wine and cocktail inspired palettes to camouflage spills. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the colors vibrate in surprising combinations on each side. The dinner napkins are printed on 100% cotton shantung with a light woven texture and a luxurious touch. Dinner napkins are sold as a set of 4. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><span>Tortuga Forma's version of the Grid pattern is marvelously wonky with free-form lines intersecting with orthagonal ones. It's a classic without being predictable. Available in wine and cocktail inspired palettes to camouflage spills. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the colors vibrate in surprising combinations on each side. The dinner napkins are printed on 100% cotton shantung with a light woven texture and a luxurious touch. </span></p>\n<br><br>\n<p><meta charset=\"utf-8\"><span>Dinner napkins are sold as a set of 4. <em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 88,
+        "priceMax": 88,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_Forma_reversible_grid_cloth_napkins_in_olive.png?v=1774384978",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_Forma_reversible_grid_dinner_napkins_wine.png?v=1774384978",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_reversible_cloth_napkin_grid_sky.png?v=1774384979",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-detailGridSky.png?v=1774384978",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8421.png?v=1774384978",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8475.png?v=1774384978",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-napkins8483.png?v=1774384978",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212750910",
+            "title": "Grid Martini",
+            "price": 88,
+            "available": true
+          },
+          {
+            "id": "42571212783678",
+            "title": "Grid Vino",
+            "price": 88,
+            "available": true
+          },
+          {
+            "id": "42571212816446",
+            "title": "Grid Sky",
+            "price": 88,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266156606",
+        "handle": "dinner-napkins-double-sided-stripe-quiet-season",
+        "title": "Dinner Napkins Double Sided Stripe - Quiet Season",
+        "description": "The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A refined counterpart to Tortuga Forma's bolder styles, this cloth napkin version of their signature Broken Stripe is rendered in hushed tones — ash, gold, dusty blue, and violet—for a table display that works with the neutrals already in the linen closet. Tortuga Forma's double-sided collection displays a distinct design on the front and back with a scaled variation of the pattern for a surprise reveal The napkins are printed on 100% cotton shantung with a light woven texture. Dinner napkins are sold as a set of 4. Made in Japan. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"UTF-8\"><meta charset=\"utf-8\"><span>The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments.  A refined counterpart to Tortuga Forma's bolder styles, this cloth napkin version of their signature Broken Stripe is rendered in hushed tones — ash, gold, dusty blue, and violet—for a table display that works with the neutrals already in the linen closet. Tortuga Forma's double-sided collection displays a distinct design on the front and back with a scaled variation of the pattern for a surprise reveal The napkins are printed on 100% cotton shantung with a light woven texture. </span></p>\n<br><br>\n<p><meta charset=\"utf-8\"><span>Dinner napkins are sold as a set of 4. Made in Japan.<em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 88,
+        "priceMax": 88,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11398.png?v=1774461745",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11398.jpg?v=1774461745",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/79-1-web.jpg?v=1774461745",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/100-web.jpg?v=1774461745",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11351.png?v=1774461745",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_napkins11347.png?v=1774461745",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212292158",
+            "title": "Mariposa",
+            "price": 88,
+            "available": true
+          },
+          {
+            "id": "42571212324926",
+            "title": "Stonecrop",
+            "price": 88,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266287678",
+        "handle": "dinner-napkins-sabi-mixed-sets",
+        "title": "Dinner Napkins Sabi Mixed Sets",
+        "description": "Tortuga Forma's luxurious Sabi dinner napkins transform table settings with the philosophy of wabi sabi—celebrating beautiful imperfection through irregular slubs, rich dyes, and a distinctive texture. For a curated look of mixed napkin sets, choose from Terrane, inspired by rich earth tones, or Tide, drawing from the varied blue-green and grays of ocean depths. Machine woven from 100% cotton using a traditional textile originally used for everyday kimonos, these table linens are made for formal dining but bring elegance to casual occasions. Like a favorite pair of denim, Sabi gets better with time and is meant to be washed frequently, developing a lived-in softness with time. Dinner napkins are sold as a set of 4. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p>Tortuga Forma's luxurious Sabi dinner napkins transform table settings with the philosophy of wabi sabi—celebrating beautiful imperfection through irregular slubs, rich dyes, and a distinctive texture. For a curated look of mixed napkin sets, choose from Terrane, inspired by rich earth tones, or Tide, drawing from the varied blue-green and grays of ocean depths. Machine woven from 100% cotton using a traditional textile originally used for everyday kimonos, these table linens are made for formal dining but bring elegance to casual occasions. Like a favorite pair of denim, Sabi gets better with time and is meant to be washed frequently, developing a lived-in softness with time. </p>\n<br><br>\n<p><meta charset=\"utf-8\"><span>Dinner napkins are sold as a set of 4. <em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 100,
+        "priceMax": 100,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Mixed_Set_Tide.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Sabi_Napkin_Set_Tide.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Terrane_Mixed_Set.jpg?v=1773767949",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Sabi_Dinner_Napkins_in_Terrane.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Sabi_Detail_Texture_Terrane.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Sabi_Detail_Texture_Tide.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Terrane_Mixed_Set.png?v=1774385365",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Mixed_Set_Tide.png?v=1774385364",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Sabi_Detail_Texture_Terrane.png?v=1774385365",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Dinner_Napkin_Sabi_Detail_Texture_Tide.png?v=1774385365",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212423230",
+            "title": "Terrane",
+            "price": 100,
+            "available": true
+          },
+          {
+            "id": "42571212455998",
+            "title": "Tide",
+            "price": 100,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039265959998",
+        "handle": "dinner-plate-set-of-4",
+        "title": "Dinner Plate Set of 4",
+        "description": "At the heart of Tortugaware’s dinner plate lies the sculpted edge—a distinctive form that engages the eye and welcomes the hand. Designed to feel extraordinary in the hands and to stack like sculptures, these modern stoneware dinner plates build undulating landscapes across the table. Each plate has a substantial clay body that gives it weight, presence, and durability for modern living. Microwave, dishwasher, and oven safe up to 300°F. Made in Mexico. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p>At the heart of Tortugaware’s dinner plate lies the sculpted edge—a distinctive form that engages the eye and welcomes the hand. Designed to feel extraordinary in the hands and to stack like sculptures, these modern stoneware dinner plates build undulating landscapes across the table. Each plate has a substantial clay body that gives it weight, presence, and durability for modern living. Microwave, dishwasher, and oven safe up to 300°F.</p>\n<br><br>\n<p>Made in Mexico.</p>\n<br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Sets",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 259,
+        "priceMax": 259,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-BONE-4.png?v=1774386781",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW_Glaze_Detail_2a5022be-bbb0-4183-b29f-410c323f99fd.jpg?v=1774386781",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-TIER-4.png?v=1774386781",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-LICH-4.png?v=1774386163",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-SOOT-4.png?v=1774386163",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571211079742",
+            "title": "Bone",
+            "price": 259,
+            "available": true
+          },
+          {
+            "id": "42571211112510",
+            "title": "Lichen",
+            "price": 259,
+            "available": true
+          },
+          {
+            "id": "42571211145278",
+            "title": "Soot",
+            "price": 259,
+            "available": true
+          },
+          {
+            "id": "42571211178046",
+            "title": "Tierra",
+            "price": 259,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:18:58-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266091070",
+        "handle": "dinner-plate-single",
+        "title": "Dinner Plate Single",
+        "description": "The Tortugaware dinner plate brings sculptural form to everyday function. The signature rolling edge creates visual movement when stacked and a comfortable hold when served. Crafted from substantial stoneware, each plate feels grounded and luxurious—built for the modern kitchen yet rooted in timeless design. Microwave, dishwasher, and oven safe up to 300°F, this dinner plate brings warmth and artistry to any table. Made in Mexico. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p>The Tortugaware dinner plate brings sculptural form to everyday function. The signature rolling edge creates visual movement when stacked and a comfortable hold when served. Crafted from substantial stoneware, each plate feels grounded and luxurious—built for the modern kitchen yet rooted in timeless design. Microwave, dishwasher, and oven safe up to 300°F, this dinner plate brings warmth and artistry to any table.</p>\n<p>Made in Mexico.</p>\n<br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Dishware",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 72,
+        "priceMax": 72,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-BONE.png?v=1774386755",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW_Set_1.png?v=1774386755",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-Dinner-Back_4f79a02e-bebe-43b6-8068-bc2f123e2f81.jpg?v=1774386755",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-LICH.png?v=1774385972",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-SOOT.png?v=1774385972",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-DIN-TIER.png?v=1774385972",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571211407422",
+            "title": "Bone",
+            "price": 72,
+            "available": true
+          },
+          {
+            "id": "42571211440190",
+            "title": "Lichen",
+            "price": 72,
+            "available": true
+          },
+          {
+            "id": "42571211472958",
+            "title": "Soot",
+            "price": 72,
+            "available": true
+          },
+          {
+            "id": "42571211505726",
+            "title": "Tierra",
+            "price": 72,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:18:58-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8052218986558",
+        "handle": "french-country-cutlery",
+        "title": "French Country Cutlery",
+        "description": "With generous silhouettes and a nature-inspired design, Farmhouse Pottery's French Country Cutlery brings everyday meals into a more soulful rhythm. Each piece is gracefully shaped with a subtle leaf motif—quietly refined, yet grounded in tradition. The vintage finish adds warmth and patina, making this set a natural pairing for rustic tables and heirloom linens. A timeless choice for those who savor the charm of countryside living. Available in a 5 piece set or 20 piece set. 5 Piece i ncludes fork, salad fork, knife, tablespoon and dessert spoon. 20 Piece includes 4 forks, 4 salad forks, 4 knives, 4 tablespoons, and 4 dessert spoons. Farmhouse Pottery items are not eligible for discounts.",
+        "descriptionHtml": "<p data-start=\"123\" data-end=\"543\">With generous silhouettes and a nature-inspired design, Farmhouse Pottery's French Country Cutlery brings everyday meals into a more soulful rhythm. Each piece is gracefully shaped with a subtle leaf motif—quietly refined, yet grounded in tradition. The vintage finish adds warmth and patina, making this set a natural pairing for rustic tables and heirloom linens. A timeless choice for those who savor the charm of countryside living.</p>\n<p><br><br></p>\n<p><span>Available in a 5 piece set or 20 piece set.</span></p>\n<ul>\n<li>\n<span>5 Piece i</span><span>ncludes fork, salad fork, knife, tablespoon and dessert spoon. </span>\n</li>\n<li>20 Piece includes 4 forks, 4 salad forks, 4 knives, 4 tablespoons, and 4 dessert spoons.</li>\n</ul>\n<p><meta charset=\"utf-8\">Farmhouse Pottery items are not eligible for discounts. </p>",
+        "vendor": "Farmhouse Pottery",
+        "productType": "Flatware",
+        "tags": [
+          "badge-Farmhouse Pottery",
+          "badge-MK Finds",
+          "Farmhouse Pottery",
+          "Shopify Collective"
+        ],
+        "priceMin": 95,
+        "priceMax": 355,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/4_c675ad6f-c026-4495-a9fe-2ba14fa63c43.png?v=1776297734",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/French_Country_Flatware_FLT106.jpg?v=1776297734",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/French_Country_Flatware_FLT106_lifestyle2.jpg?v=1776297734",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/French_Country_Flatware_FLT106_lifestyle.jpg?v=1776297734",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Holiday_Table_10_1.jpg?v=1776297734",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42632943534142",
+            "title": "5 Piece",
+            "price": 95,
+            "available": true
+          },
+          {
+            "id": "42632943566910",
+            "title": "20 Piece",
+            "price": 355,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-25T11:10:51-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8052219019326",
+        "handle": "pantry-cutlery",
+        "title": "Pantry Cutlery",
+        "description": "Inspired by vintage camp-style utensils, Farmhouse Pottery's Pantry Cutlery blends rugged charm with thoughtful design. The squared edges and simple lines give each piece a sense of structure—balanced, grounded, and quietly bold. Finished with an aged patina, it's flatware that feels right at home in both everyday meals and rustic gatherings. A timeless staple for those who love form, function, and a little character. Available in a 5 piece set or 20 piece set. 5 Piece i ncludes fork, salad fork, knife, tablespoon and dessert spoon. 20 Piece includes 4 forks, 4 salad forks, 4 knives, 4 tablespoons, and 4 dessert spoons. Farmhouse Pottery items are not eligible for discounts.",
+        "descriptionHtml": "<p data-end=\"529\" data-start=\"124\">Inspired by vintage camp-style utensils, Farmhouse Pottery's Pantry Cutlery blends rugged charm with thoughtful design. The squared edges and simple lines give each piece a sense of structure—balanced, grounded, and quietly bold. Finished with an aged patina, it's flatware that feels right at home in both everyday meals and rustic gatherings. A timeless staple for those who love form, function, and a little character.<br><br></p>\n<p><span>Available in a 5 piece set or 20 piece set.</span></p>\n<ul>\n<li>\n<span>5 Piece i</span><span>ncludes fork, salad fork, knife, tablespoon and dessert spoon. </span>\n</li>\n<li>20 Piece includes 4 forks, 4 salad forks, 4 knives, 4 tablespoons, and 4 dessert spoons.</li>\n</ul>\n<p><meta charset=\"utf-8\">Farmhouse Pottery items are not eligible for discounts. </p>",
+        "vendor": "Farmhouse Pottery",
+        "productType": "Flatware",
+        "tags": [
+          "badge-Farmhouse Pottery",
+          "badge-MK Finds",
+          "Farmhouse Pottery",
+          "Shopify Collective"
+        ],
+        "priceMin": 85,
+        "priceMax": 325,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/3_3e5152a4-1d58-44c9-af44-fdfb32bdaffb.png?v=1776297689",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Pantry_Flatware_FLT104_lifestyle2.jpg?v=1776297689",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Pantry_Flatware_FLT104_lifestyle.jpg?v=1776297689",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Pantry_Flatware_FLT104.jpg?v=1776297689",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42632943599678",
+            "title": "5 Piece",
+            "price": 85,
+            "available": true
+          },
+          {
+            "id": "42632943632446",
+            "title": "20 Piece",
+            "price": 325,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-25T11:10:51-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266058302",
+        "handle": "serve-platter",
+        "title": "Serve Platter",
+        "description": "The Tortugaware serving platter embodies the sculpted language of the collection with dual curves designed for intuitive handling and elegant presentation. Generous in scale and presence at 13.4\"D, it completes the undulating tablescape with a mid-century soul. Handcrafted in Mexico from substantial stoneware, oven safe for warm dishes, and best cared for by handwashing. Made in Mexico. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p>The Tortugaware serving platter embodies the sculpted language of the collection with dual curves designed for intuitive handling and elegant presentation. Generous in scale and presence at 13.4\"D, it completes the undulating tablescape with a mid-century soul. Handcrafted in Mexico from substantial stoneware, oven safe for warm dishes, and best cared for by handwashing.</p>\n\n<br><br>\n<p><meta charset=\"utf-8\"><span>Made in Mexico.<em>\n</em></span></p><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Dishware",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 160,
+        "priceMax": 160,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-Serve-Platter-Mortadella.jpg?v=1773767941",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-SERV-BONE.png?v=1774386298",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-SERV-LICH.png?v=1774386299",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-SERV-SOOT.png?v=1774386298",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TW-SERV-TIER_490150f9-916a-4828-9a6b-59eddf76d084.png?v=1774386298",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571211538494",
+            "title": "Bone",
+            "price": 160,
+            "available": true
+          },
+          {
+            "id": "42571211571262",
+            "title": "Lichen",
+            "price": 160,
+            "available": true
+          },
+          {
+            "id": "42571211604030",
+            "title": "Soot",
+            "price": 160,
+            "available": true
+          },
+          {
+            "id": "42571211636798",
+            "title": "Tierra",
+            "price": 160,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:18:58-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8052218953790",
+        "handle": "silo-cutlery",
+        "title": "Silo Cutlery",
+        "description": "Streamlined yet soulful, the Silo Cutlery brings modern form to the timeless ritual of gathering around the table. Crafted with a vintage-inspired finish, each piece is perfectly weighted and designed to feel both elevated and effortless in hand. Clean lines and subtle texture strike a balance between contemporary design and lasting tradition. Whether it’s a weeknight dinner or a holiday feast, this set is made to be passed around — and passed down. Available in a 5 piece set or 20 piece set. 5 Piece includes fork, salad fork, knife, tablespoon and dessert spoon. 20 piece includes 5 forks, 5 knives, 5 tablespoons and 5 dessert spoons Farmhouse Pottery items are not eligible for discounts.",
+        "descriptionHtml": "<p data-start=\"199\" data-end=\"671\">Streamlined yet soulful, the Silo Cutlery brings modern form to the timeless ritual of gathering around the table. Crafted with a vintage-inspired finish, each piece is perfectly weighted and designed to feel both elevated and effortless in hand. Clean lines and subtle texture strike a balance between contemporary design and lasting tradition. Whether it’s a weeknight dinner or a holiday feast, this set is made to be passed around — and passed down.</p>\n<p><br><br></p>\n<p>Available in a 5 piece set or 20 piece set.</p>\n<ul>\n<li>5 Piece includes fork, salad fork, knife, tablespoon and dessert spoon. </li>\n<li>20 piece includes 5 forks, 5 knives, 5 tablespoons and 5 dessert spoons</li>\n</ul>\n<p><meta charset=\"utf-8\">Farmhouse Pottery items are not eligible for discounts. </p>",
+        "vendor": "Farmhouse Pottery",
+        "productType": "Flatware",
+        "tags": [
+          "badge-Farmhouse Pottery",
+          "badge-MK Finds",
+          "Farmhouse Pottery",
+          "Shopify Collective"
+        ],
+        "priceMin": 95,
+        "priceMax": 355,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/5_54856491-ad72-4587-b212-bd52450e8c7b.png?v=1776297770",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Silo_Cutlery_FLT103.jpg?v=1776297770",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Flatware_Gingham.jpg?v=1776297770",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Silo_Flatware_lifestyle2FLT103.jpg?v=1776297770",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42632943337534",
+            "title": "5 Piece",
+            "price": 95,
+            "available": true
+          },
+          {
+            "id": "42632943370302",
+            "title": "20 Piece",
+            "price": 355,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-25T11:10:45-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266222142",
+        "handle": "tablecloth-reversible-checker",
+        "title": "Tablecloth Reversible Checker",
+        "description": "Bring timeless and playful patterns to your table with our reversible tablecloths, ideal for everyday meals and special occasions. The Checker Sky brings a soft curve into a geometric pattern which vibrates in classic yellow, light blue, and cream. Each tablecloth features a unique design with a central panel and two side panels in complementary palettes and rich colors. Made from 100% cotton shantung with a lightly textured weave. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><span>Bring timeless and playful patterns to your table with our reversible tablecloths, ideal for everyday meals and special occasions. The Checker Sky brings a soft curve into a geometric pattern which vibrates in classic yellow, light blue, and cream. Each tablecloth features a unique design with a central panel and two side panels in complementary palettes and rich colors. Made from 100% cotton shantung with a lightly textured weave. </span></p>\n<br><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 220,
+        "priceMax": 320,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-tablecloth-checker-2.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-tablecloth-checker-1.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga_0ct2024_HG_013.jpg?v=1773767949",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tablecloth-Sketch_2b1e2db6-d7ec-4579-911b-bc6a7bdecb58.jpg?v=1773767949",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212488766",
+            "title": "Medium",
+            "price": 220,
+            "available": true
+          },
+          {
+            "id": "42571212521534",
+            "title": "Large",
+            "price": 320,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039266189374",
+        "handle": "tablecloth-reversible-grid",
+        "title": "Tablecloth Reversible Grid",
+        "description": "Bring timeless and playful patterns to your table with Tortuga Forma's reversible tablecloths, ideal for everyday meals and special occasions. The Grid Martini is a modern neutral with tones of olive, pink, and deep red that shines with classic dishes and flatware. Each tablecloth features a unique design with a central panel and two side panels in complementary palettes and rich colors. Made from 100% cotton shantung with a lightly textured weave. MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><span>Bring timeless and playful patterns to your table with Tortuga Forma's reversible tablecloths, ideal for everyday meals and special occasions. The Grid Martini is a modern neutral with tones of olive, pink, and deep red that shines with classic dishes and flatware. Each tablecloth features a unique design with a central panel and two side panels in complementary palettes and rich colors. Made from 100% cotton shantung with a lightly textured weave. \n</span></p><br><br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 220,
+        "priceMax": 320,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-tablecloth-grid-1.jpg?v=1773767949",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-tablecloth-grid-2jpg.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/TableclothPreview.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tortuga-Tablecloth-Grid-Martini.jpg?v=1773767948",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Tablecloth-Sketch.jpg?v=1773767948",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571212357694",
+            "title": "Medium",
+            "price": 220,
+            "available": true
+          },
+          {
+            "id": "42571212390462",
+            "title": "Large",
+            "price": 320,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:19:06-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8039265894462",
+        "handle": "tablecloth-sabi",
+        "title": "Tablecloth Sabi",
+        "description": "Our luxurious Sabi extra large tablecloth transforms the classic white table linen tradition with the beautiful imperfection of wabi sabi—through irregular slubs, rich dyes, and a distinctive texture that brings sophistication to this dining room staple. Machine woven from 100% cotton using a traditional textile originally used for everyday kimonos, this generous 130\" x 60\" tablecloth is designed for formal entertaining but brings effortless elegance to casual gatherings. The proportions make this tablecloth ideal for long dining tables, extended family meals, or special occasions where you need coverage that matches the significance of the moment. Like a favorite pair of denim, Sabi gets better with time and is meant to be washed frequently, developing a lived-in softness that speaks to countless shared meals and memorable celebrations. Pair with our matching Sabi dinner napkins or mix with the Double-sided napkins. Made in Japan MK Finds items are not eligible for discounts.",
+        "descriptionHtml": "<p>Our luxurious Sabi extra large tablecloth transforms the classic white table linen tradition with the beautiful imperfection of wabi sabi—through irregular slubs, rich dyes, and a distinctive texture that brings sophistication to this dining room staple. Machine woven from 100% cotton using a traditional textile originally used for everyday kimonos, this generous 130\" x 60\" tablecloth is designed for formal entertaining but brings effortless elegance to casual gatherings. The proportions make this tablecloth ideal for long dining tables, extended family meals, or special occasions where you need coverage that matches the significance of the moment. Like a favorite pair of denim, Sabi gets better with time and is meant to be washed frequently, developing a lived-in softness that speaks to countless shared meals and memorable celebrations.<br>Pair with our matching Sabi dinner napkins or mix with the Double-sided napkins.</p>\n<br><br>\n<p>Made in Japan</p>\n<br>\nMK Finds items are not eligible for discounts. ",
+        "vendor": "Tortuga Forma",
+        "productType": "Table Linens",
+        "tags": [
+          "badge-MK Finds",
+          "badge-Tortuga Forma",
+          "Shopify Collective",
+          "Tortuga Forma"
+        ],
+        "priceMin": 280,
+        "priceMax": 280,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Sabi_Tablecloth_Cream_Textured_Formal.jpg?v=1773767941",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/Sabi_Fabric_detail_wabi_sabi_texture.jpg?v=1773767941",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42571210915902",
+            "title": "Rice",
+            "price": 280,
+            "available": true
+          }
+        ],
+        "available": true,
+        "createdAt": "2026-03-17T13:18:58-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "7159922065470",
+        "handle": "the-grippy-reboard",
+        "title": "The (grippy) reBoard®",
+        "description": "All of the grip, none of the slip. Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning reCollection, these BPA-free cutting boards are made from recycled kitchen scraps and renewable sugarcane.",
+        "descriptionHtml": "<p><strong>All of the grip, none of the slip. </strong>Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning reCollection, these BPA-free cutting boards are made from recycled kitchen scraps and renewable sugarcane.</p>",
+        "vendor": "Material",
+        "productType": "Prepware",
+        "tags": [
+          "bdaysale-20p",
+          "cutting board",
+          "discount qualified",
+          "fabric Marketplace",
+          "go live",
+          "logicbroker",
+          "prep",
+          "recycled",
+          "single-item",
+          "sustainable",
+          "tag_bestseller",
+          "waitlist_Qv4sxs"
+        ],
+        "priceMin": 40,
+        "priceMax": 40,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/GrippyreBoardLapisSmaller.png?v=1770917213",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/The_grippy_reBoard-Lilacpng.png?v=1770917213",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/The_grippy_reBoard-Taragon.png?v=1761749416",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/1_8e007761-7186-485a-995a-9f6a674dbd35.png?v=1761749416",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/2_8f421066-2e6c-409b-9519-76cd6136bbfb.png?v=1761749416",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/GrippyreBoardTaffySmaller.png?v=1761749411",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "40067815702590",
+            "title": "Lapis",
+            "price": 40,
+            "available": false
+          },
+          {
+            "id": "40067815735358",
+            "title": "Taffy",
+            "price": 40,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2023-04-25T15:15:40-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8018745884734",
+        "handle": "the-grippy-reboard®-lilac",
+        "title": "The (grippy) reBoard® - Lilac",
+        "description": "All of the grip, none of the slip. Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning reCollection, these BPA-free cutting boards are made from recycled kitchen scraps and renewable sugarcane. Final sale. Price as marked. This item is not eligible for additional discounts.",
+        "descriptionHtml": "<p><strong>All of the grip, none of the slip. </strong>Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning reCollection, these BPA-free cutting boards are made from recycled kitchen scraps and renewable sugarcane.</p>\n<p> </p>\n<p>Final sale. Price as marked. This item is not eligible for additional discounts.</p>",
+        "vendor": "Material",
+        "productType": "Prepware",
+        "tags": [
+          "bdaysale-20p",
+          "cutting board",
+          "fabric Marketplace",
+          "go live",
+          "logicbroker",
+          "prep",
+          "recycled",
+          "single-item",
+          "sustainable",
+          "tag_bestseller",
+          "waitlist_Qv4sxs"
+        ],
+        "priceMin": 25,
+        "priceMax": 25,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/The_grippy_reBoard-Lilacpng.png?v=1770917213",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/GrippyreBoardLapisSmaller.png?v=1770917213",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/The_grippy_reBoard-Taragon.png?v=1761749416",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/1_8e007761-7186-485a-995a-9f6a674dbd35.png?v=1761749416",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/2_8f421066-2e6c-409b-9519-76cd6136bbfb.png?v=1761749416",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/GrippyreBoardTaffySmaller.png?v=1761749411",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42485922168894",
+            "title": "Lilac",
+            "price": 25,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2026-02-12T11:52:55-05:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "7032438751294",
+        "handle": "the-mini-air-whisk",
+        "title": "The (mini) Air Whisk - Multiple Colors",
+        "description": "We took one of our bestselling tools, The Air Whisk , and created a mini version. The (mini) features BPA-free silicone in punchy pinks, blues, and pops of green, and features the same individual loop design for optimal aeration and mixing. Final sale. Price as marked. This item is not eligible for additional discounts.",
+        "descriptionHtml": "<p><strong><span style=\"font-weight: 400;\" data-mce-fragment=\"1\"><strong>We took one of our bestselling tools, <a href=\"http://materialkitchen.com/products/the-air-whisk\" target=\"_blank\">The Air Whisk</a>, and created a mini version.</strong> The (mini) features BPA-free silicone in punchy pinks, blues, and pops of green, and features the same individual loop design for optimal aeration and mixing.</span></strong><span style=\"font-weight: 400;\" data-mce-fragment=\"1\"></span></p>\n<p><br><br>Final sale. Price as marked. This item is not eligible for additional discounts.</p>",
+        "vendor": "Material",
+        "productType": "Tools",
+        "tags": [
+          "badge-last chance",
+          "logicbroker"
+        ],
+        "priceMin": 9,
+        "priceMax": 9,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Blue.png?v=1762451882",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Pink.png?v=1658944632",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "39817050325054",
+            "title": "Tart",
+            "price": 9,
+            "available": false
+          },
+          {
+            "id": "39817050292286",
+            "title": "Zingy",
+            "price": 9,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2022-07-27T13:50:55-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "8018742247486",
+        "handle": "the-mini-reboard®-multiple-colors",
+        "title": "The (mini) reBoard® - Multiple Colors",
+        "description": "For small snacks and quick cuts . Most of the time we’re not cutting whole chickens or giant vegetables. We’re slicing an apple or nibbling on cheese or wedging a lemon. Except who wants to use a big old cutting board for a tiny thing like that? Same sustainable materials as its larger sibling, in a ~25% smaller package. Final sale. Price as marked. This item is not eligible for additional discounts.",
+        "descriptionHtml": "<p><strong>For small snacks and quick cuts</strong><b>.</b> <span style=\"font-weight: 400;\">Most of the time we’re not cutting whole chickens or giant vegetables. We’re slicing an apple or nibbling on cheese or wedging a lemon. Except who wants to use a big old cutting board for a tiny thing like that? Same sustainable materials as its larger sibling, in a ~25% smaller package.</span><span style=\"font-weight: 400;\"></span></p>\n<p> </p>\n<p><span style=\"font-weight: 400;\">Final sale. Price as marked. This item is not eligible for additional discounts.</span></p>",
+        "vendor": "Material",
+        "productType": "Prepware",
+        "tags": [
+          "bdaysale-15p",
+          "charity_Drive Change",
+          "cutting board",
+          "go live",
+          "logicbroker",
+          "prep",
+          "recycled",
+          "single-item",
+          "sustainable"
+        ],
+        "priceMin": 18,
+        "priceMax": 18,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/miniMosssmaller.png?v=1762437534",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/mini_topopo_ecdb6f0f-02ed-4884-a34a-b508b8ae5c49.png?v=1762437534",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/pinksaltsite_30cd66ea-22a9-44da-b004-fd459d021fdb.png?v=1762437534",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/850f200751b0--3-57757a.png?v=1762437534",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/850f200751b0--IMG-1995-4aecab.png?v=1762437534",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/850f200751b0--4-7c9442.png?v=1762437534",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/miniAzuresmaller_12806a1f-9ebd-4776-b2b6-e2c25a99a656.png?v=1761749631",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/zaynab_issa_2.png?v=1673475219",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "42485904113726",
+            "title": "Azure",
+            "price": 18,
+            "available": false
+          },
+          {
+            "id": "42485904146494",
+            "title": "Moss",
+            "price": 18,
+            "available": false
+          },
+          {
+            "id": "42485925937214",
+            "title": "To Po Po with Love",
+            "price": 18,
+            "available": false
+          },
+          {
+            "id": "42726702972990",
+            "title": "Pomegranate",
+            "price": 18,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2026-02-12T11:27:32-05:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "7032482627646",
+        "handle": "the-mini-spatula",
+        "title": "The (mini) Spatula - Multiple Colors",
+        "description": "A mini spatula made with our signature soft-touch, BPA-free silicone. Just flexible enough with a reinforced nylon core to provide stability—perfect for all the mixing, scraping, and tasting that's part of any cooking adventure. Final sale. Price as marked. This item is not eligible for additional discounts.",
+        "descriptionHtml": "<p><strong>A mini spatula </strong><strong>made with our signature soft-touch, BPA-free silicone. </strong>Just flexible enough with a reinforced nylon core to provide stability—perfect for all the mixing, scraping, and tasting that's part of any cooking adventure.</p>\n<p><strong><span data-mce-fragment=\"1\" style=\"font-weight: 400;\"></span></strong><br><br>Final sale. Price as marked. This item is not eligible for additional discounts.<br></p>",
+        "vendor": "Material",
+        "productType": "Tools",
+        "tags": [
+          "badge-last chance",
+          "logicbroker"
+        ],
+        "priceMin": 9,
+        "priceMax": 9,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Pink_ffc84551-23e0-4845-a6e5-d628ad7c1f20.png?v=1762451883",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Blue_17770b88-117f-44d8-9d2d-d2b2ca29f9b5.png?v=1658950555",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "39817093709886",
+            "title": "Tart",
+            "price": 9,
+            "available": false
+          },
+          {
+            "id": "39817093677118",
+            "title": "Zingy",
+            "price": 9,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2022-07-27T14:50:21-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "4440445190206",
+        "handle": "the-8-knife",
+        "title": "The 8\" Knife",
+        "description": "Kitchen confidence starts here. The 8” Knife easily tackles any task in your kitchen – from dicing vegetables to carving roasts and mincing herbs – thanks to a perfectly balanced full tang design (goodbye, hand cramping), ever-so-grippy handle and a razor sharp, high-carbon, corrosion-resistant Japanese stainless steel blade.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><strong>Kitchen confidence starts here.</strong><b id=\"docs-internal-guid-1d092dd8-7fff-79bb-dc13-7d314bdba091\"><span> </span></b>The 8” Knife easily tackles any task in your kitchen – from dicing vegetables to carving roasts and mincing herbs – thanks to a perfectly balanced full tang design (goodbye, hand cramping), ever-so-grippy handle and a razor sharp, high-carbon, corrosion-resistant Japanese stainless steel blade.<b id=\"docs-internal-guid-1d092dd8-7fff-79bb-dc13-7d314bdba091\"><span> </span></b></p>",
+        "vendor": "Material",
+        "productType": "Knives",
+        "tags": [
+          "bdaysale-20p",
+          "charity_Heart of Dinner",
+          "chef's knife",
+          "discount qualified",
+          "go live",
+          "japanese steel",
+          "knife",
+          "logicbroker",
+          "single-item",
+          "Stylux",
+          "tag_bestseller",
+          "waitlist_L2mgv9",
+          "YGroup_knives"
+        ],
+        "priceMin": 105,
+        "priceMax": 105,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/8Knife-AlmostBlack_e1b4aa63-831d-489b-96b4-4b0419bad2c0.png?v=1762441382",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/8Knife-CoolNeutral.png?v=1718214574",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/sage8inchsite.png?v=1691529641",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/6c7f4899831e--8knife-04-d63f49.png?v=1732296375",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/3fbe0acba6df--8knife-05-5a5e55.jpg?v=1732296375",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/6c7f4899831e--8knife-05-87a167.jpg?v=1732296375",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/pdpcarousel_5.png?v=1732296443",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/pdpcarousel_6.png?v=1732296512",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "31562614472766",
+            "title": "Cool Neutral",
+            "price": 105,
+            "available": false
+          },
+          {
+            "id": "31562614374462",
+            "title": "Almost Black",
+            "price": 105,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2020-02-10T19:14:15-05:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "6680772673598",
+        "handle": "the-air-whisk",
+        "title": "The Air Whisk",
+        "description": "For fluffy eggs, airy batters and perfectly smooth sauces. When it comes to whisking, the secret ingredient is air, and the key is control. The Air Whisk is weighted enough to feel substantial, light enough to move swiftly, and has a flat-headed shape so it can stand on its own.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><span class=\"author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qowz82z5cz75zz74zz81z5huz89zflz72z2z86zyz74zp6sz77zz88zz73z7z78zz122z30vhu\" data-mce-fragment=\"1\"><strong>For fluffy eggs, airy batters and perfectly smooth sauces. </strong>When it comes to whisking, the secret ingredient is air, and the key is control. The Air Whisk is weighted enough to feel substantial, light enough to move swiftly, and has a flat-headed shape so it can stand on its own. </span></p>",
+        "vendor": "Material",
+        "productType": "Tools",
+        "tags": [
+          "bdaysale-15p",
+          "discount qualified",
+          "go live",
+          "logicbroker",
+          "single-item"
+        ],
+        "priceMin": 25,
+        "priceMax": 25,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/AirWhisk_d13369e3-b991-470b-ae24-3ffcd4fb0aab.png?v=1762444744",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Rectangle3272.jpg?v=1633026329",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Rectangle3273.jpg?v=1633026330",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Rectangle3274.jpg?v=1633026329",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Rectangle3275.jpg?v=1633026329",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "39584476004414",
+            "title": "Default Title",
+            "price": 25,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2021-09-09T16:20:59-04:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "4440450990142",
+        "handle": "the-almost-4-knife",
+        "title": "The Almost 4\" Knife",
+        "description": "Peel fruit, deseed peppers, core tomatoes and more with our precision paring knife. Practically a miniature of our 8” chef’s knife, this petite knife packs a punch, with the same three layers of high-carbon and corrosion-resistant stainless Japanese steel. Its pointy tip and sharp edge make it the go-to for controlled slicing and dicing.",
+        "descriptionHtml": "<p><meta charset=\"utf-8\"><span class=\"author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qowz82z5cz75zz74zz81z5huz89zflz72z2z86zyz74zp6sz77zz88zz73z7z78zz122z30vhu\"><strong>Peel fruit, deseed peppers, core tomatoes</strong> and more with our precision paring knife. Practically a miniature of our 8” chef’s knife, this petite knife packs a punch, with the same three layers of high-carbon and corrosion-resistant stainless Japanese steel. Its pointy tip and sharp edge make it the go-to for controlled slicing and dicing.</span></p>",
+        "vendor": "Material",
+        "productType": "Knives",
+        "tags": [
+          "bdaysale-20p",
+          "charity_Heart of Dinner",
+          "discount qualified",
+          "go live",
+          "japanese steel",
+          "knife",
+          "logicbroker",
+          "paring knife",
+          "single-item",
+          "waitlist_L2mgv9",
+          "YGroup_knives"
+        ],
+        "priceMin": 55,
+        "priceMax": 55,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Almost4Knife-AlmostBlack_d720eaa7-c652-4d5b-bcc4-cbcedd1d6f97.png?v=1762441384",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Almost4Knife-BlueGrey.png?v=1633026790",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Almost4Knife-CoolNeutral.png?v=1633026922",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/Sage_4_-_Transparent_PNG.png?v=1663019317",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/blush4_knifesite.png?v=1690235937",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/files/mochaalmost4inchsite.png?v=1691530429",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "31562633642046",
+            "title": "Cool Neutral",
+            "price": 55,
+            "available": false
+          },
+          {
+            "id": "39876304437310",
+            "title": "Sage - Limited Edition",
+            "price": 55,
+            "available": false
+          },
+          {
+            "id": "31562633609278",
+            "title": "Almost Black",
+            "price": 55,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2020-02-10T19:30:49-05:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      },
+      {
+        "id": "1924676157502",
+        "handle": "the-angled-board",
+        "title": "The Angled Board",
+        "description": "A cutting board you’ll want to display. Our elegant, hefty board is made with FSC-certified wood, and is thoughtfully built for both serious prep and simple serving. With a smooth side and a grooved-side, it’s ideal for cutting a juicy watermelon, carving a steak, or plating charcuterie. Sold out! Shop more prepware here .",
+        "descriptionHtml": "<p><strong> A cutting board you’ll want to display.  </strong><strong></strong>Our elegant, hefty board is made with FSC-certified wood, and is thoughtfully built for both serious prep and simple serving. With a smooth side and a grooved-side, it’s ideal for cutting a juicy watermelon, carving a steak, or plating charcuterie.</p>\n<p><br><br>Sold out! Shop more prepware <a href=\"https://materialkitchen.com/collections/prep\">here</a>.</p>",
+        "vendor": "Material",
+        "productType": "",
+        "tags": [
+          "bdaysale-25p",
+          "charity_Drive Change",
+          "cutting board",
+          "discount qualified",
+          "go live",
+          "logicbroker",
+          "single-item",
+          "Stylux",
+          "sustainable"
+        ],
+        "priceMin": 150,
+        "priceMax": 150,
+        "currency": "USD",
+        "images": [
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/AngledBoard-Carbon_5b458058-6428-4708-a640-40d278beab8f.png?v=1762440739",
+            "altText": null
+          },
+          {
+            "src": "https://cdn.shopify.com/s/files/1/2304/7781/products/AngledBoard-Walnut_b91ae7e6-a4ce-4bc9-b6ec-09411baa3481.png?v=1722617647",
+            "altText": null
+          }
+        ],
+        "variants": [
+          {
+            "id": "32534318088254",
+            "title": "Carbon + Wood Oil",
+            "price": 150,
+            "available": false
+          }
+        ],
+        "available": false,
+        "createdAt": "2018-11-14T17:42:53-05:00",
+        "updatedAt": "2026-05-07T19:21:01-04:00"
+      }
+    ]
+  },
+  "verdicts": [
+    {
+      "personaId": "sustainable-runner",
+      "modelSlug": "anthropic-direct/claude-haiku-4-5-20251001",
+      "displayName": "Claude Haiku 4.5",
+      "intent": "find me sustainable running shoes from a brand with strong environmental practices",
+      "verdict": "skipped",
+      "topProductId": null,
+      "reasoning": "This store catalog contains kitchen and tableware products (cutting boards, knives, bowls, napkins, etc.) but no running shoes of any kind. The shopper is specifically seeking sustainable running shoes from an environmentally conscious brand, which is not available in this inventory.",
+      "gaps": [
+        "No footwear products in catalog",
+        "No brand-level environmental certifications or sustainability practices documented",
+        "No information about overall brand environmental commitments beyond individual product tags"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: find me sustainable running shoes from a brand with strong environmental practices\n\nStore catalog (sampled, 30 products shown):\nID: 8018742640702\nTitle: The reBoard® - Multiple Colors\nType: (none)\nTags: badge-💥 sold out 10x!, bdaysale-20p, charity_Drive Change, cutting board, discount qualified, go live, logicbroker, prep, recycled, save_buy_3_toggle, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 20 USD\nDescription (first 250 chars): Check out our newest cutting board: The MK Free Board - 100% plant-based, dishwasher-safe and perfect for every kitchen. Master meal prep with color-coded cutting boards. These BPA-free boards are made entirely of kitchen plastic scraps and renewable…\n\nID: 8018745884734\nTitle: The (grippy) reBoard® - Lilac\nType: Prepware\nTags: bdaysale-20p, cutting board, fabric Marketplace, go live, logicbroker, prep, recycled, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 25 USD\nDescription (first 250 chars): All of the grip, none of the slip. Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning r…\n\nID: 7159922065470\nTitle: The (grippy) reBoard®\nType: Prepware\nTags: bdaysale-20p, cutting board, discount qualified, fabric Marketplace, go live, logicbroker, prep, recycled, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 40 USD\nDescription (first 250 chars): All of the grip, none of the slip. Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning r…\n\nID: 1924677238846\nTitle: The Wood Oil\nType: Storage + Care\nTags: bdaysale-15p, charity_Drive Change, go live, logicbroker, single-item, sustainable\nPrice: 10 USD\nDescription (first 250 chars): Our products are made to last a lifetime, and proper care is an essential part of making that happen. Treating your products (think The Angled Board, The Wood Spoon) with our plant-based, all-natural o il regularly will keep its surface strong, creat…\n\nID: 8018742247486\nTitle: The (mini) reBoard® - Multiple Colors\nType: Prepware\nTags: bdaysale-15p, charity_Drive Change, cutting board, go live, logicbroker, prep, recycled, single-item, sustainable\nPrice: 18 USD\nDescription (first 250 chars): For small snacks and quick cuts . Most of the time we’re not cutting whole chickens or giant vegetables. We’re slicing an apple or nibbling on cheese or wedging a lemon. Except who wants to use a big old cutting board for a tiny thing like that? Same…\n\nID: 8018751782974\nTitle: The reBowl® - Multiple Colors\nType: Prepware\nTags: bdaysale-15p, go live, logicbroker, mixing bowl, prep, recycled, single-item, sustainable\nPrice: 18 USD\nDescription (first 250 chars): As featured in Architectural Digest and Food Network. The truly all-purpose reBowl is our go-to for mixing, serving, and storing. Buy a set of 3 and nest for easy storage. Plus, it’s BPA-free, dishwasher-safe and made from the same sustainable materi…\n\nID: 7745637515326\nTitle: The Material Mix\nType: (none)\nTags: discount qualified, logicbroker\nPrice: 190 USD\nDescription (first 250 chars): Your flavor-building toolkit, complete with smart storage. A mix of tools you'll reach for daily, this set allows you to flip, fry, whisk, fold and stir with confidence. These tools are crafted from the best materials for their respective jobs, like …\n\nID: 7748802183230\nTitle: The Big + Small\nType: Prepware\nTags: badge-new, discount qualified, logicbroker, prep\nPrice: 60 USD\nDescription (first 250 chars): An earth-friendly duo for every cut, slice, and dice. Made from upcycled kitchen plastic scraps and renewable sugarcane, this essential prep set includes The (grippy) reBoard® for steady slicing and The (mini) reBoard® for smaller chopping tasks\n\nID: 8052218921022\nTitle: Artisan Felt Pom Pom Trivet - Natural & Moss\nType: Kitchen\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 22 USD\nDescription (first 250 chars): Bring a touch of whimsy and warmth to your table with this handcrafted felted trivet. Made from soft, durable wool, it’s as functional as it is charming—protecting surfaces while adding a pop of texture. A thoughtful gift or a cheerful accent, it’s a…\n\nID: 1658615791727\nTitle: The Stand\nType: Storage + Care\nTags: badge-bestseller, bdaysale-15p, charity_Drive Change, discount qualified, go live, logicbroker, magnetic, single-item, storage, Stylux, sustainable, waitlist_QqTcCk\nPrice: 110 USD\nDescription (first 250 chars): Say goodbye to cluttered countertops with our sleek, space-saving magnetic knife stand. Safely store and prominently display up to 10 knives on The Stand, equipped with an ultra-strong, double-sided and fully magnetic body. Made exclusively with FSC-…\n\nID: 6730630168638\nTitle: The Knives + Stand\nType: Knives\nTags: bdaysale-20p, discount qualified, logicbroker, set\nPrice: 295 USD\nDescription (first 250 chars): Our bestselling chef's knife set designed to be displayed. Our trio of knives are made from Japanese stainless steel and high carbon to be meticulously sharp and incredibly resilient. Their perfect match? The Stand, which we designed to store your kn…\n\nID: 7269729599550\nTitle: The Glasses Set\nType: Tabletop\nTags: bdaysale-25p, discount qualified, logicbroker, set\nPrice: 195 USD\nDescription (first 250 chars): Build a colorful bundle of 2 Full Glass Sets and 2 Half Glass Sets. Made from ultra-thin (and ultra-strong) borosilicate glass, these glasses are stackable, dishwasher-safe, resistant to thermal shock and made for everyday use.\n\nID: 4440445190206\nTitle: The 8\" Knife\nType: Knives\nTags: bdaysale-20p, charity_Heart of Dinner, chef's knife, discount qualified, go live, japanese steel, knife, logicbroker, single-item, Stylux, tag_bestseller, waitlist_L2mgv9\nPrice: 105 USD\nDescription (first 250 chars): Kitchen confidence starts here. The 8” Knife easily tackles any task in your kitchen – from dicing vegetables to carving roasts and mincing herbs – thanks to a perfectly balanced full tang design (goodbye, hand cramping), ever-so-grippy handle and a …\n\nID: 7110231687230\nTitle: The Linen Napkins - Flax\nType: (none)\nTags: badge-last chance, bdaysale-25p, logicbroker, Stylux\nPrice: 20 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 4440450990142\nTitle: The Almost 4\" Knife\nType: Knives\nTags: bdaysale-20p, charity_Heart of Dinner, discount qualified, go live, japanese steel, knife, logicbroker, paring knife, single-item, waitlist_L2mgv9\nPrice: 55 USD\nDescription (first 250 chars): Peel fruit, deseed peppers, core tomatoes and more with our precision paring knife. Practically a miniature of our 8” chef’s knife, this petite knife packs a punch, with the same three layers of high-carbon and corrosion-resistant stainless Japanese …\n\nID: 7220737179710\nTitle: The Linen Napkins - Stylux\nType: Tabletop\nTags: bdaysale-25p, logicbroker\nPrice: 55 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 8052218986558\nTitle: French Country Cutlery\nType: Flatware\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 95-355 USD\nDescription (first 250 chars): With generous silhouettes and a nature-inspired design, Farmhouse Pottery's French Country Cutlery brings everyday meals into a more soulful rhythm. Each piece is gracefully shaped with a subtle leaf motif—quietly refined, yet grounded in tradition. …\n\nID: 8039265927230\nTitle: Bread Plate Single\nType: Dishware\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 42 USD\nDescription (first 250 chars): The sculptural bread plate from Tortugaware features a sculpted edge and modern organic form. Built to stack beautifully and feel balanced in the hand, it adds elegance to the dining table and fits perfectly in the hand for standing bites. Microwave,…\n\nID: 7110442156094\nTitle: The Linen Placemats - Sienna + Mocha\nType: (none)\nTags: badge-63% off, badge-last chance, bdaysale-25p, logicbroker\nPrice: 20 USD\nDescription (first 250 chars): Set of 2. These reversible placemats are double-sided (and doubly delightful). Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural variations in color and texture, both of which will onl…\n\nID: 7110230147134\nTitle: The Half Glass Set\nType: Tabletop\nTags: discount qualified\nPrice: 35 USD\nDescription (first 250 chars): Set of 4. Fun fact: this glass was designed around the size of our ideal ice cube. The Half Glass does triple duty as a water glass, weeknight wine glass and rocks glass. Made from ultra-thin (and ultra-strong) borosilicate glass, it's stackable, dis…\n\nID: 7819836096574\nTitle: The Dream Scoop\nType: (none)\nTags: badge-Van Leeuwen X Material\nPrice: 45 USD\nDescription (first 250 chars): Effortlessly glide through your pint, forming perfect scoops with The Dream Scoop, a collaboration with the ice cream geniuses at Van Leeuwen. Crafted from 100% stainless steel, this ice cream scoop has a smooth, one-piece-shaped head, ergonomic hand…\n\nID: 6680772575294\nTitle: The Slotted Spatula - Almost Black\nType: (none)\nTags: badge-last chance, go live, logicbroker, single-item\nPrice: 10 USD\nDescription (first 250 chars): As seen in The New York Times and The Today Show. Flexible enough to flip a delicate fish, strong enough to hold a bone-in pork chop, and with a beveled edge to cut through lasagna. With the same ergonomically-optimized handle found on our knives, it…\n\nID: 2026152034366\nTitle: The Base\nType: Storage + Care\nTags: bdaysale-20p, charity_Drive Change, discount qualified, go live, logicbroker, magnetic, single-item, storage, sustainable, waitlist_NsAPsb\nPrice: 95 USD\nDescription (first 250 chars): Say goodbye to clunky utensil crocks. We believe in form and function, and our storage solutions are no exception to the rule. The Base is designed to elegantly and conveniently display all of your kitchen tools, while protecting your knives with a h…\n\nID: 7110190956606\nTitle: The Full Glass Set\nType: Tabletop\nTags: badge-selling fast, bdaysale-20p, discount qualified, logicbroker\nPrice: 50 USD\nDescription (first 250 chars): Set of 4. A foot above the rest, this unique cup beautifully holds water, wine, and cocktails. Made from ultra-thin (and ultra-strong) borosilicate glass, it's stackable, dishwasher-safe, resistant to thermal shock and made for everyday use.\n\nID: 6680772116542\nTitle: The Wood Spoon\nType: Tools\nTags: bdaysale-15p, discount qualified, go live, logicbroker, single-item, sustainable\nPrice: 25 USD\nDescription (first 250 chars): An essential cooking utensil, thoughtfully designed. This must-have kitchen tool just became even more of a must. We’ve added an angled head for next-level deglazing, a modern base-detail, and we’ve considerately designed it for both left- and right-…\n\nID: 1924676157502\nTitle: The Angled Board\nType: (none)\nTags: bdaysale-25p, charity_Drive Change, cutting board, discount qualified, go live, logicbroker, single-item, Stylux, sustainable\nPrice: 150 USD\nDescription (first 250 chars): A cutting board you’ll want to display. Our elegant, hefty board is made with FSC-certified wood, and is thoughtfully built for both serious prep and simple serving. With a smooth side and a grooved-side, it’s ideal for cutting a juicy watermelon, ca…\n\nID: 6801632985150\nTitle: The Good Prep Set\nType: Cooking Sets\nTags: bdaysale-15p, discount qualified, logicbroker, set\nPrice: 220 USD\nDescription (first 250 chars): Chop, slice and dice with confidence. The foundation of any kitchen: the right cutting board and a sharp knife. The Good Prep Set has you covered with our 100% plant-based cutting board (free of permanent micro-plastics, non-porous and dishwasher-saf…\n\nID: 7238046613566\nTitle: The Resting Stone\nType: (none)\nTags: bdaysale-15p, discount qualified\nPrice: 65 USD\nDescription (first 250 chars): Set of 2. For objects at work that need a moment of rest. Rest your utensils, rings, lemon wedges and more in the curve of this pebble-inspired dish, available in three nature-inspired color duos. Designed to be displayed, The Resting Stone is as gor…\n\nID: 7264469450814\nTitle: The Cook's Toolset\nType: (none)\nTags: bdaysale-15p, discount qualified, logicbroker\nPrice: 118 USD\nDescription (first 250 chars): Essential tools for easy cooking . Whisk, flip, scoop and peel your way through any recipe with this set of our bestselling tools including The Soft-Edge Turner, The Air Whisk, The Wood Spoon, The Fish Spatula, The Metal Spoon and The Forever Peeler.\n\nID: 6742661333054\nTitle: The Table Knives\nType: Knives\nTags: badge-Wirecutter's #1 Steak Knives, bfcm-picks, Cortina, discount qualified, logicbroker, Stylux, Stylux Personalization\nPrice: 110 USD\nDescription (first 250 chars): A NYT Gift Guide Pick and Wirecutter's Top Pick for Best Steak Knives. Seamlessly slice through turkey, steaks and squash with hand-finished German steel stainless blades and matte, stain-resistant, and ever-so-slightly grippy handle. Each set of fou…"
+      },
+      "rawResponse": "```json\n{\n  \"verdict\": \"skipped\",\n  \"topProductId\": null,\n  \"reasoning\": \"This store catalog contains kitchen and tableware products (cutting boards, knives, bowls, napkins, etc.) but no running shoes of any kind. The shopper is specifically seeking sustainable running shoes from an environmentally conscious brand, which is not available in this inventory.\",\n  \"gaps\": [\n    \"No footwear products in catalog\",\n    \"No brand-level environmental certifications or sustainability practices documented\",\n    \"No information about overall brand environmental commitments beyond individual product tags\"\n  ]\n}\n```",
+      "sampledProductIds": [
+        "8018742640702",
+        "8018745884734",
+        "7159922065470",
+        "1924677238846",
+        "8018742247486",
+        "8018751782974",
+        "7745637515326",
+        "7748802183230",
+        "8052218921022",
+        "1658615791727",
+        "6730630168638",
+        "7269729599550",
+        "4440445190206",
+        "7110231687230",
+        "4440450990142",
+        "7220737179710",
+        "8052218986558",
+        "8039265927230",
+        "7110442156094",
+        "7110230147134",
+        "7819836096574",
+        "6680772575294",
+        "2026152034366",
+        "7110190956606",
+        "6680772116542",
+        "1924676157502",
+        "6801632985150",
+        "7238046613566",
+        "7264469450814",
+        "6742661333054"
+      ],
+      "latencyMs": 2126,
+      "retried": false,
+      "usage": {
+        "promptTokens": 4297,
+        "completionTokens": 142,
+        "totalTokens": 4439
+      },
+      "error": null
+    },
+    {
+      "personaId": "arch-support-shopper",
+      "modelSlug": "openai-direct/gpt-4o-mini-2024-07-18",
+      "displayName": "GPT-4o mini",
+      "intent": "trail running shoe under $150 with good arch support, please show specs",
+      "verdict": "skipped",
+      "topProductId": null,
+      "reasoning": "The catalog does not contain any trail running shoes, nor does it provide any information about arch support or relevant specifications for footwear. Therefore, I cannot recommend any products.",
+      "gaps": [
+        "no trail running shoes in catalog",
+        "no arch support specifications available",
+        "no footwear-related products listed"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: trail running shoe under $150 with good arch support, please show specs\n\nStore catalog (sampled, 30 products shown):\nID: 6742661333054\nTitle: The Table Knives\nType: Knives\nTags: badge-Wirecutter's #1 Steak Knives, bfcm-picks, Cortina, discount qualified, logicbroker, Stylux, Stylux Personalization\nPrice: 110 USD\nDescription (first 250 chars): A NYT Gift Guide Pick and Wirecutter's Top Pick for Best Steak Knives. Seamlessly slice through turkey, steaks and squash with hand-finished German steel stainless blades and matte, stain-resistant, and ever-so-slightly grippy handle. Each set of fou…\n\nID: 4439160225854\nTitle: The Trio of Knives\nType: Knives\nTags: bdaysale-15p, bread knife, charity_Heart of Dinner, chef's knife, Cortina, discount qualified, go live, japanese steel, logicbroker, paring knife, Stylux, waitlist_L2mgv9\nPrice: 195 USD\nDescription (first 250 chars): The three essential knives every cook needs , expertly crafted for smooth, confident chopping, courtesy of a full-tang design, razor sharp Japanese steel blade and grippy handle. With The 8” Knife (your go-to chopping knife), The Serrated 6” Knife (f…\n\nID: 8020085604414\nTitle: The Midi MK Free Board Duo\nType: Prepware\nTags: badge-NEW!, badge-Pre-Order Now, discount qualified, set\nPrice: 83 USD\nDescription (first 250 chars): Small jobs, big responsibility. Prep without the worry of forever chemicals and permanent microplastics with The Midi MK Free Board, a smaller and highly-requested version of our bestselling, award-winning plant-based cutting board. It’s dishwasher-s…\n\nID: 8020094255166\nTitle: The MK Free Set\nType: Prepware\nTags: discount qualified\nPrice: 91 USD\nDescription (first 250 chars): The better for you boards. A duo of plant-based boards you'll reach for daily, thanks to their non-porous and dishwasher-safe material. Messy, large jobs are perfect for The MK Free Board's expansive size and juice groove. Small daily tasks are where…\n\nID: 4440445190206\nTitle: The 8\" Knife\nType: Knives\nTags: bdaysale-20p, charity_Heart of Dinner, chef's knife, discount qualified, go live, japanese steel, knife, logicbroker, single-item, Stylux, tag_bestseller, waitlist_L2mgv9\nPrice: 105 USD\nDescription (first 250 chars): Kitchen confidence starts here. The 8” Knife easily tackles any task in your kitchen – from dicing vegetables to carving roasts and mincing herbs – thanks to a perfectly balanced full tang design (goodbye, hand cramping), ever-so-grippy handle and a …\n\nID: 8039266156606\nTitle: Dinner Napkins Double Sided Stripe - Quiet Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A refined counterpart to Tortuga Forma's bolder styles, this cloth napkin version of their signature Broken Stripe is rendered in hushed to…\n\nID: 8018745884734\nTitle: The (grippy) reBoard® - Lilac\nType: Prepware\nTags: bdaysale-20p, cutting board, fabric Marketplace, go live, logicbroker, prep, recycled, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 25 USD\nDescription (first 250 chars): All of the grip, none of the slip. Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning r…\n\nID: 8018751782974\nTitle: The reBowl® - Multiple Colors\nType: Prepware\nTags: bdaysale-15p, go live, logicbroker, mixing bowl, prep, recycled, single-item, sustainable\nPrice: 18 USD\nDescription (first 250 chars): As featured in Architectural Digest and Food Network. The truly all-purpose reBowl is our go-to for mixing, serving, and storing. Buy a set of 3 and nest for easy storage. Plus, it’s BPA-free, dishwasher-safe and made from the same sustainable materi…\n\nID: 7159922065470\nTitle: The (grippy) reBoard®\nType: Prepware\nTags: bdaysale-20p, cutting board, discount qualified, fabric Marketplace, go live, logicbroker, prep, recycled, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 40 USD\nDescription (first 250 chars): All of the grip, none of the slip. Featuring silicone pop corners, this is one cutting board that won't budge making it a must-have for slick countertops (we're looking at you, marble) and vigorous choppers. The latest addition to our award-winning r…\n\nID: 8039266320446\nTitle: Dinner Napkins Double Sided Checker - Quiet Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A counterpart to Tortuga Forma's bolder styles, this rendition of our Checker pattern appears in refined colors — slate, soil, apricot, and…\n\nID: 7190687121470\nTitle: The Fish Spatula\nType: Tools\nTags: bdaysale-15p, discount qualified, fish, go live, logicbroker, single-item\nPrice: 15 USD\nDescription (first 250 chars): Sturdy, sleek and flexible. Our Fish Spatula makes searing, lifting and flipping your food a breeze with its all-metal construction and razor-thin head, perfect for sliding underneath tender fish skins, flipping delicate pancakes and scooping roasted…\n\nID: 7748802183230\nTitle: The Big + Small\nType: Prepware\nTags: badge-new, discount qualified, logicbroker, prep\nPrice: 60 USD\nDescription (first 250 chars): An earth-friendly duo for every cut, slice, and dice. Made from upcycled kitchen plastic scraps and renewable sugarcane, this essential prep set includes The (grippy) reBoard® for steady slicing and The (mini) reBoard® for smaller chopping tasks\n\nID: 7605753151550\nTitle: The Soft-Edge Turner - Multiple Colors\nType: (none)\nTags: badge-last chance, bdaysale-15p, charity_Drive Change, go live, logicbroker, silicone, single-item\nPrice: 15 USD\nDescription (first 250 chars): The BPA-free silicone wonder tool made for flipping, folding and scraping bits from pesky corners. Unlike flimsy spatulas, this one’s got a reinforced nylon core for stability that complements silicone’s softness. Perfect to use with nonstick pans, s…\n\nID: 4761785368638\nTitle: The Soft-Edge Turner\nType: Tools\nTags: discount qualified, go live, logicbroker, silicone, single-item\nPrice: 25 USD\nDescription (first 250 chars): Pan’s best friend — an essential nonstick-friendly tool that will never scratch. The Soft-Edge Turner is the BPA-free silicone wonder utensil made just for flipping, folding, and scraping bits from pesky corners. Unlike flimsy spatulas, this one’s go…\n\nID: 8018444255294\nTitle: The Midi MK Free Board\nType: Prepware\nTags: badge-new, badge-Pre-Order Now, discount qualified\nPrice: 44 USD\nDescription (first 250 chars): Small jobs, big responsibility. Prep without the worry of forever chemicals and permanent microplastics with The Midi MK Free Board, a smaller and highly-requested version of our bestselling, award-winning plant-based cutting board. It’s dishwasher-s…\n\nID: 7032482627646\nTitle: The (mini) Spatula - Multiple Colors\nType: Tools\nTags: badge-last chance, logicbroker\nPrice: 9 USD\nDescription (first 250 chars): A mini spatula made with our signature soft-touch, BPA-free silicone. Just flexible enough with a reinforced nylon core to provide stability—perfect for all the mixing, scraping, and tasting that's part of any cooking adventure. Final sale. Price as …\n\nID: 6730630168638\nTitle: The Knives + Stand\nType: Knives\nTags: bdaysale-20p, discount qualified, logicbroker, set\nPrice: 295 USD\nDescription (first 250 chars): Our bestselling chef's knife set designed to be displayed. Our trio of knives are made from Japanese stainless steel and high carbon to be meticulously sharp and incredibly resilient. Their perfect match? The Stand, which we designed to store your kn…\n\nID: 6801632985150\nTitle: The Good Prep Set\nType: Cooking Sets\nTags: bdaysale-15p, discount qualified, logicbroker, set\nPrice: 220 USD\nDescription (first 250 chars): Chop, slice and dice with confidence. The foundation of any kitchen: the right cutting board and a sharp knife. The Good Prep Set has you covered with our 100% plant-based cutting board (free of permanent micro-plastics, non-porous and dishwasher-saf…\n\nID: 7238046613566\nTitle: The Resting Stone\nType: (none)\nTags: bdaysale-15p, discount qualified\nPrice: 65 USD\nDescription (first 250 chars): Set of 2. For objects at work that need a moment of rest. Rest your utensils, rings, lemon wedges and more in the curve of this pebble-inspired dish, available in three nature-inspired color duos. Designed to be displayed, The Resting Stone is as gor…\n\nID: 7264469450814\nTitle: The Cook's Toolset\nType: (none)\nTags: bdaysale-15p, discount qualified, logicbroker\nPrice: 118 USD\nDescription (first 250 chars): Essential tools for easy cooking . Whisk, flip, scoop and peel your way through any recipe with this set of our bestselling tools including The Soft-Edge Turner, The Air Whisk, The Wood Spoon, The Fish Spatula, The Metal Spoon and The Forever Peeler.\n\nID: 8052218888254\nTitle: Washed Linen Oven Mitt\nType: Textiles & Linens\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 35 USD\nDescription (first 250 chars): Made from softly washed linen, this oven mitt brings comfort and durability to everyday cooking. Designed to protect hands while handling hot dishes and bakeware, it offers a relaxed, lived-in feel that only gets better with use. Easy to reach for an…\n\nID: 8039266287678\nTitle: Dinner Napkins Sabi Mixed Sets\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 100 USD\nDescription (first 250 chars): Tortuga Forma's luxurious Sabi dinner napkins transform table settings with the philosophy of wabi sabi—celebrating beautiful imperfection through irregular slubs, rich dyes, and a distinctive texture. For a curated look of mixed napkin sets, choose …\n\nID: 8018742640702\nTitle: The reBoard® - Multiple Colors\nType: (none)\nTags: badge-💥 sold out 10x!, bdaysale-20p, charity_Drive Change, cutting board, discount qualified, go live, logicbroker, prep, recycled, save_buy_3_toggle, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 20 USD\nDescription (first 250 chars): Check out our newest cutting board: The MK Free Board - 100% plant-based, dishwasher-safe and perfect for every kitchen. Master meal prep with color-coded cutting boards. These BPA-free boards are made entirely of kitchen plastic scraps and renewable…\n\nID: 2288338042942\nTitle: The Coated Pan\nType: Cookware\nTags: bdaysale-20p, charity_Drive Change, copper, Cortina, discount qualified, go live, logicbroker, nonstick, single-item, Stylux, waitlist_K5Gw9L\nPrice: 120 USD\nDescription (first 250 chars): Copper is the best of the best, and it’s at the core of our pans. Known for its unrivaled mastery of heat, copper heats up quickly and evenly, but is also notoriously expensive and difficult to care for—until now. Ours has all the pros, none of the c…\n\nID: 7269729599550\nTitle: The Glasses Set\nType: Tabletop\nTags: bdaysale-25p, discount qualified, logicbroker, set\nPrice: 195 USD\nDescription (first 250 chars): Build a colorful bundle of 2 Full Glass Sets and 2 Half Glass Sets. Made from ultra-thin (and ultra-strong) borosilicate glass, these glasses are stackable, dishwasher-safe, resistant to thermal shock and made for everyday use.\n\nID: 4440449613886\nTitle: The Serrated 6\" Knife\nType: Knives\nTags: bdaysale-20p, bread knife, charity_Heart of Dinner, discount qualified, go live, japanese steel, knife, logicbroker, save more, single-item, waitlist_L2mgv9\nPrice: 65 USD\nDescription (first 250 chars): Much more than a bread knife , our 6” serrated is appropriately-sized for smoother slicing of tomatoes, peaches, chocolate, melon, cake, and more. Plus, it ’s got a wavy Japanese steel blade unlike any other.\n\nID: 8018742247486\nTitle: The (mini) reBoard® - Multiple Colors\nType: Prepware\nTags: bdaysale-15p, charity_Drive Change, cutting board, go live, logicbroker, prep, recycled, single-item, sustainable\nPrice: 18 USD\nDescription (first 250 chars): For small snacks and quick cuts . Most of the time we’re not cutting whole chickens or giant vegetables. We’re slicing an apple or nibbling on cheese or wedging a lemon. Except who wants to use a big old cutting board for a tiny thing like that? Same…\n\nID: 7784932737086\nTitle: The MK Free Board\nType: Prepware\nTags: badge-#1 Bestseller, badge-As Seen on TODAY, discount qualified\nPrice: 52 USD\nDescription (first 250 chars): A safer, better choice. The MK Free Board™️ is made of a revolutionary material that is plant-based and leaves behind no permanent microplastics. Easy to use, easy to clean, this cutting board offers peace of mind in knowing it's a smart choice for y…\n\nID: 8039266385982\nTitle: Dinner Napkins Double Sided Grid - High Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): Tortuga Forma's version of the Grid pattern is marvelously wonky with free-form lines intersecting with orthagonal ones. It's a classic without being predictable. Available in wine and cocktail inspired palettes to camouflage spills. Our double-sided…\n\nID: 8039265992766\nTitle: Bread Plate Set of 4\nType: Sets\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 151 USD\nDescription (first 250 chars): The Tortugaware bread plate is the smallest member but completes the set. Its subtle rolling edge and weighted clay body feel substantial in the hand while stacking beautifully with the dinner and salad plates. Dishwasher, microwave, and oven safe, t…"
+      },
+      "rawResponse": "{\n  \"verdict\": \"skipped\",\n  \"topProductId\": null,\n  \"reasoning\": \"The catalog does not contain any trail running shoes, nor does it provide any information about arch support or relevant specifications for footwear. Therefore, I cannot recommend any products.\",\n  \"gaps\": [\n    \"no trail running shoes in catalog\",\n    \"no arch support specifications available\",\n    \"no footwear-related products listed\"\n  ]\n}",
+      "sampledProductIds": [
+        "6742661333054",
+        "4439160225854",
+        "8020085604414",
+        "8020094255166",
+        "4440445190206",
+        "8039266156606",
+        "8018745884734",
+        "8018751782974",
+        "7159922065470",
+        "8039266320446",
+        "7190687121470",
+        "7748802183230",
+        "7605753151550",
+        "4761785368638",
+        "8018444255294",
+        "7032482627646",
+        "6730630168638",
+        "6801632985150",
+        "7238046613566",
+        "7264469450814",
+        "8052218888254",
+        "8039266287678",
+        "8018742640702",
+        "2288338042942",
+        "7269729599550",
+        "4440449613886",
+        "8018742247486",
+        "7784932737086",
+        "8039266385982",
+        "8039265992766"
+      ],
+      "latencyMs": 2831,
+      "retried": false,
+      "usage": {
+        "promptTokens": 3715,
+        "completionTokens": 91,
+        "totalTokens": 3806
+      },
+      "error": null
+    },
+    {
+      "personaId": "daily-walker-gift",
+      "modelSlug": "groq-direct/llama-3.3-70b-versatile",
+      "displayName": "Llama 3.3 70B (Groq)",
+      "intent": "looking for a comfortable shoe for someone in their 60s who walks daily, ideally a gift",
+      "verdict": "skipped",
+      "topProductId": null,
+      "reasoning": "The store catalog does not contain any shoe products, making it impossible to recommend a comfortable shoe for someone in their 60s who walks daily.",
+      "gaps": [
+        "no shoe products in the catalog",
+        "no information about comfort or walking shoes",
+        "no customer reviews or ratings for shoe products"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: looking for a comfortable shoe for someone in their 60s who walks daily, ideally a gift\n\nStore catalog (sampled, 30 products shown):\nID: 8039266287678\nTitle: Dinner Napkins Sabi Mixed Sets\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 100 USD\nDescription (first 250 chars): Tortuga Forma's luxurious Sabi dinner napkins transform table settings with the philosophy of wabi sabi—celebrating beautiful imperfection through irregular slubs, rich dyes, and a distinctive texture. For a curated look of mixed napkin sets, choose …\n\nID: 7839631900734\nTitle: The Sundae Set\nType: (none)\nTags: badge-Van Leeuwen X Material, discount qualified\nPrice: 90 USD\nDescription (first 250 chars): The ultimate sweet treat pairing. This bundle brings together The Small Goun Bowl and The Dream Scoop to elevate your daily ice cream ritual. The Goun Bowl—crafted in ceramic and inspired by a cherished Korean symbol of identity—pairs beautifully wit…\n\nID: 8052218921022\nTitle: Artisan Felt Pom Pom Trivet - Natural & Moss\nType: Kitchen\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 22 USD\nDescription (first 250 chars): Bring a touch of whimsy and warmth to your table with this handcrafted felted trivet. Made from soft, durable wool, it’s as functional as it is charming—protecting surfaces while adding a pop of texture. A thoughtful gift or a cheerful accent, it’s a…\n\nID: 8039265894462\nTitle: Tablecloth Sabi\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 280 USD\nDescription (first 250 chars): Our luxurious Sabi extra large tablecloth transforms the classic white table linen tradition with the beautiful imperfection of wabi sabi—through irregular slubs, rich dyes, and a distinctive texture that brings sophistication to this dining room sta…\n\nID: 7709801906238\nTitle: The Host Set\nType: (none)\nTags: discount qualified, logicbroker\nPrice: 130 USD\nDescription (first 250 chars): For effortless entertaining and memorable gatherings. The Host Set pairs The Salt Sphere for stylish seasoning storage with The Resting Stone, an elegant resting spot for utensils, garnishes and small touches. Ideal for holiday hosting and a thoughtf…\n\nID: 8052218888254\nTitle: Washed Linen Oven Mitt\nType: Textiles & Linens\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 35 USD\nDescription (first 250 chars): Made from softly washed linen, this oven mitt brings comfort and durability to everyday cooking. Designed to protect hands while handling hot dishes and bakeware, it offers a relaxed, lived-in feel that only gets better with use. Easy to reach for an…\n\nID: 8039266091070\nTitle: Dinner Plate Single\nType: Dishware\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 72 USD\nDescription (first 250 chars): The Tortugaware dinner plate brings sculptural form to everyday function. The signature rolling edge creates visual movement when stacked and a comfortable hold when served. Crafted from substantial stoneware, each plate feels grounded and luxurious—…\n\nID: 7110231687230\nTitle: The Linen Napkins - Flax\nType: (none)\nTags: badge-last chance, bdaysale-25p, logicbroker, Stylux\nPrice: 20 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 7220737179710\nTitle: The Linen Napkins - Stylux\nType: Tabletop\nTags: bdaysale-25p, logicbroker\nPrice: 55 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 8039266320446\nTitle: Dinner Napkins Double Sided Checker - Quiet Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A counterpart to Tortuga Forma's bolder styles, this rendition of our Checker pattern appears in refined colors — slate, soil, apricot, and…\n\nID: 8052218986558\nTitle: French Country Cutlery\nType: Flatware\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 95-355 USD\nDescription (first 250 chars): With generous silhouettes and a nature-inspired design, Farmhouse Pottery's French Country Cutlery brings everyday meals into a more soulful rhythm. Each piece is gracefully shaped with a subtle leaf motif—quietly refined, yet grounded in tradition. …\n\nID: 7170273116222\nTitle: The Salt Sphere\nType: (none)\nTags: bdaysale-10p, discount qualified, logicbroker\nPrice: 65 USD\nDescription (first 250 chars): Season with confidence. A pinch here, a dash there and a whole lot in your pasta water: salt is a kitchen essential. Shouldn’t its home reflect that? The Salt Sphere keeps it within arms reach, doing double duty as a beautiful object and smart storag…\n\nID: 8052219117630\nTitle: Windsor Cutlery\nType: Flatware\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 85-325 USD\nDescription (first 250 chars): A modern take on timeless design, Farmhouse Pottery's Windsor Cutlery brings warmth and refinement to everyday dining. Crafted with graceful curves and a vintage finish, this versatile set feels right at home on both casual and elevated tablescapes. …\n\nID: 8052219019326\nTitle: Pantry Cutlery\nType: Flatware\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 85-325 USD\nDescription (first 250 chars): Inspired by vintage camp-style utensils, Farmhouse Pottery's Pantry Cutlery blends rugged charm with thoughtful design. The squared edges and simple lines give each piece a sense of structure—balanced, grounded, and quietly bold. Finished with an age…\n\nID: 8039266222142\nTitle: Tablecloth Reversible Checker\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 220-320 USD\nDescription (first 250 chars): Bring timeless and playful patterns to your table with our reversible tablecloths, ideal for everyday meals and special occasions. The Checker Sky brings a soft curve into a geometric pattern which vibrates in classic yellow, light blue, and cream. E…\n\nID: 7043157655614\nTitle: The E-Gift Card\nType: Gift Card\nTags: exclude-kk, logicbroker\nPrice: 25-500 USD\nDescription (first 250 chars): Surprise that someone with a gift card to help them towards their dream table setting, serving board or kitchen set. Delivered straight to their inbox whenever you say “go.\" Ordering multiple? Email hello@materialkitchen.com and our team would love t…\n\nID: 7957026144318\nTitle: The Whole Kitchen Kit\nType: (none)\nTags: discount qualified\nPrice: 1535 USD\nDescription (first 250 chars): Take the guesswork out of cooking with this carefully curated set that takes you from the prep to the table. With everything you need to set up a new kitchen crafted from good-for-you materials that will last a lifetime, it's the perfect gift for new…\n\nID: 7774381801534\nTitle: The Medium Goun Bowl\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 30 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. Perfectly sized for bre…\n\nID: 7772227797054\nTitle: The Goun Plate\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 60 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. A light-as-air dinner p…\n\nID: 7774379966526\nTitle: The Small Goun Bowl\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 25 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. Perfectly sized for sna…\n\nID: 7774384259134\nTitle: The Goun Set\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 210 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. The Goun Collection fea…\n\nID: 7774311907390\nTitle: The Goun Noodle Bowl\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 55 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. A deep bowl, perfect fo…\n\nID: 7774383112254\nTitle: The Small Goun Plate\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 40 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. The ideal dessert or sa…\n\nID: 7238046613566\nTitle: The Resting Stone\nType: (none)\nTags: bdaysale-15p, discount qualified\nPrice: 65 USD\nDescription (first 250 chars): Set of 2. For objects at work that need a moment of rest. Rest your utensils, rings, lemon wedges and more in the curve of this pebble-inspired dish, available in three nature-inspired color duos. Designed to be displayed, The Resting Stone is as gor…\n\nID: 7264469450814\nTitle: The Cook's Toolset\nType: (none)\nTags: bdaysale-15p, discount qualified, logicbroker\nPrice: 118 USD\nDescription (first 250 chars): Essential tools for easy cooking . Whisk, flip, scoop and peel your way through any recipe with this set of our bestselling tools including The Soft-Edge Turner, The Air Whisk, The Wood Spoon, The Fish Spatula, The Metal Spoon and The Forever Peeler.\n\nID: 6742661333054\nTitle: The Table Knives\nType: Knives\nTags: badge-Wirecutter's #1 Steak Knives, bfcm-picks, Cortina, discount qualified, logicbroker, Stylux, Stylux Personalization\nPrice: 110 USD\nDescription (first 250 chars): A NYT Gift Guide Pick and Wirecutter's Top Pick for Best Steak Knives. Seamlessly slice through turkey, steaks and squash with hand-finished German steel stainless blades and matte, stain-resistant, and ever-so-slightly grippy handle. Each set of fou…\n\nID: 8020094255166\nTitle: The MK Free Set\nType: Prepware\nTags: discount qualified\nPrice: 91 USD\nDescription (first 250 chars): The better for you boards. A duo of plant-based boards you'll reach for daily, thanks to their non-porous and dishwasher-safe material. Messy, large jobs are perfect for The MK Free Board's expansive size and juice groove. Small daily tasks are where…\n\nID: 7269729599550\nTitle: The Glasses Set\nType: Tabletop\nTags: bdaysale-25p, discount qualified, logicbroker, set\nPrice: 195 USD\nDescription (first 250 chars): Build a colorful bundle of 2 Full Glass Sets and 2 Half Glass Sets. Made from ultra-thin (and ultra-strong) borosilicate glass, these glasses are stackable, dishwasher-safe, resistant to thermal shock and made for everyday use.\n\nID: 8018742247486\nTitle: The (mini) reBoard® - Multiple Colors\nType: Prepware\nTags: bdaysale-15p, charity_Drive Change, cutting board, go live, logicbroker, prep, recycled, single-item, sustainable\nPrice: 18 USD\nDescription (first 250 chars): For small snacks and quick cuts . Most of the time we’re not cutting whole chickens or giant vegetables. We’re slicing an apple or nibbling on cheese or wedging a lemon. Except who wants to use a big old cutting board for a tiny thing like that? Same…\n\nID: 8039265992766\nTitle: Bread Plate Set of 4\nType: Sets\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 151 USD\nDescription (first 250 chars): The Tortugaware bread plate is the smallest member but completes the set. Its subtle rolling edge and weighted clay body feel substantial in the hand while stacking beautifully with the dinner and salad plates. Dishwasher, microwave, and oven safe, t…"
+      },
+      "rawResponse": "{\n  \"verdict\": \"skipped\",\n   \"topProductId\": null,\n   \"reasoning\": \"The store catalog does not contain any shoe products, making it impossible to recommend a comfortable shoe for someone in their 60s who walks daily.\",\n   \"gaps\": [\n      \"no shoe products in the catalog\",\n      \"no information about comfort or walking shoes\",\n      \"no customer reviews or ratings for shoe products\"\n   ]\n}",
+      "sampledProductIds": [
+        "8039266287678",
+        "7839631900734",
+        "8052218921022",
+        "8039265894462",
+        "7709801906238",
+        "8052218888254",
+        "8039266091070",
+        "7110231687230",
+        "7220737179710",
+        "8039266320446",
+        "8052218986558",
+        "7170273116222",
+        "8052219117630",
+        "8052219019326",
+        "8039266222142",
+        "7043157655614",
+        "7957026144318",
+        "7774381801534",
+        "7772227797054",
+        "7774379966526",
+        "7774384259134",
+        "7774311907390",
+        "7774383112254",
+        "7238046613566",
+        "7264469450814",
+        "6742661333054",
+        "8020094255166",
+        "7269729599550",
+        "8018742247486",
+        "8039265992766"
+      ],
+      "latencyMs": 656,
+      "retried": false,
+      "usage": {
+        "promptTokens": 3571,
+        "completionTokens": 91,
+        "totalTokens": 3662
+      },
+      "error": null
+    },
+    {
+      "personaId": "minimalist-traveler",
+      "modelSlug": "google-direct/gemini-3-flash-preview",
+      "displayName": "Gemini 3 Flash",
+      "intent": "minimalist sneaker for travel — lightweight, easy to clean, neutral color",
+      "verdict": "skipped",
+      "topProductId": null,
+      "reasoning": "The store's catalog is focused exclusively on kitchenware, table linens, and home goods. There are no footwear or apparel items available to meet the shopper's request for sneakers.",
+      "gaps": [
+        "no footwear category",
+        "no apparel or travel gear",
+        "catalog is limited to kitchen and dining products"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: minimalist sneaker for travel — lightweight, easy to clean, neutral color\n\nStore catalog (sampled, 30 products shown):\nID: 8039266189374\nTitle: Tablecloth Reversible Grid\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 220-320 USD\nDescription (first 250 chars): Bring timeless and playful patterns to your table with Tortuga Forma's reversible tablecloths, ideal for everyday meals and special occasions. The Grid Martini is a modern neutral with tones of olive, pink, and deep red that shines with classic dishe…\n\nID: 7784932737086\nTitle: The MK Free Board\nType: Prepware\nTags: badge-#1 Bestseller, badge-As Seen on TODAY, discount qualified\nPrice: 52 USD\nDescription (first 250 chars): A safer, better choice. The MK Free Board™️ is made of a revolutionary material that is plant-based and leaves behind no permanent microplastics. Easy to use, easy to clean, this cutting board offers peace of mind in knowing it's a smart choice for y…\n\nID: 8039266385982\nTitle: Dinner Napkins Double Sided Grid - High Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): Tortuga Forma's version of the Grid pattern is marvelously wonky with free-form lines intersecting with orthagonal ones. It's a classic without being predictable. Available in wine and cocktail inspired palettes to camouflage spills. Our double-sided…\n\nID: 8018751782974\nTitle: The reBowl® - Multiple Colors\nType: Prepware\nTags: bdaysale-15p, go live, logicbroker, mixing bowl, prep, recycled, single-item, sustainable\nPrice: 18 USD\nDescription (first 250 chars): As featured in Architectural Digest and Food Network. The truly all-purpose reBowl is our go-to for mixing, serving, and storing. Buy a set of 3 and nest for easy storage. Plus, it’s BPA-free, dishwasher-safe and made from the same sustainable materi…\n\nID: 8039266222142\nTitle: Tablecloth Reversible Checker\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 220-320 USD\nDescription (first 250 chars): Bring timeless and playful patterns to your table with our reversible tablecloths, ideal for everyday meals and special occasions. The Checker Sky brings a soft curve into a geometric pattern which vibrates in classic yellow, light blue, and cream. E…\n\nID: 7990659809342\nTitle: The Clean Cook Set\nType: (none)\nTags: discount qualified\nPrice: 143 USD\nDescription (first 250 chars): Clean eating starts with what's on your counter, including your tools. Plant-based and free of permanent microplastics, The MK Free Board ™️ is the perfect pairing for The 8\" Knife, a balanced, sharp and safe knife that tackles almost every job you h…\n\nID: 8039265894462\nTitle: Tablecloth Sabi\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 280 USD\nDescription (first 250 chars): Our luxurious Sabi extra large tablecloth transforms the classic white table linen tradition with the beautiful imperfection of wabi sabi—through irregular slubs, rich dyes, and a distinctive texture that brings sophistication to this dining room sta…\n\nID: 7238046613566\nTitle: The Resting Stone\nType: (none)\nTags: bdaysale-15p, discount qualified\nPrice: 65 USD\nDescription (first 250 chars): Set of 2. For objects at work that need a moment of rest. Rest your utensils, rings, lemon wedges and more in the curve of this pebble-inspired dish, available in three nature-inspired color duos. Designed to be displayed, The Resting Stone is as gor…\n\nID: 7264469450814\nTitle: The Cook's Toolset\nType: (none)\nTags: bdaysale-15p, discount qualified, logicbroker\nPrice: 118 USD\nDescription (first 250 chars): Essential tools for easy cooking . Whisk, flip, scoop and peel your way through any recipe with this set of our bestselling tools including The Soft-Edge Turner, The Air Whisk, The Wood Spoon, The Fish Spatula, The Metal Spoon and The Forever Peeler.\n\nID: 8052218888254\nTitle: Washed Linen Oven Mitt\nType: Textiles & Linens\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 35 USD\nDescription (first 250 chars): Made from softly washed linen, this oven mitt brings comfort and durability to everyday cooking. Designed to protect hands while handling hot dishes and bakeware, it offers a relaxed, lived-in feel that only gets better with use. Easy to reach for an…\n\nID: 8018742640702\nTitle: The reBoard® - Multiple Colors\nType: (none)\nTags: badge-💥 sold out 10x!, bdaysale-20p, charity_Drive Change, cutting board, discount qualified, go live, logicbroker, prep, recycled, save_buy_3_toggle, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 20 USD\nDescription (first 250 chars): Check out our newest cutting board: The MK Free Board - 100% plant-based, dishwasher-safe and perfect for every kitchen. Master meal prep with color-coded cutting boards. These BPA-free boards are made entirely of kitchen plastic scraps and renewable…\n\nID: 7269729599550\nTitle: The Glasses Set\nType: Tabletop\nTags: bdaysale-25p, discount qualified, logicbroker, set\nPrice: 195 USD\nDescription (first 250 chars): Build a colorful bundle of 2 Full Glass Sets and 2 Half Glass Sets. Made from ultra-thin (and ultra-strong) borosilicate glass, these glasses are stackable, dishwasher-safe, resistant to thermal shock and made for everyday use.\n\nID: 8018742247486\nTitle: The (mini) reBoard® - Multiple Colors\nType: Prepware\nTags: bdaysale-15p, charity_Drive Change, cutting board, go live, logicbroker, prep, recycled, single-item, sustainable\nPrice: 18 USD\nDescription (first 250 chars): For small snacks and quick cuts . Most of the time we’re not cutting whole chickens or giant vegetables. We’re slicing an apple or nibbling on cheese or wedging a lemon. Except who wants to use a big old cutting board for a tiny thing like that? Same…\n\nID: 8039266156606\nTitle: Dinner Napkins Double Sided Stripe - Quiet Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A refined counterpart to Tortuga Forma's bolder styles, this cloth napkin version of their signature Broken Stripe is rendered in hushed to…\n\nID: 8039266025534\nTitle: Dinner Napkins Double Sided Drift - Quiet Season\nType: Sets\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection introduces a grounded palette rooted in nature’s more contemplative tones. The new Drift pattern reimagines classic weaving motifs in a softened spectrum—gold, bayleaf, soil, apricot, and dusty blue—bringing a sense of qui…\n\nID: 7110231687230\nTitle: The Linen Napkins - Flax\nType: (none)\nTags: badge-last chance, bdaysale-25p, logicbroker, Stylux\nPrice: 20 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 7220737179710\nTitle: The Linen Napkins - Stylux\nType: Tabletop\nTags: bdaysale-25p, logicbroker\nPrice: 55 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 8039266320446\nTitle: Dinner Napkins Double Sided Checker - Quiet Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A counterpart to Tortuga Forma's bolder styles, this rendition of our Checker pattern appears in refined colors — slate, soil, apricot, and…\n\nID: 8039266254910\nTitle: Dinner Napkins Double Sided Checker - High Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): A contemporary twist on the timeless Checker, the Tortuga Forma version of this pattern introduces a soft curve into the geometry. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the co…\n\nID: 7164530425918\nTitle: The Kitchen Starter Set\nType: Cooking Sets\nTags: badge-best deal, bdaysale-20p, discount qualified, logicbroker, set\nPrice: 530 USD\nDescription (first 250 chars): Everything you need for a fresh start. Say goodbye to mismatched utensils, secondhand cutting boards, and old pans. Perfect for recent graduates, new couples or anyone looking for a kitchen refresh, this kit includes our bestselling essentials for a …\n\nID: 1924677107774\nTitle: The Sharpener\nType: Storage + Care\nTags: bdaysale-15p, charity_Heart of Dinner, discount qualified, go live, logicbroker, single-item\nPrice: 20 USD\nDescription (first 250 chars): At-home knife sharpening is easy with our pull-through Sharpener. We make our products to last, which means good maintenance is key. We designed The Sharpener especially for the 13-degree angle of The 8”, Almost 4”, and Table Knives, which keeps them…\n\nID: 8052218953790\nTitle: Silo Cutlery\nType: Flatware\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 95-355 USD\nDescription (first 250 chars): Streamlined yet soulful, the Silo Cutlery brings modern form to the timeless ritual of gathering around the table. Crafted with a vintage-inspired finish, each piece is perfectly weighted and designed to feel both elevated and effortless in hand. Cle…\n\nID: 8039266353214\nTitle: Dinner Napkins Double Sided Comb - High Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): We call this pattern the Comb to describe its mesmerizing undulations. In rich, jewel-toned emerald with accents of garnet and peridot, this sophisticated design adds visual flair to the tabletop. Our double-sided table linens have a distinct design …\n\nID: 7605753151550\nTitle: The Soft-Edge Turner - Multiple Colors\nType: (none)\nTags: badge-last chance, bdaysale-15p, charity_Drive Change, go live, logicbroker, silicone, single-item\nPrice: 15 USD\nDescription (first 250 chars): The BPA-free silicone wonder tool made for flipping, folding and scraping bits from pesky corners. Unlike flimsy spatulas, this one’s got a reinforced nylon core for stability that complements silicone’s softness. Perfect to use with nonstick pans, s…\n\nID: 7110442156094\nTitle: The Linen Placemats - Sienna + Mocha\nType: (none)\nTags: badge-63% off, badge-last chance, bdaysale-25p, logicbroker\nPrice: 20 USD\nDescription (first 250 chars): Set of 2. These reversible placemats are double-sided (and doubly delightful). Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural variations in color and texture, both of which will onl…\n\nID: 7605737848894\nTitle: The Metal Spoon -Blue Grey\nType: (none)\nTags: badge-last chance, bdaysale-15p, go live, logicbroker, single-item\nPrice: 10 USD\nDescription (first 250 chars): As seen in The New York Times and The Today Show. A sleek 3-in-1 sleek metal cooking spoon: use it as a measuring cup (one spoonful = 1/4 cup), stainless steel cooking tool or serving utensil at the table. Price as marked. This item is not eligible f…\n\nID: 7819836096574\nTitle: The Dream Scoop\nType: (none)\nTags: badge-Van Leeuwen X Material\nPrice: 45 USD\nDescription (first 250 chars): Effortlessly glide through your pint, forming perfect scoops with The Dream Scoop, a collaboration with the ice cream geniuses at Van Leeuwen. Crafted from 100% stainless steel, this ice cream scoop has a smooth, one-piece-shaped head, ergonomic hand…\n\nID: 6680772575294\nTitle: The Slotted Spatula - Almost Black\nType: (none)\nTags: badge-last chance, go live, logicbroker, single-item\nPrice: 10 USD\nDescription (first 250 chars): As seen in The New York Times and The Today Show. Flexible enough to flip a delicate fish, strong enough to hold a bone-in pork chop, and with a beveled edge to cut through lasagna. With the same ergonomically-optimized handle found on our knives, it…\n\nID: 7774381801534\nTitle: The Medium Goun Bowl\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 30 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. Perfectly sized for bre…\n\nID: 7772227797054\nTitle: The Goun Plate\nType: Dinnerware\nTags: bdaysale-10p, ceramics, discount qualified, go live, logicbroker, single-item\nPrice: 60 USD\nDescription (first 250 chars): Exclusively for Material. Beautifully cradle every meal with The Goun Collection from Korean ceramicist Soilbaker. Softly speckled and elegantly curved, these ceramics are inspired by the moon jar, a Korean symbol of identity. A light-as-air dinner p…"
+      },
+      "rawResponse": "{\n  \"verdict\": \"skipped\",\n  \"topProductId\": null,\n  \"reasoning\": \"The store's catalog is focused exclusively on kitchenware, table linens, and home goods. There are no footwear or apparel items available to meet the shopper's request for sneakers.\",\n  \"gaps\": [\n    \"no footwear category\",\n    \"no apparel or travel gear\",\n    \"catalog is limited to kitchen and dining products\"\n  ]\n}",
+      "sampledProductIds": [
+        "8039266189374",
+        "7784932737086",
+        "8039266385982",
+        "8018751782974",
+        "8039266222142",
+        "7990659809342",
+        "8039265894462",
+        "7238046613566",
+        "7264469450814",
+        "8052218888254",
+        "8018742640702",
+        "7269729599550",
+        "8018742247486",
+        "8039266156606",
+        "8039266025534",
+        "7110231687230",
+        "7220737179710",
+        "8039266320446",
+        "8039266254910",
+        "7164530425918",
+        "1924677107774",
+        "8052218953790",
+        "8039266353214",
+        "7605753151550",
+        "7110442156094",
+        "7605737848894",
+        "7819836096574",
+        "6680772575294",
+        "7774381801534",
+        "7772227797054"
+      ],
+      "latencyMs": 1221,
+      "retried": false,
+      "usage": {
+        "promptTokens": 4025,
+        "completionTokens": 102,
+        "totalTokens": 4127
+      },
+      "error": null
+    },
+    {
+      "personaId": "vegan-with-reviews",
+      "modelSlug": "mistral-direct/mistral-small-2603",
+      "displayName": "Mistral Small 2603",
+      "intent": "vegan shoes with strong customer reviews — show me the rating breakdown",
+      "verdict": "skipped",
+      "topProductId": null,
+      "reasoning": "The catalog contains no vegan shoes or footwear products. All items are related to table linens, kitchenware, storage, or textiles, none of which match the shopper's intent.",
+      "gaps": [
+        "No footwear products in the catalog",
+        "No vegan product specifications visible",
+        "No customer review data or ratings provided"
+      ],
+      "flags": [],
+      "promptUsed": {
+        "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
+        "user": "Shopper intent: vegan shoes with strong customer reviews — show me the rating breakdown\n\nStore catalog (sampled, 30 products shown):\nID: 8039266287678\nTitle: Dinner Napkins Sabi Mixed Sets\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 100 USD\nDescription (first 250 chars): Tortuga Forma's luxurious Sabi dinner napkins transform table settings with the philosophy of wabi sabi—celebrating beautiful imperfection through irregular slubs, rich dyes, and a distinctive texture. For a curated look of mixed napkin sets, choose …\n\nID: 8039266385982\nTitle: Dinner Napkins Double Sided Grid - High Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): Tortuga Forma's version of the Grid pattern is marvelously wonky with free-form lines intersecting with orthagonal ones. It's a classic without being predictable. Available in wine and cocktail inspired palettes to camouflage spills. Our double-sided…\n\nID: 8039266156606\nTitle: Dinner Napkins Double Sided Stripe - Quiet Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A refined counterpart to Tortuga Forma's bolder styles, this cloth napkin version of their signature Broken Stripe is rendered in hushed to…\n\nID: 8039266320446\nTitle: Dinner Napkins Double Sided Checker - Quiet Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection brings a grounded palette to the table, drawing from nature's understated moments. A counterpart to Tortuga Forma's bolder styles, this rendition of our Checker pattern appears in refined colors — slate, soil, apricot, and…\n\nID: 8039266254910\nTitle: Dinner Napkins Double Sided Checker - High Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): A contemporary twist on the timeless Checker, the Tortuga Forma version of this pattern introduces a soft curve into the geometry. Our double-sided table linens have a distinct design on the front and back where the pattern shifts in scale and the co…\n\nID: 8039266189374\nTitle: Tablecloth Reversible Grid\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 220-320 USD\nDescription (first 250 chars): Bring timeless and playful patterns to your table with Tortuga Forma's reversible tablecloths, ideal for everyday meals and special occasions. The Grid Martini is a modern neutral with tones of olive, pink, and deep red that shines with classic dishe…\n\nID: 1924677238846\nTitle: The Wood Oil\nType: Storage + Care\nTags: bdaysale-15p, charity_Drive Change, go live, logicbroker, single-item, sustainable\nPrice: 10 USD\nDescription (first 250 chars): Our products are made to last a lifetime, and proper care is an essential part of making that happen. Treating your products (think The Angled Board, The Wood Spoon) with our plant-based, all-natural o il regularly will keep its surface strong, creat…\n\nID: 8039266353214\nTitle: Dinner Napkins Double Sided Comb - High Season\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): We call this pattern the Comb to describe its mesmerizing undulations. In rich, jewel-toned emerald with accents of garnet and peridot, this sophisticated design adds visual flair to the tabletop. Our double-sided table linens have a distinct design …\n\nID: 8039266222142\nTitle: Tablecloth Reversible Checker\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 220-320 USD\nDescription (first 250 chars): Bring timeless and playful patterns to your table with our reversible tablecloths, ideal for everyday meals and special occasions. The Checker Sky brings a soft curve into a geometric pattern which vibrates in classic yellow, light blue, and cream. E…\n\nID: 8039265894462\nTitle: Tablecloth Sabi\nType: Table Linens\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 280 USD\nDescription (first 250 chars): Our luxurious Sabi extra large tablecloth transforms the classic white table linen tradition with the beautiful imperfection of wabi sabi—through irregular slubs, rich dyes, and a distinctive texture that brings sophistication to this dining room sta…\n\nID: 6801632985150\nTitle: The Good Prep Set\nType: Cooking Sets\nTags: bdaysale-15p, discount qualified, logicbroker, set\nPrice: 220 USD\nDescription (first 250 chars): Chop, slice and dice with confidence. The foundation of any kitchen: the right cutting board and a sharp knife. The Good Prep Set has you covered with our 100% plant-based cutting board (free of permanent micro-plastics, non-porous and dishwasher-saf…\n\nID: 8052218888254\nTitle: Washed Linen Oven Mitt\nType: Textiles & Linens\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 35 USD\nDescription (first 250 chars): Made from softly washed linen, this oven mitt brings comfort and durability to everyday cooking. Designed to protect hands while handling hot dishes and bakeware, it offers a relaxed, lived-in feel that only gets better with use. Easy to reach for an…\n\nID: 8018742640702\nTitle: The reBoard® - Multiple Colors\nType: (none)\nTags: badge-💥 sold out 10x!, bdaysale-20p, charity_Drive Change, cutting board, discount qualified, go live, logicbroker, prep, recycled, save_buy_3_toggle, single-item, sustainable, tag_bestseller, waitlist_Qv4sxs\nPrice: 20 USD\nDescription (first 250 chars): Check out our newest cutting board: The MK Free Board - 100% plant-based, dishwasher-safe and perfect for every kitchen. Master meal prep with color-coded cutting boards. These BPA-free boards are made entirely of kitchen plastic scraps and renewable…\n\nID: 8020085604414\nTitle: The Midi MK Free Board Duo\nType: Prepware\nTags: badge-NEW!, badge-Pre-Order Now, discount qualified, set\nPrice: 83 USD\nDescription (first 250 chars): Small jobs, big responsibility. Prep without the worry of forever chemicals and permanent microplastics with The Midi MK Free Board, a smaller and highly-requested version of our bestselling, award-winning plant-based cutting board. It’s dishwasher-s…\n\nID: 8020094255166\nTitle: The MK Free Set\nType: Prepware\nTags: discount qualified\nPrice: 91 USD\nDescription (first 250 chars): The better for you boards. A duo of plant-based boards you'll reach for daily, thanks to their non-porous and dishwasher-safe material. Messy, large jobs are perfect for The MK Free Board's expansive size and juice groove. Small daily tasks are where…\n\nID: 7269729599550\nTitle: The Glasses Set\nType: Tabletop\nTags: bdaysale-25p, discount qualified, logicbroker, set\nPrice: 195 USD\nDescription (first 250 chars): Build a colorful bundle of 2 Full Glass Sets and 2 Half Glass Sets. Made from ultra-thin (and ultra-strong) borosilicate glass, these glasses are stackable, dishwasher-safe, resistant to thermal shock and made for everyday use.\n\nID: 7784932737086\nTitle: The MK Free Board\nType: Prepware\nTags: badge-#1 Bestseller, badge-As Seen on TODAY, discount qualified\nPrice: 52 USD\nDescription (first 250 chars): A safer, better choice. The MK Free Board™️ is made of a revolutionary material that is plant-based and leaves behind no permanent microplastics. Easy to use, easy to clean, this cutting board offers peace of mind in knowing it's a smart choice for y…\n\nID: 8039266025534\nTitle: Dinner Napkins Double Sided Drift - Quiet Season\nType: Sets\nTags: badge-MK Finds, badge-Tortuga Forma, Shopify Collective, Tortuga Forma\nPrice: 88 USD\nDescription (first 250 chars): The Quiet Season Collection introduces a grounded palette rooted in nature’s more contemplative tones. The new Drift pattern reimagines classic weaving motifs in a softened spectrum—gold, bayleaf, soil, apricot, and dusty blue—bringing a sense of qui…\n\nID: 7110231687230\nTitle: The Linen Napkins - Flax\nType: (none)\nTags: badge-last chance, bdaysale-25p, logicbroker, Stylux\nPrice: 20 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 7220737179710\nTitle: The Linen Napkins - Stylux\nType: Tabletop\nTags: bdaysale-25p, logicbroker\nPrice: 55 USD\nDescription (first 250 chars): Set of 4. The perfect everyday, eco-friendly napkins. Say hello to a softer everyday and goodbye to rough and wasteful paper goods. Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural va…\n\nID: 8052218986558\nTitle: French Country Cutlery\nType: Flatware\nTags: badge-Farmhouse Pottery, badge-MK Finds, Farmhouse Pottery, Shopify Collective\nPrice: 95-355 USD\nDescription (first 250 chars): With generous silhouettes and a nature-inspired design, Farmhouse Pottery's French Country Cutlery brings everyday meals into a more soulful rhythm. Each piece is gracefully shaped with a subtle leaf motif—quietly refined, yet grounded in tradition. …\n\nID: 7745637515326\nTitle: The Material Mix\nType: (none)\nTags: discount qualified, logicbroker\nPrice: 190 USD\nDescription (first 250 chars): Your flavor-building toolkit, complete with smart storage. A mix of tools you'll reach for daily, this set allows you to flip, fry, whisk, fold and stir with confidence. These tools are crafted from the best materials for their respective jobs, like …\n\nID: 7667634536510\nTitle: The Material Market Tote\nType: Storage + Care\nTags: badge-50% Donated to God's Love We Deliver, logicbroker\nPrice: 47 USD\nDescription (first 250 chars): DONATION ALERT! 50% of the proceeds from The Material Market Tote go towards providing meals for critically ill New Yorkers, via a donation to God's Love We Deliver. Our dream market tote, we constructed a large, durable cotton bag, complete with a a…\n\nID: 7990659809342\nTitle: The Clean Cook Set\nType: (none)\nTags: discount qualified\nPrice: 143 USD\nDescription (first 250 chars): Clean eating starts with what's on your counter, including your tools. Plant-based and free of permanent microplastics, The MK Free Board ™️ is the perfect pairing for The 8\" Knife, a balanced, sharp and safe knife that tackles almost every job you h…\n\nID: 7110442156094\nTitle: The Linen Placemats - Sienna + Mocha\nType: (none)\nTags: badge-63% off, badge-last chance, bdaysale-25p, logicbroker\nPrice: 20 USD\nDescription (first 250 chars): Set of 2. These reversible placemats are double-sided (and doubly delightful). Our linens are made in small batches of 100% flax linen and stone-washed. As a result, each piece will have natural variations in color and texture, both of which will onl…\n\nID: 7110230147134\nTitle: The Half Glass Set\nType: Tabletop\nTags: discount qualified\nPrice: 35 USD\nDescription (first 250 chars): Set of 4. Fun fact: this glass was designed around the size of our ideal ice cube. The Half Glass does triple duty as a water glass, weeknight wine glass and rocks glass. Made from ultra-thin (and ultra-strong) borosilicate glass, it's stackable, dis…\n\nID: 8018444255294\nTitle: The Midi MK Free Board\nType: Prepware\nTags: badge-new, badge-Pre-Order Now, discount qualified\nPrice: 44 USD\nDescription (first 250 chars): Small jobs, big responsibility. Prep without the worry of forever chemicals and permanent microplastics with The Midi MK Free Board, a smaller and highly-requested version of our bestselling, award-winning plant-based cutting board. It’s dishwasher-s…\n\nID: 7819836096574\nTitle: The Dream Scoop\nType: (none)\nTags: badge-Van Leeuwen X Material\nPrice: 45 USD\nDescription (first 250 chars): Effortlessly glide through your pint, forming perfect scoops with The Dream Scoop, a collaboration with the ice cream geniuses at Van Leeuwen. Crafted from 100% stainless steel, this ice cream scoop has a smooth, one-piece-shaped head, ergonomic hand…\n\nID: 6680772575294\nTitle: The Slotted Spatula - Almost Black\nType: (none)\nTags: badge-last chance, go live, logicbroker, single-item\nPrice: 10 USD\nDescription (first 250 chars): As seen in The New York Times and The Today Show. Flexible enough to flip a delicate fish, strong enough to hold a bone-in pork chop, and with a beveled edge to cut through lasagna. With the same ergonomically-optimized handle found on our knives, it…\n\nID: 1658615791727\nTitle: The Stand\nType: Storage + Care\nTags: badge-bestseller, bdaysale-15p, charity_Drive Change, discount qualified, go live, logicbroker, magnetic, single-item, storage, Stylux, sustainable, waitlist_QqTcCk\nPrice: 110 USD\nDescription (first 250 chars): Say goodbye to cluttered countertops with our sleek, space-saving magnetic knife stand. Safely store and prominently display up to 10 knives on The Stand, equipped with an ultra-strong, double-sided and fully magnetic body. Made exclusively with FSC-…"
+      },
+      "rawResponse": "{\n  \"verdict\": \"skipped\",\n  \"topProductId\": null,\n  \"reasoning\": \"The catalog contains no vegan shoes or footwear products. All items are related to table linens, kitchenware, storage, or textiles, none of which match the shopper's intent.\",\n  \"gaps\": [\n    \"No footwear products in the catalog\",\n    \"No vegan product specifications visible\",\n    \"No customer review data or ratings provided\"\n  ]\n}",
+      "sampledProductIds": [
+        "8039266287678",
+        "8039266385982",
+        "8039266156606",
+        "8039266320446",
+        "8039266254910",
+        "8039266189374",
+        "1924677238846",
+        "8039266353214",
+        "8039266222142",
+        "8039265894462",
+        "6801632985150",
+        "8052218888254",
+        "8018742640702",
+        "8020085604414",
+        "8020094255166",
+        "7269729599550",
+        "7784932737086",
+        "8039266025534",
+        "7110231687230",
+        "7220737179710",
+        "8052218986558",
+        "7745637515326",
+        "7667634536510",
+        "7990659809342",
+        "7110442156094",
+        "7110230147134",
+        "8018444255294",
+        "7819836096574",
+        "6680772575294",
+        "1658615791727"
+      ],
+      "latencyMs": 991,
+      "retried": false,
+      "usage": {
+        "promptTokens": 4082,
+        "completionTokens": 102,
+        "totalTokens": 4184
+      },
+      "error": null
+    }
+  ],
+  "score": {
+    "overall": 63,
+    "dimensions": {
+      "discoverability": {
+        "score": 58.06862745098039,
+        "signals": [
+          {
+            "name": "tag density (visible tags/product)",
+            "value": 4.735294117647059,
+            "weight": 30,
+            "contribution": 28.41176470588235,
+            "source": "catalog"
+          },
+          {
+            "name": "product-type breadth",
+            "value": 0.1568627450980392,
+            "weight": 20,
+            "contribution": 20,
+            "source": "catalog"
+          },
+          {
+            "name": "title specificity (avg word count)",
+            "value": 3.9313725490196076,
+            "weight": 20,
+            "contribution": 9.656862745098039,
+            "source": "catalog"
+          },
+          {
+            "name": "persona surface rate (recommended + ranked-low)",
+            "value": 0,
+            "weight": 30,
+            "contribution": 0,
+            "source": "persona-verdicts"
+          }
+        ]
+      },
+      "description": {
+        "score": 84.70588235294117,
+        "signals": [
+          {
+            "name": "avg description word count",
+            "value": 66.58823529411765,
+            "weight": 30,
+            "contribution": 30,
+            "source": "catalog"
+          },
+          {
+            "name": "use-case language rate",
+            "value": 0.46078431372549017,
+            "weight": 25,
+            "contribution": 23.03921568627451,
+            "source": "catalog"
+          },
+          {
+            "name": "attribute detail rate",
+            "value": 0.7352941176470589,
+            "weight": 25,
+            "contribution": 25,
+            "source": "catalog"
+          },
+          {
+            "name": "persona description-gap rate (inverted)",
+            "value": 0.4,
+            "weight": 20,
+            "contribution": 6.666666666666665,
+            "source": "persona-verdicts"
+          }
+        ]
+      },
+      "schema": {
+        "score": 65.52287581699346,
+        "signals": [
+          {
+            "name": "review signal rate",
+            "value": 0.00980392156862745,
+            "weight": 30,
+            "contribution": 0.5882352941176471,
+            "source": "catalog"
+          },
+          {
+            "name": "variant structure rate (multi-variant products)",
+            "value": 0.5784313725490197,
+            "weight": 25,
+            "contribution": 19.93464052287582,
+            "source": "catalog"
+          },
+          {
+            "name": "vendor consistency (count)",
+            "value": 4,
+            "weight": 25,
+            "contribution": 25,
+            "source": "catalog"
+          },
+          {
+            "name": "avg images per product",
+            "value": 5.117647058823529,
+            "weight": 20,
+            "contribution": 20,
+            "source": "catalog"
+          }
+        ]
+      },
+      "trust": {
+        "score": 25.457516339869283,
+        "signals": [
+          {
+            "name": "policy keyword rate",
+            "value": 0,
+            "weight": 35,
+            "contribution": 0,
+            "source": "catalog"
+          },
+          {
+            "name": "dominant-vendor share (brand clarity)",
+            "value": 0.7745098039215687,
+            "weight": 30,
+            "contribution": 24.967320261437912,
+            "source": "catalog"
+          },
+          {
+            "name": "review signal rate (trust)",
+            "value": 0.00980392156862745,
+            "weight": 20,
+            "contribution": 0.49019607843137253,
+            "source": "catalog"
+          },
+          {
+            "name": "persona trust-gap rate (inverted)",
+            "value": 0.6,
+            "weight": 15,
+            "contribution": 0,
+            "source": "persona-verdicts"
+          }
+        ]
+      }
+    },
+    "recommendations": [
+      {
+        "id": "MISSING_REVIEW_SCHEMA",
+        "title": "Add review and rating data to product pages",
+        "description": "101 of 102 products have no review signals in their catalog data. AI shoppers asking about social proof have nothing to cite.",
+        "dimension": "schema",
+        "pointsLift": 9,
+        "productCount": 101,
+        "evidence": [
+          "2 of 5 personas reported missing review/rating data (Llama 3.3 70B (Groq), Mistral Small 2603)"
+        ]
+      },
+      {
+        "id": "TERSE_TITLES",
+        "title": "Expand terse product titles",
+        "description": "Average title is 3.9 words. AI shoppers parsing titles for intent (\"running shoe\", \"men's wool sweater\") get less to match against the shorter the title.",
+        "dimension": "discoverability",
+        "pointsLift": 4,
+        "productCount": 102,
+        "evidence": [
+          "avg title word count: 3.93"
+        ]
+      },
+      {
+        "id": "MISSING_POLICY_KEYWORDS",
+        "title": "Surface return / shipping / warranty language",
+        "description": "Only 0% of products mention policy terms (returns, shipping, warranty, guarantee). Trust-anxious shoppers can't verify the basics.",
+        "dimension": "trust",
+        "pointsLift": 3,
+        "productCount": 102,
+        "evidence": [
+          "catalog policy-keyword rate: 0.0%"
+        ]
+      }
+    ],
+    "computedAt": "2026-05-07T23:28:23.218Z"
+  },
+  "signals": {
+    "productCount": 102,
+    "averageDescriptionWords": 66.58823529411765,
+    "averageTagsPerProduct": 4.803921568627451,
+    "averageVisibleTagsPerProduct": 4.735294117647059,
+    "averageImagesPerProduct": 5.117647058823529,
+    "uniqueProductTypeCount": 16,
+    "uniqueVendorCount": 4,
+    "productTypeBreadth": 0.1568627450980392,
+    "averageTitleWordCount": 3.9313725490196076,
+    "reviewSignalRate": 0.00980392156862745,
+    "useCaseLanguageRate": 0.46078431372549017,
+    "attributeDetailRate": 0.7352941176470589,
+    "policyKeywordRate": 0,
+    "variantStructureRate": 0.5784313725490197,
+    "duplicateHandleCount": 0
+  },
+  "uniqueVendorShareTop": 0.7745098039215687
+}
