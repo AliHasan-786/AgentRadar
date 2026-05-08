@@ -74,7 +74,7 @@ export function ShoppingFloor({
             </div>
           )}
         </div>
-        <ScoreDial value={score.overall} animateMs={cached ? 0 : 600} />
+        <ScoreDial value={score.overall} animateMs={600} />
       </header>
 
       {/* Agent rows */}

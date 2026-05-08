@@ -19,7 +19,9 @@ export function ScoreDial({
   label = "AI readiness",
   size = "lg",
 }: Props) {
-  const [shown, setShown] = useState<number | null>(value);
+  const [shown, setShown] = useState<number | null>(
+    animateMs > 0 && value != null ? 0 : value,
+  );
   const targetRef = useRef<number | null>(value);
 
   useEffect(() => {
