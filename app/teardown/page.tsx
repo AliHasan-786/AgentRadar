@@ -108,8 +108,13 @@ export default function TeardownPage() {
                   <strong>Agentic Storefronts.</strong> In-chat checkout
                   inside participating channels — the agent doesn&apos;t hand
                   the shopper off to the storefront URL; the transaction
-                  closes in the conversation. Activated by default for every
-                  store on the platform as of late March 2026.
+                  closes in the conversation. Eligibility-gated, not
+                  default: requires a paid plan (not trial), US shipping,
+                  products meeting Shopify Catalog requirements, published
+                  store policies (ToS / Privacy / Returns), and acceptance
+                  of the Agentic Storefronts Supplemental ToS. Once
+                  eligible, no app install — automatic for eligible
+                  stores. Verified via Shopify Sidekick (May 2026).
                 </li>
                 <li>
                   <strong>Knowledge Base.</strong> Merchant-curated content
@@ -173,6 +178,24 @@ export default function TeardownPage() {
                 they fix the structure; nothing in the loop tells them whether
                 the fix changed anything an AI agent would say.
               </p>
+              <p className="mt-3 text-sm text-neutral-700 leading-relaxed">
+                Recent academic work suggests the checklist approach has
+                diminishing returns. Bagga, Farias et al. (2025){" "}
+                <a
+                  href="https://arxiv.org/abs/2511.20867"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-teal-700 hover:text-teal-900"
+                >
+                  E-GEO testbed ↗
+                </a>{" "}
+                evaluated 15 commonly recommended GEO rewriting heuristics
+                against 7,151 real consumer queries and found{" "}
+                <strong>10 of the 15 produced negligible or negative effect</strong>{" "}
+                on generative-engine rankings. The heuristics that do move
+                outcomes require systematic, query-conditional optimization
+                — not a static schema audit.
+              </p>
             </Section>
 
             <Section id="wedge" title="What none of them do">
@@ -192,6 +215,22 @@ export default function TeardownPage() {
                 the behavioral version is more visceral and produces a
                 clearer ask-to-action than &ldquo;your schema is incomplete.&rdquo;
               </p>
+
+              <aside className="mt-4 border-l-2 border-teal-700 pl-4 py-1 text-sm text-neutral-700 leading-relaxed max-w-3xl">
+                <span className="block uppercase tracking-wider text-[10px] text-neutral-500 font-mono mb-1">
+                  Verified inside Shopify Admin (May 2026)
+                </span>
+                Asked Sidekick directly: <em>&ldquo;Show me how my catalog
+                ranks across AI shopping channels.&rdquo;</em> Reply (verbatim):{" "}
+                <em>&ldquo;Shopify doesn&apos;t currently provide a dashboard
+                or report that shows how your products rank across AI
+                shopping channels like ChatGPT, Copilot, or Perplexity.
+                Those ranking decisions happen on each AI platform&apos;s
+                side, and they don&apos;t share that data back.&rdquo;</em>{" "}
+                The wedge is empirically present — confirmed by
+                Shopify&apos;s own AI assistant.
+              </aside>
+
               <ArchitectureDiagram />
               <p className="text-sm text-neutral-700 leading-relaxed">
                 Stage 3 above is where the existing GEO/AEO ecosystem and
@@ -340,6 +379,94 @@ export default function TeardownPage() {
                   Existing GEO/AEO tools observed in the wild: Fudge.ai
                   Shopify AI Readiness Checker, Airefs, AEO Engine, Stormy
                   AI. None publicly cite behavioral transcript output.
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2508.02630"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-700 hover:text-teal-900"
+                  >
+                    Allouah, Besbes, Figueroa, Kanoria, Kumar,
+                    &ldquo;What Is Your AI Agent Buying? Evaluation, Biases,
+                    Model Dependence & Emerging Implications for Agentic
+                    E-Commerce&rdquo; (Dec 2025) ↗
+                  </a>{" "}
+                  — direct evidence of large model-dependent variance in
+                  agent shopping outcomes (71-pt market-share swing on
+                  model swap)
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2511.22978"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-700 hover:text-teal-900"
+                  >
+                    Tou et al., &ldquo;ShoppingComp: Are LLMs Really Ready
+                    for Your Shopping Cart?&rdquo; (Feb 2026) ↗
+                  </a>{" "}
+                  — rubric-plus-multi-judge methodology validates this
+                  rubric design; even GPT-5.2 reaches only 17.76% on
+                  open-world expert shopping queries
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2508.04266"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-700 hover:text-teal-900"
+                  >
+                    Wang et al., &ldquo;ShoppingBench: A Real-World
+                    Intent-Grounded Shopping Benchmark for LLM-based
+                    Agents&rdquo; (Dec 2025) ↗
+                  </a>{" "}
+                  — frontier model GPT-4.1 succeeds on under 50% of grounded
+                  shopping tasks; dominant failure mode is missing or
+                  mismatched product attributes
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2511.20867"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-700 hover:text-teal-900"
+                  >
+                    Bagga, Farias et al., &ldquo;E-GEO: A Testbed for
+                    Generative Engine Optimization in E-Commerce&rdquo;
+                    (Nov 2025) ↗
+                  </a>{" "}
+                  — empirical evaluation of GEO heuristics; cited for the
+                  10-of-15-heuristics-fail finding
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2502.01349"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-700 hover:text-teal-900"
+                  >
+                    Filandrianos et al., &ldquo;Bias Beware: The Impact of
+                    Cognitive Biases on LLM-Driven Product
+                    Recommendations&rdquo; (EMNLP 2025) ↗
+                  </a>{" "}
+                  — basis for the rubric-gameability disclosure on the
+                  methodology page
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2512.09483"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-700 hover:text-teal-900"
+                  >
+                    Zhang et al., &ldquo;Source Coverage and Citation Bias
+                    in LLM-based vs. Traditional Search Engines&rdquo;
+                    (Dec 2025) ↗
+                  </a>{" "}
+                  — supporting context: LLM information surfaces diverge
+                  substantially from traditional search (37% of LLM-cited
+                  domains absent from traditional-search results)
                 </li>
               </ul>
             </Section>

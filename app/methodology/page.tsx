@@ -314,7 +314,22 @@ export default function MethodologyPage() {
             Weights are calibrated against documented GEO/AEO best practices,
             not empirically validated against merchant revenue outcomes. Every
             dimension card on the analysis page expands to show the specific
-            signal contributions.
+            signal contributions. The rubric-plus-multi-model architecture
+            mirrors the shape of recent academic shopping-agent benchmarks:
+            ShoppingComp (Tou et al., 2026{" "}
+            <a
+              href="https://arxiv.org/abs/2511.22978"
+              target="_blank"
+              rel="noreferrer"
+              className="text-teal-700 hover:text-teal-900"
+            >
+              ↗
+            </a>
+            ) uses expert-curated rubrics with LLM-as-judge verification and
+            reports that model rankings hold stable across three independent
+            judges. Their headline result — even GPT-5.2 reaches only 17.76%
+            Answer-Match F1 on open-world expert shopping queries — is
+            evidence catalog readiness is a real, measurable problem.
           </p>
         </Section>
 
@@ -490,6 +505,38 @@ export default function MethodologyPage() {
               Nike → Air Max) tend to converge on the flagship. This reflects
               real AI shopper behavior and is preserved in the verdicts; we
               do not correct for it.
+            </li>
+            <li>
+              <strong>The rubric is gameable by cognitive-bias copy.</strong>{" "}
+              Filandrianos et al. (2025){" "}
+              <a
+                href="https://arxiv.org/abs/2502.01349"
+                target="_blank"
+                rel="noreferrer"
+                className="text-teal-700 hover:text-teal-900"
+              >
+                ↗
+              </a>{" "}
+              show adding social-proof phrasing to a product description can
+              boost LLM recommendation rate by up to 334% on Claude 3.5
+              Sonnet, while exclusivity / scarcity language reduces it ~45%.
+              AgentRadar rewards trust-signal density and description
+              quality at the surface level; it does not distinguish factual
+              policy text from cognitive-bias framing. A catalog could
+              game the rubric upward without genuinely improving merchant
+              data quality. Disclosed up front; not unique to this rubric.
+            </li>
+            <li>
+              <strong>Data-surface scope.</strong> AgentRadar fetches the
+              public <code className="font-mono">/products.json</code> feed.
+              Shopify Catalog (UCP) syndicates a richer feed including
+              category metafields (Color, Neckline, Target gender, Sleeve
+              length, etc.) that <code className="font-mono">/products.json</code>{" "}
+              does not expose. This score reflects the public-web LLM view;
+              UCP-integrated agents see more than AgentRadar tests.
+              Confirmed in-platform by Shopify Sidekick: ChatGPT Shopping
+              consumes the Catalog feed, not a raw scrape of{" "}
+              <code className="font-mono">/products.json</code>.
             </li>
           </ul>
         </Section>
@@ -912,8 +959,22 @@ const FAQ_ITEMS: { q: string; a: React.ReactNode }[] = [
         isn&apos;t that any single one represents &ldquo;real shopper
         behavior&rdquo;; the point is that AI shoppers will be heterogeneous,
         and a catalog that only one model can interpret well is a catalog
-        with a hidden coverage problem. The Llama choice routes through Groq
-        for sub-second latency; the Anthropic and OpenAI calls go direct.
+        with a hidden coverage problem. Allouah et al. (2025){" "}
+        <a
+          href="https://arxiv.org/abs/2508.02630"
+          target="_blank"
+          rel="noreferrer"
+          className="text-teal-700 hover:text-teal-900"
+        >
+          ↗
+        </a>{" "}
+        quantify this directly: for the same fitness-watch assortment,
+        swapping Claude Sonnet 4 for Claude Opus 4.5 moved one
+        product&apos;s selection share from 45% to 77%, while GPT-5.1
+        dropped it from 25% to 6%. Same catalog, same prompt — the
+        model swap alone produced a 71-point swing. The Llama choice
+        routes through Groq for sub-second latency; the Anthropic and
+        OpenAI calls go direct.
       </>
     ),
   },
@@ -948,6 +1009,29 @@ const FAQ_ITEMS: { q: string; a: React.ReactNode }[] = [
         does not mean &ldquo;the 80 catalog will earn more from AI shoppers.&rdquo;
         Treat it as a structured checklist with weighted columns, not an
         oracle.
+      </>
+    ),
+  },
+  {
+    q: "Why does catalog quality matter at all if the agents are smart?",
+    a: (
+      <>
+        Because frontier agents still fail. Wang et al. (2025){" "}
+        <a
+          href="https://arxiv.org/abs/2508.04266"
+          target="_blank"
+          rel="noreferrer"
+          className="text-teal-700 hover:text-teal-900"
+        >
+          ↗
+        </a>{" "}
+        evaluated 17 leading LLMs on 3,310 grounded shopping instructions
+        and found GPT-4.1 — the best performer — succeeded on under 50%
+        of tasks (48.2%). The dominant failure mode in their analysis is{" "}
+        <em>missing or mismatched product attributes</em> — i.e., the
+        catalog didn&apos;t carry the data the agent needed. AgentRadar
+        diagnoses that gap merchant-side, before an agent ever sees the
+        catalog.
       </>
     ),
   },

@@ -168,10 +168,10 @@ export default function HomePage() {
               sourceUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants"
             />
             <Fact
-              stat="static → behavioral"
-              label="existing tools audit schema and structure; AgentRadar shows what AI agents actually say"
-              sourceText="see the methodology page for the comparison"
-              sourceUrl="/methodology"
+              stat="71 pts"
+              label="market-share swing for the same product when the AI buyer model swaps (Claude Sonnet 4 → Opus 4.5). Same prompt, same catalog — only the model changed."
+              sourceText="Allouah et al., What Is Your AI Agent Buying?, arXiv 2508.02630, Dec 2025"
+              sourceUrl="https://arxiv.org/abs/2508.02630"
             />
           </div>
         </div>
