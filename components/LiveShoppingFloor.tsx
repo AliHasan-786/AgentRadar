@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { AgentRow, type AgentRowState } from "./AgentRow";
 import { AgentTranscriptModal } from "./AgentTranscriptModal";
+import { DataSurfaceNote } from "./DataSurfaceNote";
 import { MethodologyFooter } from "./MethodologyFooter";
 import { RecommendationsList } from "./RecommendationsList";
 import { ScoreBreakdown } from "./ScoreBreakdown";
@@ -317,6 +318,8 @@ export function LiveShoppingFloor({ hostname, tier = "live" }: Props) {
         </div>
         <ScoreDial value={score?.overall ?? null} animateMs={600} />
       </header>
+
+      <DataSurfaceNote />
 
       {globalError && (
         <div className="rounded border border-rose-300 bg-rose-50 px-4 py-3 text-sm text-rose-800">

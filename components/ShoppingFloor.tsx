@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { AgentRow } from "./AgentRow";
 import { AgentTranscriptModal } from "./AgentTranscriptModal";
+import { DataSurfaceNote } from "./DataSurfaceNote";
 import { MethodologyFooter } from "./MethodologyFooter";
 import { RecommendationsList } from "./RecommendationsList";
 import { ScoreBreakdown } from "./ScoreBreakdown";
@@ -76,6 +77,8 @@ export function ShoppingFloor({
         </div>
         <ScoreDial value={score.overall} animateMs={600} />
       </header>
+
+      <DataSurfaceNote />
 
       {/* Agent rows */}
       <section>

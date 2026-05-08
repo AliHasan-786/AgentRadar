@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArchitectureDiagram } from "@/components/ArchitectureDiagram";
+import { SidekickMockup } from "@/components/SidekickMockup";
 
 export const metadata = {
   title: "Teardown · AgentRadar",
@@ -243,6 +244,10 @@ export default function TeardownPage() {
             <Section id="first-party" title="If this lived inside Sidekick">
               <p className="text-sm text-neutral-700 leading-relaxed mb-3">
                 Sketch of how the experience might land natively:
+              </p>
+              <SidekickMockup />
+              <p className="mt-4 text-sm text-neutral-700 leading-relaxed mb-3">
+                And the supporting product behaviors:
               </p>
               <ul className="space-y-2 text-sm text-neutral-800 leading-relaxed list-disc list-inside">
                 <li>
