@@ -1,11 +1,7 @@
 // Compact hero info-graphic — 5 providers fan into one catalog, fan back
 // out to 5 verdicts. Editorial: thin lines, mono labels, single deep-teal
-// accent. No gradients, no decorative icons.
-//
-// Provider marks are simplified monochrome SVG glyphs that evoke each
-// brand silhouette (Claude burst, OpenAI knot, Groq G, Gemini spark,
-// Mistral M) without lifting copyrighted multicolor logos — keeps the
-// editorial aesthetic and dodges trademark risk.
+// accent. The provider marks are the actual brand logos (kept color so
+// they're recognizable) — everything else stays single-color.
 
 const PROVIDERS = [
   { name: "Anthropic", brand: "anthropic", verdict: "recommended" },
@@ -21,100 +17,13 @@ const VERDICT_DOT: Record<string, string> = {
   skipped: "#dc2626",
 };
 
-function ProviderLogo({
-  brand,
-  x,
-  y,
-  size = 16,
-}: {
-  brand: string;
-  x: number;
-  y: number;
-  size?: number;
-}) {
-  const cx = x + size / 2;
-  const cy = y + size / 2;
-  const accent = "#0f766e";
-  const transform = `translate(${cx} ${cy})`;
-
-  switch (brand) {
-    case "anthropic":
-      return (
-        <g
-          transform={transform}
-          stroke={accent}
-          strokeWidth={1.4}
-          strokeLinecap="round"
-        >
-          <line x1="0" y1="-7" x2="0" y2="7" />
-          <line x1="-7" y1="0" x2="7" y2="0" />
-          <line x1="-5" y1="-5" x2="5" y2="5" />
-          <line x1="-5" y1="5" x2="5" y2="-5" />
-        </g>
-      );
-    case "openai":
-      return (
-        <g transform={transform} stroke={accent} strokeWidth={1} fill="none">
-          <ellipse cx="0" cy="0" rx="6.5" ry="2.5" />
-          <ellipse
-            cx="0"
-            cy="0"
-            rx="6.5"
-            ry="2.5"
-            transform="rotate(60)"
-          />
-          <ellipse
-            cx="0"
-            cy="0"
-            rx="6.5"
-            ry="2.5"
-            transform="rotate(120)"
-          />
-        </g>
-      );
-    case "groq":
-      return (
-        <g
-          transform={transform}
-          stroke={accent}
-          strokeWidth={1.5}
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M 5 -2 A 5.5 5.5 0 1 0 5 4 L 0 4" />
-        </g>
-      );
-    case "google":
-      return (
-        <g transform={transform} fill={accent}>
-          <path d="M 0 -7 L 1.5 -1.5 L 7 0 L 1.5 1.5 L 0 7 L -1.5 1.5 L -7 0 L -1.5 -1.5 Z" />
-        </g>
-      );
-    case "mistral":
-      return (
-        <g
-          transform={transform}
-          stroke={accent}
-          strokeWidth={1.5}
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M -6 6 V -6 L 0 0 L 6 -6 V 6" />
-        </g>
-      );
-    default:
-      return null;
-  }
-}
-
 export function HeroDiagram() {
   const PROVIDER_X = 4;
   const CHIP_W = 120;
   const CHIP_H = 32;
   const ROW_H = 44;
   const TOP = 14;
+  const LOGO_SIZE = 22;
   const CATALOG_X = 152;
   const CATALOG_Y = 94;
   const CATALOG_W = 88;
@@ -146,6 +55,7 @@ export function HeroDiagram() {
         {PROVIDERS.map((p, i) => {
           const y = TOP + i * ROW_H;
           const cy = y + CHIP_H / 2;
+          const logoY = y + (CHIP_H - LOGO_SIZE) / 2;
           return (
             <g key={p.brand}>
               <rect
@@ -156,9 +66,16 @@ export function HeroDiagram() {
                 rx={4}
                 className="chip"
               />
-              <ProviderLogo brand={p.brand} x={PROVIDER_X + 8} y={y + 8} />
+              <image
+                href={`/logos/${p.brand}.png`}
+                x={PROVIDER_X + 6}
+                y={logoY}
+                width={LOGO_SIZE}
+                height={LOGO_SIZE}
+                preserveAspectRatio="xMidYMid meet"
+              />
               <text
-                x={PROVIDER_X + 32}
+                x={PROVIDER_X + 6 + LOGO_SIZE + 6}
                 y={y + 20}
                 className="provider-name"
               >
