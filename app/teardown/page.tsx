@@ -34,12 +34,12 @@ export default function TeardownPage() {
         </h1>
         <p className="mt-3 text-base text-neutral-700 leading-relaxed max-w-2xl">
           A short PM-style teardown of the agentic-commerce landscape circa
-          mid-2026. Written to make explicit what Shopify already does
+          mid-2026. Written to make explicit what Shopify already ships
           first-party, what the existing GEO/AEO tool ecosystem actually
-          checks, and the wedge AgentRadar sits in. The frame is constructive
-          — Shopify&apos;s first-party stack is doing real work, and any
-          third-party tool in this space lives downstream of platform
-          plumbing.
+          checks, and the wedge AgentRadar sits in. The frame is
+          constructive — Shopify&apos;s first-party stack is doing real
+          work, and any third-party tool in this space lives downstream of
+          platform plumbing.
         </p>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-[200px_minmax(0,1fr)] gap-10">

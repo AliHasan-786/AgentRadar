@@ -19,10 +19,29 @@ export default function HomePage() {
           <p className="mt-6 max-w-2xl text-base md:text-lg text-neutral-700 leading-relaxed">
             Real LLMs. Real catalog data. Real transcripts. AgentRadar runs
             Claude, GPT-4o-mini, Llama 3.3, Gemini 3 Flash, and Mistral Small
-            against your live <code className="font-mono text-neutral-900">/products.json</code> endpoint and shows
-            you exactly how each one describes — or skips — your store when
-            asked for products in your category.
+            against any Shopify store&apos;s live{" "}
+            <code className="font-mono text-neutral-900">/products.json</code>{" "}
+            endpoint and shows you exactly how each one describes — or skips —
+            the store when asked for products in its category.
           </p>
+
+          <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-[11px] font-mono text-neutral-500">
+            <span>
+              <span className="text-teal-700">●</span> 5 distinct LLM providers
+            </span>
+            <span>
+              <span className="text-teal-700">●</span> 14 catalog signals · 8
+              deterministic recommendation rules
+            </span>
+            <span>
+              <span className="text-teal-700">●</span> built with Claude Code,
+              days not weeks
+            </span>
+            <span>
+              <span className="text-teal-700">●</span> every weight + prompt +
+              response visible
+            </span>
+          </div>
 
           <HeroInput />
 
@@ -148,21 +167,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* What we don't claim */}
+      {/* What this does NOT claim */}
       <section className="bg-neutral-50 border-t border-neutral-200">
         <div className="mx-auto max-w-5xl px-6 py-10">
           <div className="text-xs uppercase tracking-wider text-neutral-500 font-mono mb-3">
-            What we don&apos;t claim
+            What this does NOT claim
           </div>
           <ul className="text-sm text-neutral-700 space-y-2 list-disc list-inside">
             <li>
-              We do not predict what ChatGPT Shopping, Perplexity Merchant, or
-              Shopify Catalog will do with your store. We are not those
-              systems.
+              AgentRadar does not predict what ChatGPT Shopping, Perplexity
+              Merchant, or Shopify Catalog will do with your store. It is
+              not those systems.
             </li>
             <li>
-              We do not estimate revenue impact. Methodology integrity over
-              vibes.
+              No revenue-impact estimate. Methodology integrity over vibes.
             </li>
             <li>
               The score is a heuristic. Click any dimension card to see the
@@ -186,11 +204,7 @@ export default function HomePage() {
             >
               Ali Hasan
             </a>{" "}
-            · portfolio piece for the{" "}
-            <span className="text-neutral-900">
-              Shopify Apprentice PM Fall 2026
-            </span>{" "}
-            application
+            · an AI-native product portfolio piece on agentic commerce
           </div>
           <div className="flex gap-4">
             <Link href="/methodology" className="hover:text-neutral-900">

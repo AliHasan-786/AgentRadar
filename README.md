@@ -48,8 +48,9 @@ agents actually say. The wedge AgentRadar fills is **behavioral, not
 structural** — see [`/teardown`](https://agent-radar-one.vercel.app/teardown)
 for the longer argument.
 
-Built as a portfolio piece for the **Shopify Apprentice PM Fall 2026**
-application.
+Built as an AI-native product portfolio piece — Claude Code as primary dev
+environment, multi-provider orchestration as a feature not a buzzword,
+methodology rendered from source as the methodology contract.
 
 ## Architecture
 
@@ -197,4 +198,4 @@ Highlights worth reading there:
 ## Author
 
 Ali Hasan · [github.com/AliHasan-786](https://github.com/AliHasan-786) ·
-built for the Shopify Apprentice PM Fall 2026 application.
+[linkedin.com/in/alihasan786](https://linkedin.com/in/alihasan786)

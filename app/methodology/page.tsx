@@ -20,8 +20,8 @@ export const metadata = {
 
 const TOC: { id: string; label: string }[] = [
   { id: "architecture", label: "Architecture" },
-  { id: "claim", label: "What we claim" },
-  { id: "no-claim", label: "What we don't claim" },
+  { id: "claim", label: "What this claims" },
+  { id: "no-claim", label: "What this does not claim" },
   { id: "panel", label: "Persona panel" },
   { id: "intents", label: "Intent prompts" },
   { id: "ingestion", label: "Catalog ingestion" },
@@ -57,6 +57,22 @@ export default function MethodologyPage() {
           responses — all of it traces to either a deterministic rule in the
           source code or a literal LLM response captured verbatim. If anything
           here is unclear, the project hasn&apos;t met its bar.
+        </p>
+        <p className="mt-4 text-sm text-neutral-600 leading-relaxed max-w-2xl">
+          Built by{" "}
+          <a
+            href="https://github.com/AliHasan-786"
+            target="_blank"
+            rel="noreferrer"
+            className="text-teal-700 hover:text-teal-900"
+          >
+            Ali Hasan
+          </a>{" "}
+          using Claude Code as the primary development environment — PRD to
+          deployed product in days, not weeks. Where this page says &ldquo;the
+          project&rdquo; or &ldquo;AgentRadar,&rdquo; that&apos;s the same
+          author making each design call. Tradeoffs and limitations below are
+          disclosed accordingly.
         </p>
 
         <blockquote className="mt-8 border-l-2 border-teal-700 pl-5 py-1 max-w-2xl">
@@ -111,26 +127,27 @@ export default function MethodologyPage() {
           <ArchitectureDiagram />
         </Section>
 
-        {/* What we claim */}
-        <Section id="claim" title="What we claim">
+        {/* What this claims */}
+        <Section id="claim" title="What this claims">
           <ol className="space-y-2 text-neutral-800 list-decimal list-inside text-sm leading-relaxed">
             <li>
-              The catalog data we analyze is your real catalog, fetched from
-              your public <code className="font-mono">/products.json</code>{" "}
-              endpoint at the moment of analysis. We do not scrape your
-              storefront HTML; we do not access any authenticated endpoint.
+              The catalog data analyzed is the merchant&apos;s real catalog,
+              fetched from the public{" "}
+              <code className="font-mono">/products.json</code> endpoint at
+              the moment of analysis. AgentRadar does not scrape storefront
+              HTML; it does not access any authenticated endpoint.
             </li>
             <li>
               The five personas are real, named, versioned LLMs running with
-              literal prompts you can read in the transcript modal of any
-              agent row.
+              literal prompts visible in the transcript modal of any agent
+              row.
             </li>
             <li>
               Model responses are literal. Not summarized, not paraphrased.
             </li>
             <li>
-              The score rubric is deterministic and the weights are visible in
-              this page (rendered directly from{" "}
+              The score rubric is deterministic and every weight is visible
+              on this page (rendered directly from{" "}
               <code className="font-mono">lib/score/rubric.ts</code>).
             </li>
             <li>
@@ -142,22 +159,22 @@ export default function MethodologyPage() {
           </ol>
         </Section>
 
-        {/* What we don't claim */}
-        <Section id="no-claim" title="What we don't claim">
+        {/* What this does not claim */}
+        <Section id="no-claim" title="What this does not claim">
           <ol className="space-y-2 text-neutral-800 list-decimal list-inside text-sm leading-relaxed">
             <li>
-              We do not predict what ChatGPT Shopping, Perplexity Merchant
-              Program, or Shopify Catalog will do with your store. We are not
-              those systems. We run leading LLMs against your catalog data —
-              that is the frame.
+              AgentRadar does not predict what ChatGPT Shopping, Perplexity
+              Merchant Program, or Shopify Catalog will do with the
+              merchant&apos;s store. It is not those systems. It runs leading
+              LLMs against catalog data — that is the frame.
             </li>
             <li>
-              We do not estimate revenue impact of any recommendation. That
-              would require longitudinal merchant data we don&apos;t have.
+              No estimate of revenue impact for any recommendation. That
+              would require longitudinal merchant data the project
+              doesn&apos;t have.
             </li>
             <li>
-              We do not claim the score is empirically validated against
-              real-world outcomes. It&apos;s a heuristic; the rubric is
+              The score is a heuristic, not an oracle. The rubric is
               published; reasonable people may weight things differently.
             </li>
           </ol>
@@ -217,9 +234,9 @@ export default function MethodologyPage() {
           <p className="text-sm text-neutral-700 leading-relaxed mb-3">
             Each persona sees the same system prompt (visible in any
             transcript modal). The user prompt is the persona&apos;s intent
-            plus a 30-product sample from the catalog. The sampler scores each
-            product&apos;s relevance using the intent tokens plus a hand-curated
-            expansion-keyword list per persona — visible below.
+            plus a 30-product sample from the catalog. The sampler scores
+            each product&apos;s relevance using the intent tokens plus a
+            hand-curated expansion-keyword list per persona — visible below.
           </p>
           <div className="space-y-3">
             {PERSONAS.map((p) => (
@@ -243,27 +260,27 @@ export default function MethodologyPage() {
         <Section id="ingestion" title="Catalog ingestion">
           <ul className="space-y-2 text-sm text-neutral-800 list-disc list-inside leading-relaxed">
             <li>
-              We fetch{" "}
+              AgentRadar fetches{" "}
               <code className="font-mono">
                 {"{hostname}"}/products.json?limit=250&page=N
               </code>{" "}
-              and paginate up to 1000 products (page 4 cap).
+              and paginates up to 1000 products (page 4 cap).
             </li>
             <li>
-              We dedupe by{" "}
-              <code className="font-mono">(title × productType)</code>, not by
-              handle. Some merchants model color as separate products (e.g.,
-              Outdoor Voices ships 12 CloudKnit Shortsleeve products with
-              different colorways and different handles); an AI shopper would
-              collapse them to one canonical product. Color/size differences
-              survive in the variants array.
+              The catalog is deduped by{" "}
+              <code className="font-mono">(title × productType)</code>, not
+              by handle. Some merchants model color as separate products
+              (e.g., Outdoor Voices ships 12 CloudKnit Shortsleeve products
+              with different colorways and different handles); an AI shopper
+              would collapse them to one canonical product. Color/size
+              differences survive in the variants array.
             </li>
             <li>
-              We strip vendor-namespaced internal taxonomy tags
-              (containing <code className="font-mono">::</code>, e.g.{" "}
-              <code className="font-mono">allbirds::carbon-score</code>) at
-              both the prompt-formatting surface and the tag-density signal
-              in the rubric.
+              Vendor-namespaced internal taxonomy tags (containing{" "}
+              <code className="font-mono">::</code>, e.g.{" "}
+              <code className="font-mono">allbirds::carbon-score</code>) are
+              stripped at both the prompt-formatting surface and the
+              tag-density signal in the rubric.
             </li>
             <li>
               <strong>Image alt text is unavailable.</strong> Shopify&apos;s
@@ -271,10 +288,10 @@ export default function MethodologyPage() {
               endpoint does not include the <code className="font-mono">alt</code>{" "}
               field on image objects (confirmed empirically against{" "}
               <code className="font-mono">allbirds.com</code> and{" "}
-              <code className="font-mono">outdoorvoices.com</code>). We
-              therefore do not score alt-text coverage and have no
-              recommendation rule for it. Methodology contract: we don&apos;t
-              measure what we don&apos;t have.
+              <code className="font-mono">outdoorvoices.com</code>). The
+              project therefore does not score alt-text coverage and has no
+              recommendation rule for it. Methodology contract: don&apos;t
+              measure what isn&apos;t available.
             </li>
             <li>
               Each persona sees up to 30 products, sampled by relevance. The
@@ -377,25 +394,25 @@ export default function MethodologyPage() {
               <code className="font-mono">topProductId</code> exists in the
               30-product sample shown to the model. If not, the verdict is
               flagged{" "}
-              <code className="font-mono">invented-product-id</code> and shown
-              to you.
+              <code className="font-mono">invented-product-id</code> and the
+              flag surfaces in the transcript modal.
             </li>
             <li>
               <strong>Models cannot fabricate review claims.</strong> The
-              catalog data we send doesn&apos;t include reviews. If a
+              catalog data sent to each model does not include reviews. If a
               model&apos;s reasoning makes a positive claim about reviews
               (e.g., &ldquo;has 4.5 star reviews&rdquo;), the verdict is
               flagged{" "}
               <code className="font-mono">mentions-reviews-not-in-catalog</code>.
-              Negated mentions (&ldquo;no customer reviews visible&rdquo;) do
-              not trigger the flag — the parser uses sentence-bounded clause
-              checks for negation including conjunctions like &ldquo;no
-              reviews or ratings&rdquo;.
+              Negated mentions (&ldquo;no customer reviews visible&rdquo;)
+              do not trigger the flag — the parser uses sentence-bounded
+              clause checks for negation including conjunctions like
+              &ldquo;no reviews or ratings.&rdquo;
             </li>
             <li>
-              <strong>Numerical scoring is rule-based.</strong> Models classify
-              and report gaps; the rubric does the math. No model-generated
-              number ever drives the score.
+              <strong>Numerical scoring is rule-based.</strong> Models
+              classify and report gaps; the rubric does the math. No
+              model-generated number ever drives the score.
             </li>
           </ul>
         </Section>
@@ -510,7 +527,7 @@ export default function MethodologyPage() {
               <Link href="/" className="hover:text-neutral-900">
                 ← back to home
               </Link>
-              <span>Built for the Shopify APM Fall 2026 application.</span>
+              <span>An AI-native product portfolio piece on agentic commerce.</span>
             </footer>
           </div>
         </div>
@@ -917,12 +934,12 @@ const FAQ_ITEMS: { q: string; a: React.ReactNode }[] = [
     q: "How is this different from Fudge.ai or other GEO/AEO tools?",
     a: (
       <>
-        Existing tools do <em>structural</em> analysis: &ldquo;your FAQ schema
-        is missing,&rdquo; &ldquo;your alt text is weak.&rdquo; AgentRadar
-        does <em>behavioral</em> analysis: here are five real LLMs querying
-        your catalog with realistic intents, here are their literal verdicts,
-        here are the gaps they reported. Both layers are valuable;
-        AgentRadar surfaces the second one.{" "}
+        Existing tools do <em>structural</em> analysis: &ldquo;your FAQ
+        schema is missing,&rdquo; &ldquo;your alt text is weak.&rdquo;
+        AgentRadar does <em>behavioral</em> analysis: five real LLMs query
+        the catalog with realistic intents, return literal verdicts, and
+        report the gaps they ran into. Both layers are valuable; AgentRadar
+        surfaces the second one.{" "}
         <Link
           href="/teardown"
           className="text-teal-700 hover:text-teal-900"
