@@ -55,8 +55,7 @@ export default function MethodologyPage() {
           This page exists so you can verify everything AgentRadar shows you.
           The score, the recommendations, the persona panel, the prompts and
           responses — all of it traces to either a deterministic rule in the
-          source code or a literal LLM response captured verbatim. If anything
-          here is unclear, the project hasn&apos;t met its bar.
+          source code or a literal LLM response captured verbatim.
         </p>
         <p className="mt-4 text-sm text-neutral-600 leading-relaxed max-w-2xl">
           Built by{" "}
@@ -67,20 +66,12 @@ export default function MethodologyPage() {
             className="text-teal-700 hover:text-teal-900"
           >
             Ali Hasan
-          </a>{" "}
-          using Claude Code as the primary development environment — PRD to
-          deployed product in days, not weeks. Where this page says &ldquo;the
-          project&rdquo; or &ldquo;AgentRadar,&rdquo; that&apos;s the same
-          author making each design call. Tradeoffs and limitations below are
-          disclosed accordingly.
+          </a>
+          . Where this page says &ldquo;the project&rdquo; or
+          &ldquo;AgentRadar,&rdquo; that&apos;s the same author making each
+          design call. Tradeoffs and limitations below are disclosed
+          accordingly.
         </p>
-
-        <blockquote className="mt-8 border-l-2 border-teal-700 pl-5 py-1 max-w-2xl">
-          <p className="text-lg md:text-xl text-neutral-900 leading-snug font-serif italic">
-            The methodology contract is the code; the code is the methodology
-            contract.
-          </p>
-        </blockquote>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-[200px_minmax(0,1fr)] gap-10">
           {/* Sticky TOC */}
@@ -106,10 +97,6 @@ export default function MethodologyPage() {
                 </li>
               ))}
             </ol>
-            <div className="mt-6 pt-4 border-t border-neutral-200 text-[11px] text-neutral-500 leading-relaxed">
-              The methodology contract is the code; the code is the methodology
-              contract.
-            </div>
           </nav>
 
           <div>

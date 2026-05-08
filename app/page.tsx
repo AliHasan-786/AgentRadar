@@ -189,9 +189,7 @@ export default function HomePage() {
               Merchant, or Shopify Catalog will do with your store. It is
               not those systems.
             </li>
-            <li>
-              No revenue-impact estimate. Methodology integrity over vibes.
-            </li>
+            <li>No revenue-impact estimate.</li>
             <li>
               The score is a heuristic. Click any dimension card to see the
               math; click any persona row to read the literal prompt and
