@@ -13,7 +13,7 @@ export default function HomePage() {
           <div className="text-xs uppercase tracking-[0.2em] text-teal-700 font-mono mb-6">
             agentradar · agentic-commerce diagnostic
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_360px] gap-x-12 gap-y-10 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_440px] gap-x-12 gap-y-10 items-start">
             <div>
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.05]">
                 See your store through{" "}
