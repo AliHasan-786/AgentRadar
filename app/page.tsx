@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HeroDiagram } from "@/components/HeroDiagram";
 import { HeroInput } from "@/components/HeroInput";
 import { DEMO_STORES } from "@/lib/demo-stores";
 import type { ScoreResult } from "@/lib/score/types";
@@ -8,39 +9,43 @@ export default function HomePage() {
     <main className="min-h-screen bg-neutral-50 font-sans text-neutral-900">
       {/* Hero */}
       <section className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto max-w-5xl px-6 py-20 md:py-28">
+        <div className="mx-auto max-w-5xl px-6 py-20 md:py-24">
           <div className="text-xs uppercase tracking-[0.2em] text-teal-700 font-mono mb-6">
             agentradar · agentic-commerce diagnostic
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.05] max-w-4xl">
-            See your store through{" "}
-            <span className="text-teal-700">AI shoppers&apos; eyes.</span>
-          </h1>
-          <p className="mt-6 max-w-2xl text-base md:text-lg text-neutral-700 leading-relaxed">
-            Real LLMs. Real catalog data. Real transcripts. AgentRadar runs
-            Claude, GPT-4o-mini, Llama 3.3, Gemini 3 Flash, and Mistral Small
-            against any Shopify store&apos;s live{" "}
-            <code className="font-mono text-neutral-900">/products.json</code>{" "}
-            endpoint and shows you exactly how each one describes — or skips —
-            the store when asked for products in its category.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_360px] gap-x-12 gap-y-10 items-start">
+            <div>
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.05]">
+                See your store through{" "}
+                <span className="text-teal-700">AI shoppers&apos; eyes.</span>
+              </h1>
+              <p className="mt-6 text-base md:text-lg text-neutral-700 leading-relaxed">
+                Real LLMs. Real catalog data. Real transcripts. AgentRadar runs
+                Claude, GPT-4o-mini, Llama 3.3, Gemini 3 Flash, and Mistral
+                Small against any Shopify store&apos;s live{" "}
+                <code className="font-mono text-neutral-900">/products.json</code>{" "}
+                endpoint and shows you exactly how each one describes — or
+                skips — the store when asked for products in its category.
+              </p>
 
-          <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-[11px] font-mono text-neutral-500">
-            <span>
-              <span className="text-teal-700">●</span> 5 distinct LLM providers
-            </span>
-            <span>
-              <span className="text-teal-700">●</span> 14 catalog signals · 8
-              deterministic recommendation rules
-            </span>
-            <span>
-              <span className="text-teal-700">●</span> built with Claude Code,
-              days not weeks
-            </span>
-            <span>
-              <span className="text-teal-700">●</span> every weight + prompt +
-              response visible
-            </span>
+              <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-[11px] font-mono text-neutral-500">
+                <span>
+                  <span className="text-teal-700">●</span> 5 distinct LLM
+                  providers
+                </span>
+                <span>
+                  <span className="text-teal-700">●</span> 14 catalog signals
+                  · 8 deterministic rules
+                </span>
+                <span>
+                  <span className="text-teal-700">●</span> every weight +
+                  prompt + response visible
+                </span>
+              </div>
+            </div>
+            <div className="md:pt-2">
+              <HeroDiagram />
+            </div>
           </div>
 
           <HeroInput />
@@ -117,7 +122,7 @@ export default function HomePage() {
                   <div className="text-xs text-neutral-700 mb-3">
                     {store.vertical}
                   </div>
-                  <div className="flex items-center gap-2 text-[10px] font-mono mb-3">
+                  <div className="flex items-center gap-2 text-[10px] font-mono mb-2">
                     <span className="px-1.5 py-0.5 rounded border border-emerald-300 bg-emerald-50 text-emerald-800 tabular-nums">
                       {dimLabel(top.key)} {Math.round(top.score)}
                     </span>
@@ -125,6 +130,11 @@ export default function HomePage() {
                       {dimLabel(bottom.key)} {Math.round(bottom.score)}
                     </span>
                   </div>
+                  {/* Tiny dimension shape — 4 horizontal bars, one per
+                      dimension, lengths proportional to score. Editorial
+                      sparkline; readable in 2 seconds. */}
+                  <DimensionSparkline score={score} />
+
                   <div className="flex items-center justify-between text-[11px] text-neutral-500 font-mono">
                     <span>{store.catalog.metadata.productCount} products</span>
                     <span>
@@ -235,6 +245,39 @@ function dimLabel(k: keyof ScoreResult["dimensions"]): string {
     schema: "Schema",
     trust: "Trust",
   }[k];
+}
+
+function DimensionSparkline({ score }: { score: ScoreResult }) {
+  const dims: (keyof ScoreResult["dimensions"])[] = [
+    "discoverability",
+    "description",
+    "schema",
+    "trust",
+  ];
+  return (
+    <div className="space-y-1 mb-3 mt-2">
+      {dims.map((d) => {
+        const v = score.dimensions[d].score;
+        const pct = Math.max(0, Math.min(100, v));
+        return (
+          <div key={d} className="flex items-center gap-2">
+            <div className="w-12 text-[9px] font-mono text-neutral-500 tabular-nums">
+              {dimLabel(d)}
+            </div>
+            <div className="flex-1 h-1 bg-neutral-100 rounded-sm overflow-hidden">
+              <div
+                className="h-full bg-teal-700"
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+            <div className="w-6 text-[9px] font-mono text-neutral-700 tabular-nums text-right">
+              {Math.round(v)}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 function Fact({
