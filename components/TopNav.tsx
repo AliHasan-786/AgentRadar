@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export function TopNav() {
   return (
-    <header className="sticky top-0 z-30 w-full border-b border-neutral-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+    <header className="sticky top-0 z-30 w-full border-b border-neutral-200 bg-white">
       <nav
         aria-label="Primary"
         className="mx-auto max-w-6xl px-6 h-12 flex items-center justify-between text-xs font-mono"

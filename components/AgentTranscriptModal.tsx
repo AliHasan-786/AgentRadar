@@ -44,7 +44,7 @@ export function AgentTranscriptModal({ verdict, onClose }: Props) {
       <div
         ref={dialogRef}
         tabIndex={-1}
-        className="bg-white max-h-full md:max-h-[90vh] w-full md:max-w-4xl flex flex-col rounded-none md:rounded-lg shadow-2xl outline-none"
+        className="bg-white max-h-full md:max-h-[90vh] w-full md:max-w-4xl flex flex-col rounded-none md:rounded-lg shadow-lg outline-none"
       >
         <header className="px-5 py-4 border-b border-neutral-200 flex items-start justify-between gap-4">
           <div>
