@@ -16,10 +16,25 @@ export const metadata = {
     "Every claim AgentRadar makes about agent behavior is auditable here — rubric config, persona panel, hallucination guardrails, known limitations.",
 };
 
+const TOC: { id: string; label: string }[] = [
+  { id: "claim", label: "What we claim" },
+  { id: "no-claim", label: "What we don't claim" },
+  { id: "panel", label: "Persona panel" },
+  { id: "intents", label: "Intent prompts" },
+  { id: "ingestion", label: "Catalog ingestion" },
+  { id: "weights", label: "Dimension weights" },
+  { id: "thresholds", label: "Per-dimension thresholds" },
+  { id: "rules", label: "Recommendation rules" },
+  { id: "guardrails", label: "Hallucination guardrails" },
+  { id: "demos", label: "Demo stores" },
+  { id: "limitations", label: "Limitations + changelog" },
+  { id: "source", label: "Source code" },
+];
+
 export default function MethodologyPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-neutral-900">
-      <div className="mx-auto max-w-3xl px-6 py-10 md:py-16">
+      <div className="mx-auto max-w-6xl px-6 py-10 md:py-16">
         <Link
           href="/"
           className="text-xs text-neutral-500 hover:text-neutral-900 font-mono"
@@ -30,7 +45,7 @@ export default function MethodologyPage() {
         <h1 className="text-3xl md:text-4xl font-bold mt-6 tracking-tight">
           Methodology
         </h1>
-        <p className="mt-3 text-base text-neutral-700 leading-relaxed">
+        <p className="mt-3 text-base text-neutral-700 leading-relaxed max-w-2xl">
           This page exists so you can verify everything AgentRadar shows you.
           The score, the recommendations, the persona panel, the prompts and
           responses — all of it traces to either a deterministic rule in the
@@ -38,8 +53,43 @@ export default function MethodologyPage() {
           here is unclear, the project hasn&apos;t met its bar.
         </p>
 
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-[200px_minmax(0,1fr)] gap-10">
+          {/* Sticky TOC */}
+          <nav
+            aria-label="Methodology sections"
+            className="md:sticky md:top-8 md:self-start text-xs"
+          >
+            <div className="uppercase tracking-wider text-neutral-500 font-mono mb-3">
+              On this page
+            </div>
+            <ol className="space-y-1.5">
+              {TOC.map((t, i) => (
+                <li key={t.id} className="flex items-baseline gap-2">
+                  <span className="text-neutral-400 font-mono tabular-nums w-4">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <a
+                    href={`#${t.id}`}
+                    className="text-neutral-700 hover:text-teal-700"
+                  >
+                    {t.label}
+                  </a>
+                </li>
+              ))}
+            </ol>
+            <div className="mt-6 pt-4 border-t border-neutral-200 text-[11px] text-neutral-500 leading-relaxed">
+              The methodology contract is the code; the code is the methodology
+              contract.
+            </div>
+          </nav>
+
+          <div>
+            <div className="hidden">
+              {/* Anchor offset spacer for jump-link clearance */}
+            </div>
+
         {/* What we claim */}
-        <Section title="What we claim">
+        <Section id="claim" title="What we claim">
           <ol className="space-y-2 text-neutral-800 list-decimal list-inside text-sm leading-relaxed">
             <li>
               The catalog data we analyze is your real catalog, fetched from
@@ -70,7 +120,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* What we don't claim */}
-        <Section title="What we don't claim">
+        <Section id="no-claim" title="What we don't claim">
           <ol className="space-y-2 text-neutral-800 list-decimal list-inside text-sm leading-relaxed">
             <li>
               We do not predict what ChatGPT Shopping, Perplexity Merchant
@@ -91,7 +141,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* The persona panel */}
-        <Section title="The persona panel">
+        <Section id="panel" title="The persona panel">
           <p className="text-sm text-neutral-700 leading-relaxed mb-4">
             Five distinct intents · five distinct providers · five distinct
             models. Each persona&apos;s display name in the UI matches the slug
@@ -140,7 +190,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* Persona intents + expansions */}
-        <Section title="Intent prompts and domain vocabulary">
+        <Section id="intents" title="Intent prompts and domain vocabulary">
           <p className="text-sm text-neutral-700 leading-relaxed mb-3">
             Each persona sees the same system prompt (visible in any
             transcript modal). The user prompt is the persona&apos;s intent
@@ -167,7 +217,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* Catalog ingestion */}
-        <Section title="Catalog ingestion">
+        <Section id="ingestion" title="Catalog ingestion">
           <ul className="space-y-2 text-sm text-neutral-800 list-disc list-inside leading-relaxed">
             <li>
               We fetch{" "}
@@ -212,7 +262,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* The rubric */}
-        <Section title="The rubric — dimension weights">
+        <Section id="weights" title="The rubric — dimension weights">
           <table className="w-full text-sm">
             <tbody>
               {Object.entries(DIMENSION_WEIGHTS).map(([dim, weight]) => (
@@ -242,7 +292,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* Per-dimension thresholds */}
-        <Section title="Per-dimension thresholds">
+        <Section id="thresholds" title="Per-dimension thresholds">
           <ThresholdBlock label="Discoverability (30%)" config={DISCOVERABILITY} />
           <ThresholdBlock label="Description quality (30%)" config={DESCRIPTION} />
           <ThresholdBlock label="Schema (25%)" config={SCHEMA} />
@@ -255,7 +305,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* Recommendation rules */}
-        <Section title="Recommendation rule library">
+        <Section id="rules" title="Recommendation rule library">
           <p className="text-sm text-neutral-700 leading-relaxed mb-3">
             Recommendations are deterministic outputs — each rule has a
             trigger predicate based on catalog signals or persona gap reports,
@@ -283,7 +333,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* Hallucination guardrails */}
-        <Section title="Hallucination guardrails">
+        <Section id="guardrails" title="Hallucination guardrails">
           <ul className="space-y-2 text-sm text-neutral-800 list-disc list-inside leading-relaxed">
             <li>
               <strong>Models cannot invent products.</strong> The
@@ -315,7 +365,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* Demo stores */}
-        <Section title="Demo stores">
+        <Section id="demos" title="Demo stores">
           <p className="text-sm text-neutral-700 leading-relaxed mb-3">
             Three demo stores are pre-cached with full catalog and full
             analysis. They load instantly with no API call. Each
@@ -352,7 +402,7 @@ export default function MethodologyPage() {
         </Section>
 
         {/* Known limitations / changelog */}
-        <Section title="Known limitations + project changelog">
+        <Section id="limitations" title="Known limitations + project changelog">
           <ul className="space-y-2 text-sm text-neutral-800 list-disc list-inside leading-relaxed">
             <li>
               <strong>Calibration is rubric-arithmetic, not revenue.</strong>{" "}
@@ -394,7 +444,7 @@ export default function MethodologyPage() {
           </ul>
         </Section>
 
-        <Section title="Source code">
+        <Section id="source" title="Source code">
           <p className="text-sm text-neutral-700 leading-relaxed">
             The repo is open at{" "}
             <a
@@ -410,26 +460,30 @@ export default function MethodologyPage() {
           </p>
         </Section>
 
-        <footer className="mt-12 pt-6 border-t border-neutral-200 text-xs text-neutral-500 font-mono flex items-center justify-between">
-          <Link href="/" className="hover:text-neutral-900">
-            ← back to home
-          </Link>
-          <span>Built for the Shopify APM Fall 2026 application.</span>
-        </footer>
+            <footer className="mt-12 pt-6 border-t border-neutral-200 text-xs text-neutral-500 font-mono flex items-center justify-between">
+              <Link href="/" className="hover:text-neutral-900">
+                ← back to home
+              </Link>
+              <span>Built for the Shopify APM Fall 2026 application.</span>
+            </footer>
+          </div>
+        </div>
       </div>
     </main>
   );
 }
 
 function Section({
+  id,
   title,
   children,
 }: {
+  id?: string;
   title: string;
   children: React.ReactNode;
 }) {
   return (
-    <section className="mt-10">
+    <section id={id} className="mt-10 scroll-mt-8">
       <h2 className="text-xs uppercase tracking-wider text-neutral-500 font-mono mb-3">
         {title}
       </h2>

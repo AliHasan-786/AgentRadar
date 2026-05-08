@@ -53,6 +53,19 @@ export default function HomePage() {
             {DEMO_STORES.map((store) => {
               const score = store.score as ScoreResult;
               const okVerdicts = store.verdicts.filter((v) => !v.error).length;
+              // Surface the strongest + weakest dimension to hint at the
+              // differentiation that the dimension-card click-through reveals.
+              // Recruiter glancing at "everything's a B" overall scores still
+              // sees that the catalogs differ in shape.
+              const dimEntries = (
+                Object.entries(score.dimensions) as [
+                  keyof ScoreResult["dimensions"],
+                  ScoreResult["dimensions"][keyof ScoreResult["dimensions"]],
+                ][]
+              ).map(([k, v]) => ({ key: k, score: v.score }));
+              const sorted = [...dimEntries].sort((a, b) => b.score - a.score);
+              const top = sorted[0];
+              const bottom = sorted[sorted.length - 1];
               return (
                 <Link
                   key={store.slug}
@@ -78,6 +91,14 @@ export default function HomePage() {
                   <div className="text-xs text-neutral-700 mb-3">
                     {store.vertical}
                   </div>
+                  <div className="flex items-center gap-2 text-[10px] font-mono mb-3">
+                    <span className="px-1.5 py-0.5 rounded border border-emerald-300 bg-emerald-50 text-emerald-800 tabular-nums">
+                      {dimLabel(top.key)} {Math.round(top.score)}
+                    </span>
+                    <span className="px-1.5 py-0.5 rounded border border-amber-300 bg-amber-50 text-amber-800 tabular-nums">
+                      {dimLabel(bottom.key)} {Math.round(bottom.score)}
+                    </span>
+                  </div>
                   <div className="flex items-center justify-between text-[11px] text-neutral-500 font-mono">
                     <span>{store.catalog.metadata.productCount} products</span>
                     <span>
@@ -99,19 +120,22 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Fact
-              stat="8×"
-              label="growth in AI-driven traffic to Shopify stores"
-              source="Shopify, AI Commerce at Scale, March 2026"
+              stat="8× / 15×"
+              label="growth in AI-driven traffic to Shopify stores · growth in orders from AI search (since Jan 2025)"
+              sourceText="Shopify, Agentic Commerce on Shopify, April 2026"
+              sourceUrl="https://www.shopify.com/blog/how-agentic-commerce-works"
             />
             <Fact
               stat="$3–5T"
-              label="projected agentic commerce volume by 2030"
-              source="McKinsey, agentic commerce projection"
+              label="projected global orchestrated revenue from agentic commerce by 2030"
+              sourceText="McKinsey, The agentic commerce opportunity, October 2025"
+              sourceUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants"
             />
             <Fact
               stat="static → behavioral"
-              label="existing tools audit schema; AgentRadar shows what AI agents actually do"
-              source="See the methodology page for the comparison"
+              label="existing tools audit schema and structure; AgentRadar shows what AI agents actually say"
+              sourceText="see the methodology page for the comparison"
+              sourceUrl="/methodology"
             />
           </div>
         </div>
@@ -165,6 +189,9 @@ export default function HomePage() {
             <Link href="/methodology" className="hover:text-neutral-900">
               methodology
             </Link>
+            <Link href="/teardown" className="hover:text-neutral-900">
+              teardown
+            </Link>
             <a
               href="https://github.com/AliHasan-786/AgentRadar"
               className="hover:text-neutral-900"
@@ -180,24 +207,41 @@ export default function HomePage() {
   );
 }
 
+function dimLabel(k: keyof ScoreResult["dimensions"]): string {
+  return {
+    discoverability: "Disc",
+    description: "Desc",
+    schema: "Schema",
+    trust: "Trust",
+  }[k];
+}
+
 function Fact({
   stat,
   label,
-  source,
+  sourceText,
+  sourceUrl,
 }: {
   stat: string;
   label: string;
-  source: string;
+  sourceText: string;
+  sourceUrl: string;
 }) {
+  const isExternal = sourceUrl.startsWith("http");
   return (
     <div>
       <div className="text-2xl md:text-3xl font-bold text-neutral-900 tabular-nums leading-tight mb-2">
         {stat}
       </div>
       <div className="text-sm text-neutral-700 leading-snug">{label}</div>
-      <div className="mt-2 text-[11px] text-neutral-500 font-mono">
-        {source}
-      </div>
+      <a
+        href={sourceUrl}
+        target={isExternal ? "_blank" : undefined}
+        rel={isExternal ? "noopener noreferrer" : undefined}
+        className="mt-2 inline-block text-[11px] text-neutral-500 hover:text-teal-700 font-mono"
+      >
+        {sourceText} {isExternal && <span aria-hidden>↗</span>}
+      </a>
     </div>
   );
 }
