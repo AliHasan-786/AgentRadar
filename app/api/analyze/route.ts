@@ -11,8 +11,12 @@ import {
   computeCatalogSignals,
 } from "@/lib/catalog-signals";
 import { fetchCatalog, normalizeHostname } from "@/lib/shopify";
-import { PERSONAS } from "@/lib/agents/personas";
+import { PERSONAS, getPersona, type PersonaId } from "@/lib/agents/personas";
 import { streamPersona } from "@/lib/agents/streaming-runner";
+import { computeScore } from "@/lib/score/compute";
+import { rankRecommendations } from "@/lib/recommendations/rank";
+import { evaluateRules } from "@/lib/recommendations/rules";
+import type { ScoreInputs, VerdictSummary } from "@/lib/score/types";
 import {
   CatalogFetchError,
   type CanonicalProduct,
@@ -133,6 +137,40 @@ export async function POST(request: Request) {
     controller.enqueue(encoder.encode(payload));
   };
 
+  // Collect each persona's terminal state as the streams complete so we
+  // can compute the score + recommendations after all five finish, and
+  // emit a final `score-ready` event before `all-complete`.
+  type CollectedVerdict = {
+    personaId: string;
+    modelSlug: string;
+    displayName: string;
+    parsed: {
+      verdict: "recommended" | "ranked-low" | "skipped";
+      topProductId: string | null;
+      reasoning: string;
+      gaps: string[];
+      flags: string[];
+    } | null;
+    flags: string[];
+    error: string | null;
+  };
+  const collected = new Map<string, CollectedVerdict>();
+
+  function dominantVendorShare(products: CanonicalProduct[]): number {
+    if (products.length === 0) return 0;
+    const counts = new Map<string, number>();
+    for (const p of products) {
+      const v = p.vendor.trim();
+      if (!v) continue;
+      counts.set(v, (counts.get(v) ?? 0) + 1);
+    }
+    let top = 0;
+    for (const c of counts.values()) {
+      if (c > top) top = c;
+    }
+    return top / products.length;
+  }
+
   const stream = new ReadableStream<Uint8Array>({
     async start(controller) {
       // Initial heartbeat — gets the response flowing through any
@@ -148,22 +186,99 @@ export async function POST(request: Request) {
       });
 
       const tasks = PERSONAS.map(async (persona) => {
+        const personaCfg = getPersona(persona.id as PersonaId);
         try {
           for await (const evt of streamPersona(persona, entry.products, {
             tier,
             catalogHasReviewSignal,
           })) {
             send(controller, `persona-${evt.type}`, evt);
+            if (evt.type === "complete") {
+              collected.set(persona.id, {
+                personaId: persona.id,
+                modelSlug: evt.modelSlug,
+                displayName: evt.displayName,
+                parsed: evt.parsed
+                  ? {
+                      verdict: evt.parsed.verdict,
+                      topProductId: evt.parsed.topProductId,
+                      reasoning: evt.parsed.reasoning,
+                      gaps: evt.parsed.gaps,
+                      flags: evt.parsed.flags,
+                    }
+                  : null,
+                flags: evt.flags,
+                error: evt.error,
+              });
+            } else if (evt.type === "error") {
+              collected.set(persona.id, {
+                personaId: persona.id,
+                modelSlug: evt.modelSlug,
+                displayName: evt.displayName,
+                parsed: null,
+                flags: [],
+                error: evt.error,
+              });
+            }
           }
         } catch (err) {
+          const msg = err instanceof Error ? err.message : String(err);
           send(controller, "persona-error", {
             personaId: persona.id,
-            error: err instanceof Error ? err.message : String(err),
+            error: msg,
+          });
+          collected.set(persona.id, {
+            personaId: persona.id,
+            modelSlug: personaCfg.liveModel,
+            displayName: personaCfg.liveDisplayName,
+            parsed: null,
+            flags: [],
+            error: msg,
           });
         }
       });
 
       await Promise.all(tasks);
+
+      // Compute score + recommendations once all personas finish.
+      const verdictSummaries: VerdictSummary[] = PERSONAS.map((p) => {
+        const c = collected.get(p.id);
+        if (!c) {
+          return {
+            personaId: p.id,
+            modelSlug: p.liveModel,
+            displayName: p.liveDisplayName,
+            parsed: null,
+            flags: [],
+            error: "no verdict collected",
+          };
+        }
+        return {
+          personaId: c.personaId,
+          modelSlug: c.modelSlug,
+          displayName: c.displayName,
+          parsed: c.parsed
+            ? {
+                verdict: c.parsed.verdict,
+                topProductId: c.parsed.topProductId,
+                reasoning: c.parsed.reasoning,
+                gaps: c.parsed.gaps,
+                flags: c.parsed.flags as VerdictSummary["flags"],
+              }
+            : null,
+          flags: c.flags as VerdictSummary["flags"],
+          error: c.error,
+        };
+      });
+      const scoreInputs: ScoreInputs = {
+        signals,
+        verdicts: verdictSummaries,
+        productCount: entry.products.length,
+        uniqueVendorShareTop: dominantVendorShare(entry.products),
+      };
+      const recs = rankRecommendations(evaluateRules(scoreInputs));
+      const score = computeScore(scoreInputs, recs);
+      send(controller, "score-ready", { score });
       send(controller, "all-complete", { tier });
       controller.close();
     },
