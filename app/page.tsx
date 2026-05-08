@@ -177,6 +177,39 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* What merchants are already asking */}
+      <section className="bg-white border-t border-neutral-200">
+        <div className="mx-auto max-w-5xl px-6 py-12">
+          <div className="text-xs uppercase tracking-wider text-neutral-500 font-mono mb-6">
+            What merchants are already asking
+          </div>
+          <div className="space-y-5 max-w-3xl">
+            <MerchantQuote
+              quote="I run a small Shopify store and recently I've been noticing a dip in organic traffic. Has anyone looked at how their products show up in ChatGPT?"
+              attribution="aly4x, Shopify Community"
+              date="June 2025"
+              href="https://community.shopify.com/t/curious-has-anyone-looked-at-how-their-products-show-up-in-chatgpt/417505"
+            />
+            <MerchantQuote
+              quote="Why does ChatGPT cite Reddit and gift guides for my products instead of my actual Shopify pages?"
+              attribution="lawrencedauchy, Shopify Community"
+              date="April 2026"
+              href="https://community.shopify.com/t/why-does-chatgpt-cite-reddit-and-gift-guides-for-my-products-instead-of-my-actual-shopify-pages/614789"
+            />
+            <MerchantQuote
+              quote="We can't be thinking of ChatGPT or other AI models just as search engines. Now, we have to be thinking about them as storefronts."
+              attribution="Jimmy Zollo, co-founder of Joe & Bella, in Modern Retail"
+              date="July 2025"
+              href="https://www.modernretail.co/technology/it-fundamentally-changes-what-it-means-to-be-an-e-commerce-brand-what-a-chatgpt-checkout-system-could-mean-for-retail/"
+            />
+          </div>
+          <p className="mt-7 max-w-3xl text-sm text-neutral-600 leading-relaxed">
+            The demand is bottoms-up, not analyst-projected. Merchants are
+            already asking the question AgentRadar exists to answer.
+          </p>
+        </div>
+      </section>
+
       {/* What this does NOT claim */}
       <section className="bg-neutral-50 border-t border-neutral-200">
         <div className="mx-auto max-w-5xl px-6 py-10">
@@ -282,6 +315,37 @@ function DimensionSparkline({ score }: { score: ScoreResult }) {
         );
       })}
     </div>
+  );
+}
+
+function MerchantQuote({
+  quote,
+  attribution,
+  date,
+  href,
+}: {
+  quote: string;
+  attribution: string;
+  date: string;
+  href: string;
+}) {
+  return (
+    <blockquote className="border-l-2 border-neutral-300 pl-4">
+      <p className="text-sm text-neutral-800 leading-relaxed">
+        &ldquo;{quote}&rdquo;
+      </p>
+      <footer className="mt-1.5 text-xs text-neutral-500 font-mono">
+        {attribution},{" "}
+        <a
+          href={href}
+          target="_blank"
+          rel="noreferrer"
+          className="text-teal-700 hover:text-teal-900"
+        >
+          {date} ↗
+        </a>
+      </footer>
+    </blockquote>
   );
 }
 
