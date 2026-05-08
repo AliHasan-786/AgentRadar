@@ -453,14 +453,19 @@ export default function MethodologyPage() {
               sometimes skip or rank-low.
             </li>
             <li>
-              <strong>Outdoor Voices&apos; minimalist-traveler verdict</strong>{" "}
-              is currently captured as an error pill — Gemini 3 Flash
-              free-tier rate-limited that one persona at capture time.
-              Recoverable with one command (
+              <strong>Free-tier Gemini token-bucket finding (resolved).</strong>{" "}
+              Early Outdoor Voices captures hit a per-prompt token-throughput
+              ceiling on{" "}
+              <code className="font-mono">gemini-3-flash-preview</code> —
+              separate from the documented 20 RPD request count, and not
+              visible in the docs. Full-prompt persona calls would 429 even
+              when small probe calls cleared. Recovered after the daily
+              bucket reset and{" "}
               <code className="font-mono">
-                npx tsx scripts/retry-failed-verdicts.ts
-              </code>
-              ) once the daily token bucket resets.
+                scripts/retry-failed-verdicts.ts
+              </code>{" "}
+              re-ran the single failed persona; OV is now 5/5. Documented
+              here as a real ops constraint for any free-tier deployment.
             </li>
             <li>
               <strong>Free-tier provider gotchas (changelog).</strong> Gemini

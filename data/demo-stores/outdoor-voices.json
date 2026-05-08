@@ -3,7 +3,7 @@
   "hostname": "outdoorvoices.com",
   "displayName": "Outdoor Voices",
   "vertical": "Athleisure / lifestyle",
-  "capturedAt": "2026-05-08T04:05:11.044Z",
+  "capturedAt": "2026-05-08T04:34:22.985Z",
   "tier": "live",
   "catalog": {
     "metadata": {
@@ -7477,14 +7477,18 @@
       "intent": "minimalist sneaker for travel — lightweight, easy to clean, neutral color",
       "verdict": "skipped",
       "topProductId": null,
-      "reasoning": "",
-      "gaps": [],
+      "reasoning": "The store's catalog consists entirely of apparel such as dresses, leggings, shorts, and shirts, but does not contain any footwear or sneakers. Since the shopper's intent is specifically for a minimalist sneaker, this store cannot fulfill the request.",
+      "gaps": [
+        "no footwear or sneakers in catalog",
+        "lack of shoe-specific attributes like sole material or weight in grams",
+        "no information on cleaning instructions for footwear"
+      ],
       "flags": [],
       "promptUsed": {
         "system": "You are a helpful AI shopping assistant. A shopper has come to you with the\nintent below. You are evaluating a single store's catalog and deciding whether\nto recommend it, mention it but rank it lower than alternatives, or skip it.\n\nYou must base your decision only on the catalog data provided. Do not invent\nproducts that aren't in the data. Do not invent reviews. Do not invent\nspecifications.\n\nOutput a single JSON object with exactly these fields:\n{\n  \"verdict\": one of [\"recommended\", \"ranked-low\", \"skipped\"],\n  \"topProductId\": the id of the single best match, or null if skipped,\n  \"reasoning\": 1-3 sentences explaining your decision,\n  \"gaps\": an array of strings, each describing a piece of catalog data that\n          would have helped you make a stronger recommendation if it were\n          present (e.g., \"no arch support spec in descriptions\",\n          \"no review aggregation visible\")\n}\n\nOutput only valid JSON. No prose before or after.",
         "user": "Shopper intent: minimalist sneaker for travel — lightweight, easy to clean, neutral color\n\nStore catalog (sampled, 30 products shown):\nID: 7827261489230\nTitle: Club Dress\nType: Dresses\nTags: court, discountable, everyday, hike, loop-club-dress, sweat, womens\nPrice: 118 USD\nDescription (first 250 chars): Your favorite Exercise Dress refreshed. The Club Dress is made in the same performance fabric LightSpeed as our original exercise dress—lightweight, breathable, and built to move. The Club Dress features a picot trim at the neckline and hem, a cute b…\n\nID: 7827284328526\nTitle: Everyday Classic Shortsleeve\nType: Shortsleeve\nTags: discountable, loop-everyday-classic-shortsleeve, mens, no-waitlist, shoppable, new-split-format, SALEONSALE:M302261-CTJ-BLK, SALEONSALE:M302261-CTJ-HGR, SALEONSALE:M302261-CTJ-WHI, SALEONSALE:U301173-CTJ-WHI\nPrice: 38 USD\nDescription (first 250 chars): A soft, lightweight t-shirt in Organic Cotton Jersey—a super soft and breathable organic cotton jersey for low-sweat recreation.\n\nID: 7797995634766\nTitle: CloudKnit Shortsleeve\nType: Shortsleeve\nTags: discountable, Light Weight Mossed Jersey, loop-cloudknit-shortsleeve, Man, Mens, mtopssizeguide, new-split-format, no-waitlist, on-site, ovu20, reviewable, Tee, Top, Tops, Final Sale, Lightweight Mossed Jersey, loop-w-cloudknit-shortsleeve, moonstone, Mossed Jersey, rest, SALEONSALE:W300246-HLM-PRV, Woman, womens, wsizeguide, SALEONSALE:M300063-HLM-CHO, SALEONSALE:M300063-HLM-FOG, SALEONSALE:M300063-HLM-HGR, SALEONSALE:M300063-HLM-JSE, SALEONSALE:M300063-HLM-LMC, SALEONSALE:M300063-HLM-MOC, SALEONSALE:M300063-HLM-ROY, SALEONSALE:M300063-HLM-SGN, SALEONSALE:M300063-HLM-SRZ\nPrice: 29.95-58 USD\nDescription (first 250 chars): A super soft and lightweight everyday t-shirt in CloudKnit—a lightweight, breathable fabric with a subtle stretch for low-sweat recreation.\n\nID: 7667566215246\nTitle: TechSweat Core 7/8 Legging\nType: Leggings\nTags: discountable, hike, loop-techsweat-core-7-8-legging, no-waitlist, sweat, womens, comingsoon, Bottom, Bottoms, Legging, leggings, new-split-format, on-site, ovu20, reviewable, techsweat, Woman, Womens, wsizeguide, Final Sale\nPrice: 79.95-118 USD\nDescription (first 250 chars): For high sweat, high intensity activity. Made in our lightweight, breathable TechSweat fabric. Featuring an engineered waistband that stays put.\n\nID: 7797990981710\nTitle: CloudKnit Wide Leg Pant\nType: Pants\nTags: discountable, loop-cloudknit-wide-leg-pant, no-waitlist, rest, womens\nPrice: 88 USD\nDescription (first 250 chars): A high-ride wide leg sweatpant in our soft, lightweight, and breathable CloudKnit fabric. These are guaranteed to provide you maximum comfort.\n\nID: 7704771690574\nTitle: CloudKnit Hoodie\nType: 2nd Layer\nTags: discountable, loop-m-cloudknit-hoodie, Man, mtopssizeguide, no-waitlist, on-site, rest, reviewable, Tops, unisex, Mossed Jersey, new-split-format, ovu20, SALEONSALE:M500098-HMJ-HUN, SALEONSALE:M500098-HMJ-MOC, SALEONSALE:M500098-HMJ-NVY, SALEONSALE:M500098-HMJ-SRZ, mens\nPrice: 88 USD\nDescription (first 250 chars): A super soft and lightweight everyday hoodie with large kangaroo pocket in CloudKnit—a lightweight, breathable fabric with a subtle stretch for low-sweat recreation.\n\nID: 7585345470542\nTitle: Zephyr 29\" Pant\nType: Pants\nTags: discountable, everyday, hike, loop-zephyr-29-pant, new-split-format, no-waitlist, womens\nPrice: 98 USD\nDescription (first 250 chars): A lightweight and breathable 29” pant for everyday with zippered pockets and custom-fit drawstring waist in our RecPoly fabric—a super lightweight performance material for medium to high-sweat recreation.\n\nID: 7585345896526\nTitle: Zephyr 26\" Pant\nType: Pants\nTags: discountable, everyday, hike, loop-zephyr-26-pant, new-split-format, no-waitlist, womens\nPrice: 98 USD\nDescription (first 250 chars): A lightweight and breathable 26” pant for everyday with zippered pockets and custom-fit drawstring waist in our RecPoly fabric—a super lightweight performance material for medium to high-sweat recreation.\n\nID: 7797983969358\nTitle: CloudKnit Boxy Shortsleeve\nType: Shortsleeve\nTags: discountable, loop-cloudknit-boxy-shortsleeve, new-split-format, no-waitlist, rest, womens\nPrice: 58 USD\nDescription (first 250 chars): A comfort-first, cropped shortsleeve shirt in CloudKnit—a lightweight, breathable fabric with a subtle stretch.\n\nID: 7697389322318\nTitle: CloudKnit Sweatpant\nType: Pants\nTags: Bottom, Bottoms, discountable, Heathered Mossed Jersey, Lightweight Mossed Jersey, loop-cloudknit-sweatpant, no-waitlist, ovu20, rest, womens, new-split-format, on-site, Pant, Pants, reviewable, SALEONSALE:W700133-HMJ-DSR, SALEONSALE:W700133-HMJ-DTU, SALEONSALE:W700133-HMJ-FOG, SALEONSALE:W700133-HMJ-HUN, SALEONSALE:W700133-HMJ-JSE, Woman, Womens, wsizeguide\nPrice: 88 USD\nDescription (first 250 chars): A mid-rise sweatpant with side pockets (plus hidden media pocket) and custom-fit drawstring waistband in CloudKnit—a lightweight, breathable fabric with a subtle stretch.\n\nID: 7697532813390\nTitle: CloudKnit Slim Sweatpant\nType: Pants\nTags: Bottom, Bottoms, discountable, Light Weight Mossed Jersey, Lightweight Mossed Jersey, loop-cloudknit-slim-sweatpant, Man, Men's, Mossed Jersey, no-waitlist, reviewable, mbottomssizeguide, new-split-format, on-site, ovu20, Pant, Pants, SALEONSALE:M700114-HMJ-FDS, SALEONSALE:M700114-HMJ-HGR, SALEONSALE:M700114-HMJ-HUN, SALEONSALE:M700114-HMJ-MOC, SALEONSALE:M700114-HMJ-TTR, Sweatpant\nPrice: 88 USD\nDescription (first 250 chars): A super soft and lightweight everyday sweatpant with pockets and custom-fit drawstring waistband in CloudKnit—a lightweight, breathable fabric with a subtle stretch for low-sweat recreation.\n\nID: 7697395122254\nTitle: CloudKnit Boxy Longsleeve\nType: Longsleeve\nTags: discountable, loop-cloudknit-boxy-longsleeve, no-waitlist, rest, womens\nPrice: 68 USD\nDescription (first 250 chars): A comfort-first, cropped longsleeve shirt in CloudKnit—a lightweight, breathable fabric with a subtle stretch.\n\nID: 7705403850830\nTitle: CloudKnit Longsleeve\nType: Longsleeve\nTags: discountable, loop-cloudknit-longsleeve, mens, new-split-format, no-waitlist\nPrice: 68 USD\nDescription (first 250 chars): The softest longsleeve tee you’ll ever wear. Made in lightweight, crazy-soft CloudKnit with a classic fit.\n\nID: 7827263586382\nTitle: Club Skort\nType: Skorts/Skirts\nTags: comingsoon, court, discountable, everyday, loop-club-skort, womens\nPrice: 68 USD\nDescription (first 250 chars): Your favorite skort refreshed. The Club Skort is made in the same performance fabric LightSpeed as our original minimal skort—lightweight, breathable, and built to move. The Club Skort features a picot trim at the waist and hem, a cute bow and built …\n\nID: 7585353400398\nTitle: Zephyr Pant\nType: Pants\nTags: discountable, loop-zephyr-pant, mens, new-split-format, no-waitlist\nPrice: 98 USD\nDescription (first 250 chars): A lightweight and breathable pant for everyday with zippered pockets and custom-fit drawstring waist in our RecPoly fabric—a super lightweight performance material for medium to high-sweat recreation.\n\nID: 7585334624334\nTitle: Zephyr 5\" Short\nType: Shorts\nTags: discountable, loop-zephyr-5-short, mens, new-split-format, no-waitlist\nPrice: 58 USD\nDescription (first 250 chars): A lightweight, breathable and unlined 5” short with zippered pockets and custom-fit drawstring waist in our RecPoly fabric—a super lightweight performance material for medium to high-sweat recreation.\n\nID: 7797987737678\nTitle: CloudKnit 3.5\" Short\nType: Shorts\nTags: discountable, loop-cloudknit-3-5-short, new-split-format, no-waitlist, rest, womens\nPrice: 48 USD\nDescription (first 250 chars): Cozy lounge shorts for rest and recovery? Say no more. These high-rise shorts are made in CloudKnit — lightweight, breathable, with a hint of stretch — and designed with an internal drawcord for a customized fit.\n\nID: 7585342029902\nTitle: SolarCool Camp Collar\nType: Shortsleeve\nTags: discountable, Final Sale, FPWholesaleJan2026, mens, new-split-format, no-waitlist, SALEONSALE:M301698-UPF-BLK, SALEONSALE:M301698-UPF-BTF, SALEONSALE:M301698-UPF-ESH, SALEONSALE:M301698-UPF-GFE, SALEONSALE:M301698-UPF-NYF, shoppable\nPrice: 78 USD\nDescription (first 250 chars): 20% Off Sitewide – Applies in Cart A lightweight, breathable camp collar shirt for everything under the sun. Featuring built-in UPF 50+ sun protection to keep you covered while Doing Things outdoors.\n\nID: 7585344028750\nTitle: GridTek Breezy Shortsleeve\nType: Shortsleeve\nTags: discountable, Final Sale, mens, new-split-format, no-waitlist, SALEONSALE:M302148-GTK-ABL, SALEONSALE:M302148-GTK-BLK, SALEONSALE:M302148-GTK-SGN\nPrice: 29.95 USD\nDescription (first 250 chars): What sweat? Ultra-breathable, ultra-stretchy, designed to wick away moisture and dry ultra-quick. This lighter-than-lightweight shortsleeve is made in our performance mesh fabric and ready to handle all things sweaty.\n\nID: 7585331740750\nTitle: ThinkFast Mesh Muscle Tank\nType: Tanks\nTags: court, discountable, hike, joggyrun, loop-m-thinkfast-mesh-muscle-tank, no-waitlist, sweat, womens, loop-w-thinkfast-mesh-muscle-tank, mens\nPrice: 48 USD\nDescription (first 250 chars): When stuff gets sweaty, ThinkFast. This lightweight tank sits below the waistband for full coverage and features built-in cooling power to breathe easy, prevent chafing, and stand up to sweat.\n\nID: 7585346453582\nTitle: ThinkFast Mesh Tank\nType: Tanks\nTags: discountable, loop-m-thinkfast-mesh-tank, mens, new-split-format, no-waitlist, SALEONSALE:M302195-CLM-HTC\nPrice: 48 USD\nDescription (first 250 chars): When stuff gets sweaty, ThinkFast. This lightweight tank features built-in cooling power to breathe easy, prevent chafing, and stand up to sweat.\n\nID: 7585353826382\nTitle: Pickup Organic Cropped Hoodie\nType: Socks\nTags: discountable, Final Sale, new-split-format, no-waitlist, womens\nPrice: 39.95 USD\nDescription (first 250 chars): A lightweight, easy-layering hoodie you can toss on whenever you’re Doing Things. Made in our Organic Cotton Terry that gets better with each wear and preshrunk to give it that cropped, “just right” fit.\n\nID: 7585353859150\nTitle: Pickup Organic Cropped Hoodie\nType: 2nd Layer\nTags: discountable, Final Sale, new-split-format, no-waitlist, womens\nPrice: 39.95 USD\nDescription (first 250 chars): A lightweight, easy-layering hoodie you can toss on whenever you’re Doing Things. Made in our Organic Cotton Terry that gets better with each wear and preshrunk to give it that cropped, “just right” fit.\n\nID: 7585336492110\nTitle: ThinkFast Mesh Cropped Muscle Tank\nType: Tanks\nTags: court, discountable, hike, loop-thinkfast-mesh-cropped-muscle-tank, no-waitlist, sweat, womens\nPrice: 48 USD\nDescription (first 250 chars): A sleeveless performance top for full-range movement, featuring a built-in cooling technology for when things get heated. Made in sweat-wicking, lightweight, breathable ThinkFast Mesh fabric.\n\nID: 7782848299086\nTitle: Sugar Cardigan\nType: 2nd Layer\nTags: discountable, everyday, loop-sugar-cardigan, no-waitlist, studio, womens, Final Sale\nPrice: 94.95-148 USD\nDescription (first 250 chars): A lightweight knit cardigan in soft cotton cashmere with hand-embroidered OV signature. We heard your feedback on this cardigan and are excited to share with you the updated fit! We updated this to have a longer body length and sleeve length for an e…\n\nID: 7697846272078\nTitle: Boulder Dress\nType: Dresses\nTags: discountable, Final Sale, no-waitlist, womens\nPrice: 59.95 USD\nDescription (first 250 chars): Long-sleeve, full-zip dress in iconic OV fabric, RecFleece — a lightweight fleece made from 100% recycled materials. The Boulder Dress features adjustable waist toggles for a custom fit, front zippered pockets, technical nylon binding, and an embroid…\n\nID: 7827470155854\nTitle: TechSweat 3.5\" Short\nType: (none)\nTags: comingsoon, court, discountable, loop-techsweat-3-5-short, sweat, womens, no-waitlist\nPrice: 58-88 USD\nDescription (first 250 chars): A high-rise short with 3.5” waistband in TechSweat fabric, the lightweight, comfort-first, performance-forward material that’s meant to be sweat in.\n\nID: 7585340948558\nTitle: High Stride 5\" Short with Pockets\nType: Shorts\nTags: discountable, loop-high-stride-5-short-with-pockets, mens, new-split-format, SALEONSALE:M701705-TWV-ACI, SALEONSALE:M701705-TWV-FDJ, SALEONSALE:M701705-TWV-GVL, SALEONSALE:M701705-TWV-HTC, SALEONSALE:M701705-TWV-IVY, SALEONSALE:M701705-TWV-JYF, SALEONSALE:M701705-TWV-MKS, SALEONSALE:M701705-TWV-PHL, SALEONSALE:M701705-TWV-RAZ, FPWholesaleJan2026, no-waitlist\nPrice: 78 USD\nDescription (first 250 chars): A lightweight training 5” training short with front pockets, built-in shorts liner and hidden phone pocket in Train Stretch Woven fabric—a 100% recycled polyester material for medium to high-sweat recreation.\n\nID: 7827444891726\nTitle: Malibu Sweatpant\nType: Pants\nTags: comingsoon, discountable, everyday, loop-malibu-sweatpant, rest, studio, womens\nPrice: 88 USD\nDescription (first 250 chars): Wide leg terry pant in lightweight 100% Cotton Terry featuring subtle washed effect. Pant features side pockets and elastic waistband with flat drawcord for custom fit.\n\nID: 7669842411598\nTitle: Striped Sun Shirt\nType: Longsleeve\nTags: discountable, Final Sale, no-waitlist, womens\nPrice: 69.95 USD\nDescription (first 250 chars): An oversized fit button-up sun shirt in lightweight cotton poplin. Made in New York City with subtle stripes and an embroidered OV signature."
       },
-      "rawResponse": "",
+      "rawResponse": "{\n  \"verdict\": \"skipped\",\n  \"topProductId\": null,\n  \"reasoning\": \"The store's catalog consists entirely of apparel such as dresses, leggings, shorts, and shirts, but does not contain any footwear or sneakers. Since the shopper's intent is specifically for a minimalist sneaker, this store cannot fulfill the request.\",\n  \"gaps\": [\n    \"no footwear or sneakers in catalog\",\n    \"lack of shoe-specific attributes like sole material or weight in grams\",\n    \"no information on cleaning instructions for footwear\"\n  ]\n}",
       "sampledProductIds": [
         "7827261489230",
         "7827284328526",
@@ -7517,10 +7521,14 @@
         "7827444891726",
         "7669842411598"
       ],
-      "latencyMs": 20274,
+      "latencyMs": 1610,
       "retried": false,
-      "usage": null,
-      "error": "generateContent failed (429)"
+      "usage": {
+        "promptTokens": 4747,
+        "completionTokens": 124,
+        "totalTokens": 4871
+      },
+      "error": null
     },
     {
       "personaId": "vegan-with-reviews",
@@ -7584,7 +7592,7 @@
     }
   ],
   "score": {
-    "overall": 61.1,
+    "overall": 61.4,
     "dimensions": {
       "discoverability": {
         "score": 54.34959349593496,
@@ -7645,7 +7653,7 @@
           },
           {
             "name": "persona description-gap rate (inverted)",
-            "value": 0.75,
+            "value": 0.8,
             "weight": 20,
             "contribution": 0,
             "source": "persona-verdicts"
@@ -7686,7 +7694,7 @@
         ]
       },
       "trust": {
-        "score": 42.15447154471545,
+        "score": 44.65447154471545,
         "signals": [
           {
             "name": "policy keyword rate",
@@ -7711,9 +7719,9 @@
           },
           {
             "name": "persona trust-gap rate (inverted)",
-            "value": 0.5,
+            "value": 0.4,
             "weight": 15,
-            "contribution": 2.4999999999999996,
+            "contribution": 4.999999999999999,
             "source": "persona-verdicts"
           }
         ]
@@ -7765,7 +7773,7 @@
         ]
       }
     ],
-    "computedAt": "2026-05-08T04:05:11.044Z"
+    "computedAt": "2026-05-08T04:34:22.985Z"
   },
   "signals": {
     "productCount": 123,
