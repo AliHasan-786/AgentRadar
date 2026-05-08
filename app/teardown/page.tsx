@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArchitectureDiagram } from "@/components/ArchitectureDiagram";
 
 export const metadata = {
   title: "Teardown · AgentRadar",
@@ -183,6 +184,14 @@ export default function TeardownPage() {
                 conversation. Behavioral, not structural. Both are valuable;
                 the behavioral version is more visceral and produces a
                 clearer ask-to-action than &ldquo;your schema is incomplete.&rdquo;
+              </p>
+              <ArchitectureDiagram />
+              <p className="text-sm text-neutral-700 leading-relaxed">
+                Stage 3 above is where the existing GEO/AEO ecosystem and
+                AgentRadar diverge. The signals fan covers what audit tools
+                already check; the personas fan is the unique surface — five
+                LLMs in parallel returning literal verdicts, gaps, and
+                top-product recommendations against the same catalog.
               </p>
             </Section>
 

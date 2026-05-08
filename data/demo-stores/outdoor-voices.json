@@ -3,7 +3,7 @@
   "hostname": "outdoorvoices.com",
   "displayName": "Outdoor Voices",
   "vertical": "Athleisure / lifestyle",
-  "capturedAt": "2026-05-07T23:34:38.885Z",
+  "capturedAt": "2026-05-08T04:05:11.044Z",
   "tier": "live",
   "catalog": {
     "metadata": {
@@ -7517,7 +7517,7 @@
         "7827444891726",
         "7669842411598"
       ],
-      "latencyMs": 20443,
+      "latencyMs": 20274,
       "retried": false,
       "usage": null,
       "error": "generateContent failed (429)"
@@ -7765,7 +7765,7 @@
         ]
       }
     ],
-    "computedAt": "2026-05-07T23:34:38.885Z"
+    "computedAt": "2026-05-08T04:05:11.044Z"
   },
   "signals": {
     "productCount": 123,
