@@ -55,17 +55,9 @@ export function SidekickMockup() {
             </div>
           </div>
 
-          {/* Sidekick reply */}
-          <div className="flex gap-3">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/logos/sidekick.png"
-              width={32}
-              height={32}
-              alt=""
-              className="flex-shrink-0 rounded-full"
-            />
-            <div className="space-y-3.5 text-[13px] leading-relaxed flex-1 min-w-0 text-neutral-200">
+          {/* Sidekick reply — left-aligned prose, no avatar (kept clean) */}
+          <div>
+            <div className="space-y-3.5 text-[13px] leading-relaxed text-neutral-200">
               <p>
                 I ran your{" "}
                 <code className="font-mono text-[12px] bg-neutral-800/60 px-1 py-px rounded text-neutral-100">

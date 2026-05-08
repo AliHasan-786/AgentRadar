@@ -982,12 +982,13 @@ const FAQ_ITEMS: { q: string; a: React.ReactNode }[] = [
     q: "How is this different from Fudge.ai or other GEO/AEO tools?",
     a: (
       <>
-        Existing tools do <em>structural</em> analysis: &ldquo;your FAQ
-        schema is missing,&rdquo; &ldquo;your alt text is weak.&rdquo;
-        AgentRadar does <em>behavioral</em> analysis: five real LLMs query
-        the catalog with realistic intents, return literal verdicts, and
-        report the gaps they ran into. Both layers are valuable; AgentRadar
-        surfaces the second one.{" "}
+        Existing tools do <em>structural</em>
+        {" "}analysis: &ldquo;your FAQ schema is missing,&rdquo; &ldquo;your
+        alt text is weak.&rdquo; AgentRadar does <em>behavioral</em>
+        {" "}analysis: five real LLMs query the catalog with realistic
+        intents, return literal verdicts, and report the gaps they ran
+        into. Both layers are valuable; AgentRadar surfaces the second
+        one.{" "}
         <Link
           href="/teardown"
           className="text-teal-700 hover:text-teal-900"
