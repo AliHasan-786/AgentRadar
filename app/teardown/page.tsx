@@ -94,8 +94,14 @@ export default function TeardownPage() {
                   merchant catalog data into ChatGPT Shopping, Microsoft
                   Copilot, Google AI Mode, Perplexity, and the Gemini app.
                   Built on top of the Universal Commerce Protocol (UCP),
-                  co-developed with Google. This is the merchant&apos;s
-                  &ldquo;data feed to every AI shopper&rdquo; layer.
+                  co-developed with Google — merchants publish a capability
+                  profile at{" "}
+                  <code className="font-mono text-[12px]">
+                    /.well-known/ucp
+                  </code>{" "}
+                  and the merchant computes the intersection at request
+                  time, so &ldquo;AI readiness&rdquo; is a negotiation
+                  surface rather than a static checklist.
                 </li>
                 <li>
                   <strong>Agentic Storefronts.</strong> In-chat checkout
@@ -286,6 +292,20 @@ export default function TeardownPage() {
                   — primary source for Catalog / Agentic Storefronts /
                   Knowledge Base / UCP framing and the 8× / 15× growth
                   numbers
+                </li>
+                <li>
+                  <a
+                    href="https://shopify.engineering/ucp"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-700 hover:text-teal-900"
+                  >
+                    Grigorik, &ldquo;Building the Universal Commerce
+                    Protocol&rdquo;, Shopify Engineering (January 2026) ↗
+                  </a>{" "}
+                  — protocol-level write-up of the publish-profile +
+                  compute-intersection mechanic referenced in the Shopify
+                  section above
                 </li>
                 <li>
                   <a

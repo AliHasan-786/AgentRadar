@@ -189,6 +189,13 @@ export default function HomePage() {
               Merchant, or Shopify Catalog will do with your store. It is
               not those systems.
             </li>
+            <li>
+              AgentRadar does not syndicate your catalog to AI channels or
+              close in-chat transactions — Shopify&apos;s first-party stack
+              (Catalog, Agentic Storefronts) does that. AgentRadar runs on
+              top: once your data is out there, what do agents actually
+              say?
+            </li>
             <li>No revenue-impact estimate.</li>
             <li>
               The score is a heuristic. Click any dimension card to see the
