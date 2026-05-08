@@ -26,6 +26,13 @@ export default function HomePage() {
 
           <HeroInput />
 
+          <div className="mt-3 text-[11px] text-neutral-500 leading-relaxed max-w-2xl">
+            The default persona panel is calibrated to footwear; pasting a
+            different vertical (apparel, home, wellness) will skip most
+            personas — the catalog scoring and recommendations are
+            vertical-agnostic and still apply.
+          </div>
+
           <div className="mt-4 text-xs text-neutral-500 font-mono">
             Or try a demo:{" "}
             {DEMO_STORES.map((s, i) => (

@@ -12,7 +12,17 @@ interface Props {
   score: ScoreResult;
 }
 
+// Card labels are tighter than methodology page labels — "Description
+// quality" wraps in the 4-cell grid on tablet widths, breaking visual
+// rhythm. The methodology page keeps the longer form.
 const DIMENSION_LABEL: Record<DimensionId, string> = {
+  discoverability: "Discoverability",
+  description: "Description",
+  schema: "Schema",
+  trust: "Trust",
+};
+
+const DIMENSION_LABEL_FULL: Record<DimensionId, string> = {
   discoverability: "Discoverability",
   description: "Description quality",
   schema: "Schema",
@@ -91,7 +101,7 @@ function ExpandedDimension({
   return (
     <div className="mt-3 rounded-md border border-teal-300 bg-teal-50/40 px-4 py-3">
       <div className="text-sm font-semibold text-neutral-900 mb-1">
-        {DIMENSION_LABEL[dim]} — {dimScore.score.toFixed(1)} / 100
+        {DIMENSION_LABEL_FULL[dim]} — {dimScore.score.toFixed(1)} / 100
       </div>
       <p className="text-xs text-neutral-700 mb-3">{DIMENSION_BLURB[dim]}</p>
       <table className="w-full text-xs font-mono">

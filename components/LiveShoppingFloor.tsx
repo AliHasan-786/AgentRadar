@@ -29,6 +29,12 @@ interface PersonaInternal {
   intent: string;
   phase: PersonaPhase;
   partialText: string;
+  // Captured from the persona-start SSE event so the transcript modal +
+  // sample-count footer have the right data when the persona completes.
+  // Without this we'd render "0 products sampled" and an empty prompt
+  // body in every transcript modal on the live flow.
+  sampledProductIds: string[];
+  prompt: { system: string; user: string };
   verdict?: AgentVerdict;
 }
 
@@ -47,6 +53,8 @@ function emptyPersonaState(): Record<string, PersonaInternal> {
       intent: p.intent,
       phase: "idle",
       partialText: "",
+      sampledProductIds: [],
+      prompt: { system: "", user: "" },
     };
   }
   return map;
@@ -142,6 +150,8 @@ export function LiveShoppingFloor({ hostname, tier = "live" }: Props) {
           intent: d.intent,
           phase: "streaming",
           partialText: "",
+          sampledProductIds: d.sampledProductIds,
+          prompt: d.prompt,
         },
       }));
     } else if (event === "persona-token") {
@@ -173,32 +183,37 @@ export function LiveShoppingFloor({ hostname, tier = "live" }: Props) {
         error: string | null;
       };
       const persona = PERSONAS.find((p) => p.id === d.personaId);
-      const verdict: AgentVerdict = {
-        personaId: d.personaId,
-        modelSlug: d.modelSlug,
-        displayName: d.displayName,
-        intent: persona?.intent ?? "",
-        verdict: d.parsed?.verdict ?? "skipped",
-        topProductId: d.parsed?.topProductId ?? null,
-        reasoning: d.parsed?.reasoning ?? "",
-        gaps: d.parsed?.gaps ?? [],
-        flags: d.flags,
-        promptUsed: { system: "", user: "" },
-        rawResponse: d.rawResponse,
-        sampledProductIds: [],
-        latencyMs: d.latencyMs,
-        retried: false,
-        usage: d.usage,
-        error: d.error,
-      };
-      setPersonas((prev) => ({
-        ...prev,
-        [d.personaId]: {
-          ...prev[d.personaId],
-          phase: d.error ? "error" : "complete",
-          verdict,
-        },
-      }));
+      setPersonas((prev) => {
+        const cur = prev[d.personaId];
+        const verdict: AgentVerdict = {
+          personaId: d.personaId,
+          modelSlug: d.modelSlug,
+          displayName: d.displayName,
+          intent: persona?.intent ?? "",
+          verdict: d.parsed?.verdict ?? "skipped",
+          topProductId: d.parsed?.topProductId ?? null,
+          reasoning: d.parsed?.reasoning ?? "",
+          gaps: d.parsed?.gaps ?? [],
+          flags: d.flags,
+          // Pull from start-event state so the transcript modal renders
+          // the actual prompt + sample IDs the model saw.
+          promptUsed: cur?.prompt ?? { system: "", user: "" },
+          rawResponse: d.rawResponse,
+          sampledProductIds: cur?.sampledProductIds ?? [],
+          latencyMs: d.latencyMs,
+          retried: false,
+          usage: d.usage,
+          error: d.error,
+        };
+        return {
+          ...prev,
+          [d.personaId]: {
+            ...cur,
+            phase: d.error ? "error" : "complete",
+            verdict,
+          },
+        };
+      });
     } else if (event === "persona-error") {
       const d = data as {
         personaId: string;
@@ -208,32 +223,37 @@ export function LiveShoppingFloor({ hostname, tier = "live" }: Props) {
         latencyMs?: number;
       };
       const persona = PERSONAS.find((p) => p.id === d.personaId);
-      const verdict: AgentVerdict = {
-        personaId: d.personaId,
-        modelSlug: d.modelSlug ?? persona?.liveModel ?? "",
-        displayName: d.displayName ?? persona?.liveDisplayName ?? "",
-        intent: persona?.intent ?? "",
-        verdict: "skipped",
-        topProductId: null,
-        reasoning: "",
-        gaps: [],
-        flags: [],
-        promptUsed: { system: "", user: "" },
-        rawResponse: "",
-        sampledProductIds: [],
-        latencyMs: d.latencyMs ?? 0,
-        retried: false,
-        usage: null,
-        error: d.error,
-      };
-      setPersonas((prev) => ({
-        ...prev,
-        [d.personaId]: {
-          ...prev[d.personaId],
-          phase: "error",
-          verdict,
-        },
-      }));
+      setPersonas((prev) => {
+        const cur = prev[d.personaId];
+        const verdict: AgentVerdict = {
+          personaId: d.personaId,
+          modelSlug: d.modelSlug ?? persona?.liveModel ?? "",
+          displayName: d.displayName ?? persona?.liveDisplayName ?? "",
+          intent: persona?.intent ?? "",
+          verdict: "skipped",
+          topProductId: null,
+          reasoning: "",
+          gaps: [],
+          flags: [],
+          // Even on error, surface whatever prompt the runner did build —
+          // useful for diagnosing why it failed.
+          promptUsed: cur?.prompt ?? { system: "", user: "" },
+          rawResponse: "",
+          sampledProductIds: cur?.sampledProductIds ?? [],
+          latencyMs: d.latencyMs ?? 0,
+          retried: false,
+          usage: null,
+          error: d.error,
+        };
+        return {
+          ...prev,
+          [d.personaId]: {
+            ...cur,
+            phase: "error",
+            verdict,
+          },
+        };
+      });
     } else if (event === "score-ready") {
       const d = data as { score: ScoreResult };
       setScore(d.score);
@@ -251,6 +271,21 @@ export function LiveShoppingFloor({ hostname, tier = "live" }: Props) {
   const okCount = personaList.filter(
     (p) => p.phase === "complete" && !p.verdict?.error,
   ).length;
+  // Vertical-mismatch detection: if 4+ of 5 successful personas all
+  // skipped, the catalog is probably in a different vertical from the
+  // (footwear-calibrated) panel. The wall of red pills then looks like
+  // a broken tool to a recruiter; the banner converts that into an
+  // explicit constraint disclosure.
+  const successfulVerdicts = personaList.filter(
+    (p) => p.phase === "complete" && p.verdict && !p.verdict.error,
+  );
+  const skippedAmongSuccessful = successfulVerdicts.filter(
+    (p) => p.verdict!.verdict === "skipped",
+  ).length;
+  const verticalMismatch =
+    allComplete &&
+    successfulVerdicts.length >= 3 &&
+    skippedAmongSuccessful / successfulVerdicts.length >= 0.8;
 
   return (
     <article className="space-y-8">
@@ -275,7 +310,9 @@ export function LiveShoppingFloor({ hostname, tier = "live" }: Props) {
             )}
           </div>
           <div className="text-[11px] text-teal-700 mt-1 font-mono">
-            live analysis · streaming verdicts in real time
+            {allComplete && wallClockMs != null
+              ? `live analysis · completed in ${(wallClockMs / 1000).toFixed(1)}s`
+              : "live analysis · streaming verdicts in real time"}
           </div>
         </div>
         <ScoreDial value={score?.overall ?? null} animateMs={600} />
@@ -284,6 +321,26 @@ export function LiveShoppingFloor({ hostname, tier = "live" }: Props) {
       {globalError && (
         <div className="rounded border border-rose-300 bg-rose-50 px-4 py-3 text-sm text-rose-800">
           <strong>Error:</strong> {globalError}
+        </div>
+      )}
+
+      {verticalMismatch && (
+        <div className="rounded-md border border-sky-300 bg-sky-50 px-4 py-3 text-sm text-sky-900 leading-relaxed">
+          <div className="font-semibold mb-1">
+            Vertical mismatch — most personas skipped this catalog.
+          </div>
+          <p className="text-[13px]">
+            The default persona panel is calibrated to footwear (sustainable
+            runner, arch-support shopper, daily walker, minimalist sneaker
+            traveler, vegan shoes). The personas correctly identified that{" "}
+            <code className="font-mono">{hostname}</code> is in a different
+            vertical and skipped — this is the system being epistemically
+            honest, not broken. The dimension scores and recommendations
+            below are <strong>vertical-agnostic</strong> and still apply:
+            they measure catalog hygiene (description length, tag richness,
+            taxonomy depth, policy keywords, review schema) regardless of
+            what the merchant sells.
+          </p>
         </div>
       )}
 
